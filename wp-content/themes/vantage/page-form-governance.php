@@ -98,8 +98,6 @@
 
 				<label class="titoloSezione">Registrati</label><br /><hr/>
 
-
-				
 				<form id="form_organoPolitico" class="form_organoPolitico" name="form_organoPolitico" method="post" action="<?php echo home_url( 'form-governance' ); ?>">
 				<?php include('include/governance/form-registrazioneIniziale.php'); ?>
 				<?php include('include/governance/form-comune.php'); ?>

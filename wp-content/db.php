@@ -1,0 +1,1 @@
+/Applications/MAMP/htdocs/ComunichereteV3/wp-content/plugins/query-monitor/wp-content/db.php

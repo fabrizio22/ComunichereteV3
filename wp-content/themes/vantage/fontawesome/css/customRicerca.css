@@ -1,0 +1,15 @@
+/**
+*css ricerca
+*/
+
+.filtriRicercaUtente{
+    width: 20%;
+    position: relative;
+    float: left;
+}
+
+.risultatoRicercaUtente{
+    width: 80%;
+    position: relative;
+    float: right;
+}

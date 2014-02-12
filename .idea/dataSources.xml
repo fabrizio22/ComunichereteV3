@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="4233238391">
+    <data-source source="LOCAL" name="MySQL - ComunichereteV3@localhost" uuid="aa532735-5de6-499f-82ed-c9e44e96caaa">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/ComunichereteV3</jdbc-url>
+      <user-name>fabrizio</user-name>
+      <user-password>dfccdfcbdfc8dfd8dfc3dfd0dfc3df9a</user-password>
+      <schema-pattern>comunichereteV3.*</schema-pattern>
+      <driver-properties>
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

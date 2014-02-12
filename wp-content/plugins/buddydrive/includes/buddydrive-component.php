@@ -267,9 +267,14 @@ class BuddyDrive_Component extends BP_Component {
 			'not_found'          => __( 'No BuddyFolders Found', 'buddydrive' ),
 			'not_found_in_trash' => __( 'No BuddyFolders Found in Trash', 'buddydrive' )
 		);
+
+        $a=time();
+
+        $cartellaFile = date('d M y - H:i:s', $a);
 		
 		$args_folder = array(
-			'label'	            => __( 'BuddyFolder', 'buddydrive' ),
+			//'label'	            => __( 'BuddyFolder', 'buddydrive' ),
+            'label'	            => __( 'BuddyFolder', $cartellaFile ),
 			'labels'            => $labels_folder,
 			'public'            => false,
 			'rewrite'           => false,

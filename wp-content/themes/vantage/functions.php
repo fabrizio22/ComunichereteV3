@@ -200,7 +200,9 @@ function vantage_scripts() {
 	wp_enqueue_script( 'vantage-main' , get_template_directory_uri() . '/js/jquery.theme-main.min.js', array('jquery', 'flexslider', 'fitvids', 'ui', 'uiCustom', 'regGovernance', 'validation', 'jqueryTool'), SITEORIGIN_THEME_VERSION );
 	wp_enqueue_style( 'vantage-fontawesome', get_template_directory_uri().'/fontawesome/css/font-awesome.css', array(), '3.2.1' );
 	wp_enqueue_style( 'vantage-customGov', get_template_directory_uri().'/fontawesome/css/customStileGov.css', array(), '3.2.1' );
-	//wp_enqueue_style( 'vantage-customGovUi', get_template_directory_uri().'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css', array(), '3.2.1' );
+    wp_enqueue_style( 'vantage-customRicerca', get_template_directory_uri().'/fontawesome/css/customRicerca.css', array(), '3.2.1' );
+
+    //wp_enqueue_style( 'vantage-customGovUi', get_template_directory_uri().'http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css', array(), '3.2.1' );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
