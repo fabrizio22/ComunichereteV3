@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DBNavigator.Project.ConnectionManager">
-    <connections />
+    <connections>
+      <connection driver-library="my" driver="" url="localhost" active="true" os-authentication="false" id="3d149b1d-7b31-464c-bf4a-3bc4c29cd8ec" name="comunichereteV3" description="" database-type="UNKNOWN" user="fabrizio" password="fabrizi0">
+        <details>
+          <charset value="UTF-8" />
+          <auto-commit value="false" />
+          <environment-type value="development" />
+          <idle-time-to-disconnect value="30" />
+        </details>
+        <object-filters>
+          <object-type-filter use-master-settings="true">
+            <object-type name="SCHEMA" enabled="true" />
+            <object-type name="USER" enabled="true" />
+            <object-type name="ROLE" enabled="true" />
+            <object-type name="PRIVILEGE" enabled="true" />
+            <object-type name="CHARSET" enabled="true" />
+            <object-type name="TABLE" enabled="true" />
+            <object-type name="VIEW" enabled="true" />
+            <object-type name="MATERIALIZED VIEW" enabled="true" />
+            <object-type name="NESTED TABLE" enabled="true" />
+            <object-type name="COLUMN" enabled="true" />
+            <object-type name="INDEX" enabled="true" />
+            <object-type name="CONSTRAINT" enabled="true" />
+            <object-type name="TRIGGER" enabled="true" />
+            <object-type name="SYNONYM" enabled="true" />
+            <object-type name="SEQUENCE" enabled="true" />
+            <object-type name="PROCEDURE" enabled="true" />
+            <object-type name="FUNCTION" enabled="true" />
+            <object-type name="PACKAGE" enabled="true" />
+            <object-type name="TYPE" enabled="true" />
+            <object-type name="TYPE ATTRIBUTE" enabled="true" />
+            <object-type name="ARGUMENT" enabled="true" />
+            <object-type name="DIMENSION" enabled="true" />
+            <object-type name="CLUSTER" enabled="true" />
+            <object-type name="DBLINK" enabled="true" />
+          </object-type-filter>
+          <object-name-filters />
+        </object-filters>
+      </connection>
+    </connections>
   </component>
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
@@ -25,6 +63,18 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-list connection-id="9cbfa289-d504-43b0-ab06-229cbe6bf620" dataset="comunichereteV3.cm_elenco_comuni_istat" active-filter-id="EMPTY_FILTER">
+      <filter id="33bb9c6a-7039-4c43-85dd-997b627fac25" name="id_istat" temporary="false" custom-name="false" type="custom">
+        <condition><![CDATA[id_istat = 453]]></condition>
+      </filter>
+    </filter-list>
+    <filter-list connection-id="9cbfa289-d504-43b0-ab06-229cbe6bf620" dataset="comunichereteV3.wp_usermeta" active-filter-id="a94f5b93-5c0a-469a-844c-d1497ab5a909">
+      <filter id="a94f5b93-5c0a-469a-844c-d1497ab5a909" name="admin" temporary="false" custom-name="true" type="basic" join-type="AND">
+        <condition column="user_id" operator="=" value="1" active="true" />
+      </filter>
+    </filter-list>
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <group-history-entries value="false" />
@@ -135,7 +185,7 @@
         <data-length-threshold value="250" />
       </values-list-popup>
       <general>
-        <fetch-block-size value="100" />
+        <fetch-block-size value="200" />
         <fetch-timeout value="30" />
         <trim-whitespaces value="true" />
         <convert-empty-strings-to-null value="true" />
