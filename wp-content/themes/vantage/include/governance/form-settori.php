@@ -87,4 +87,5 @@
 			<input id="sportelloUnicoEdilizia" type="radio" class="sportelloUnicoEdilizia" name="sezSettori" value="Sportello Unico per l'Edilizia" />
 		    <label class="labelSettori">Sportello Unico per l'Edilizia</label><br />
     	</div>
+        <input type="hidden" name="settoriH" value="Settori">
 </div>

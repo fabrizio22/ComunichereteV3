@@ -1,8 +1,8 @@
 <div id="containerDeleghe" class="containerDeleghe">
 <label class="titoloGruppoComuni">Deleghe</label><br /><hr class="gruppoComuneRegioneHr">
-<textarea id="deleghaText" class="deleghaText" placeholder="Scrivi la tua Delegha">
-
+<textarea id="deleghaText" name="deleghe" class="deleghaText" placeholder="Scrivi la tua Delegha">
 </textarea> <br />
+<input type="hidden" id="comune" name="delegheH" value="Denominazione Ente">
 <input placeholder="Scrivi il tuo partito politico" id="partitoPolitico" type="text" class="input" name="partitoPolitico" value="" /><br />	
 <label class="labeldata">Data di Nomina</label><br />
 <div id="data" class="data">

@@ -1,7 +1,7 @@
 jQuery(document).ready(function(){
-	
+
 	jQuery.noConflict();
-	
+
 /* 	var dati_registrazioneIniziale = jQuery('#dati_registrazioneIniziale'); */
 	var comune_reg = jQuery('#comune_reg');
 	var dati_registazione = jQuery('#dati_registazione');
@@ -26,12 +26,12 @@ jQuery(document).ready(function(){
 	var containerDimensioniAziendaSedeAzienda = jQuery('.containerDimensioniAziendaSedeAzienda');
 	var entePrincipale = jQuery('.entePrincipale');
 	var containerLiberoProfessionista = jQuery('.containerLiberoProfessionista');
-	
+
 	var salva = jQuery('#salvaButton');
-	
+
 	var dati_personaleDipendente = jQuery('#dati_personaleDipendente');
 	var dati_organoPolitico = jQuery('#dati_organoPolitico');
-	
+
 	comune_reg.css('display','none');
 	dati_registazione.css('display','none');
 	dati_tipologiaEnte.css('display','none');
@@ -56,7 +56,7 @@ jQuery(document).ready(function(){
 	containerDimensioniAziendaSedeAzienda.css('display','none');
 	entePrincipale.css('display','none');
 	containerLiberoProfessionista.css('display','none');
-	
+
 	jQuery("#form_organoPolitico").validate(
 	    {
 	        rules:
@@ -67,7 +67,7 @@ jQuery(document).ready(function(){
 	            password:{
 		            required: "required",
 					minlength: "6"
-	            },
+	            }
 
 	        },
 	        passwordConf:{
@@ -103,13 +103,13 @@ jQuery(document).ready(function(){
 	                required: "devi confermare la mail",
 	                email: true
 	            }
-	        } 
+	        }
 	    });
 
 
 
 	        jQuery('#info').hover(function() {
-				
+
 				jQuery( '#pop-up' ).tooltip();
 	});
 
@@ -128,13 +128,13 @@ jQuery(document).ready(function(){
 			entePrincipale.css('display','block');
         }
     });
-    
+
     jQuery('input:radio[value="NO"]').change(function() {
         if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'NO')) {
 			entePrincipale.css('display','none');
         }
     });
-    
+
     jQuery('input:radio[value="comune"]').change(function() {
         if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'comune')) {
         	// jQuery('#dati_registrazioneIniziale').css('display','none');
@@ -266,8 +266,8 @@ jQuery(document).ready(function(){
              containerSettori.css('display','block');
              settoriSecondarigha.css('display','block');
              containerDomandeSicurezza.css('display','block');
-             containerUffici.css('display','none');   
-             dati_privacy.css('display','block');          
+             containerUffici.css('display','none');
+             dati_privacy.css('display','block');
              salva.css('display','block');
              jQuery('#organiGoverno').attr("disabled", 'true');
              jQuery('#organiControllo').attr("disabled", 'true');
@@ -330,7 +330,7 @@ jQuery(document).ready(function(){
             containerPersonaleAmministrativo.css('display','block');
         }
     });
-    
+
     //deleghe
     jQuery('[value="Sindaco"]').click(function() {
         if (jQuery(this).is(':checked')) {
@@ -342,7 +342,7 @@ jQuery(document).ready(function(){
              jQuery('#organiControllo').attr("disabled", 'true');
         }
     });
-    
+
     jQuery('[value="Vicesindaco"]').click(function() {
         if (jQuery(this).is(':checked')) {
              containerDeleghe.css('display','block');
@@ -364,7 +364,7 @@ jQuery(document).ready(function(){
              jQuery('#organiControllo').attr("disabled", 'true');
         }
     });
-    
+
     jQuery('[value="Assessore non di origine elettiva"]').click(function() {
         if (jQuery(this).is(':checked')) {
              containerDeleghe.css('display','block');
@@ -374,7 +374,7 @@ jQuery(document).ready(function(){
              jQuery('#personaleAmministrativo').attr("disabled", 'true');
              jQuery('#organiControllo').attr("disabled", 'true');
         }
-    });    
+    });
 
     jQuery('[value="Capogruppo di maggioranza"]').click(function() {
         if (jQuery(this).is(':checked')) {
@@ -385,8 +385,8 @@ jQuery(document).ready(function(){
              jQuery('#personaleAmministrativo').attr("disabled", 'true');
              jQuery('#organiControllo').attr("disabled", 'true');
         }
-    }); 
-    
+    });
+
     jQuery('[value="Capogruppo di minoranza"]').click(function() {
         if (jQuery(this).is(':checked')) {
              containerDeleghe.css('display','block');
@@ -396,7 +396,7 @@ jQuery(document).ready(function(){
              jQuery('#personaleAmministrativo').attr("disabled", 'true');
              jQuery('#organiControllo').attr("disabled", 'true');
         }
-    });     
+    });
 
     jQuery('[value="Consigliere"]').click(function() {
         if (jQuery(this).is(':checked')) {
@@ -408,7 +408,7 @@ jQuery(document).ready(function(){
              jQuery('#organiControllo').attr("disabled", 'true');
         }
     });
-    
+
     //dati azienda
         jQuery('input:radio[value="Azienda"]').change(function() {
 	        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'Azienda')) {
@@ -428,8 +428,8 @@ jQuery(document).ready(function(){
 				salva.css('display','block');
 	        }
 		});
-	
-	
+
+
 	jQuery("#qulifiche").change(function() {
         var listaQualifica = jQuery('#qulifiche :selected').text();
 		if (listaQualifica == 'Titolare') {
@@ -438,11 +438,11 @@ jQuery(document).ready(function(){
 	        }else{
 		        containerQualificheAltriBus.css('display','block');
 		        containerQualificheTitolareBus.css('display','none');
-		        
+
 	        }
 	        containercategoriaMerceologica.css('display','block');
     });
-	
+
 	jQuery("#selectcategoriaGenerica").change(function() {
         var listaCategoriaGenerica = jQuery('#selectcategoriaGenerica :selected').text();
 		if (listaCategoriaGenerica == 'ABBIGLIAMENTO') {
@@ -456,10 +456,30 @@ jQuery(document).ready(function(){
 	        jQuery('#associazione').attr("disabled", 'true');
 	        jQuery('#Azienda').attr("disabled", 'true');
 	        jQuery('#liberoProfessionista').attr("disabled", 'true');
-    });		
+    });
 
 
-     
+
+    jQuery("#comuneApp").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
+
+
+    jQuery('#mailIns').focusin(function() {
+
+        //recupero variabile "discriminante"
+        var comuneApp = jQuery("#comuneApp").val();
+
+        //chiamata ajax
+        var element = jQuery.ajax({
+            type: "POST",
+            url: "../wp-content/themes/vantage/mail.php",
+            data: "mailAccount=" + comuneApp
+
+        });
+        jQuery("#mailComune").attr('value','@gmail.com');//stampa i risultati dentro la seconda select
+        jQuery("#mailComuneConf").attr('value','@gmail.com');//stampa i risultati dentro la seconda select
+
+    });
+
 });
 
 

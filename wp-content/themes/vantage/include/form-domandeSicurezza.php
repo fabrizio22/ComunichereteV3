@@ -11,37 +11,45 @@
 <!-- <label class="titoloGruppoComuni">Domande di Sicurezza</label><br /><hr class="gruppoComuneRegioneHr"> -->
 <label class="labelBusinessTitoli">Domande di Sicurezza</label><br />
 	<div id="domanda1" class="domanda1">
-		  <select class="selectGenerica" id="selectDomanda" name="selectDomanda">
+		  <select class="selectGenerica" id="selectDomanda" name="selectDomanda1">
 		   	<option value="inserisci1" selected="selected">Scegli la tua prima domanda</option>
-		   	<option value="domanda1-1">Quale è stata la destinazione del tuo primo viaggio all’estero?</option>
-		   	<option value="domanda2-1">Qual’era il tuo cartone animato preferito?</option>
-		   	<option value="domanda3-1">Come si chiamava la persona che hai sempre ammirato da adolescente?</option>
-		   	<option value="domanda3-1">Qual’era il tuo soprannome da adolescente?</option>
-		   	<option value="domanda3-1">Qual’è lo sport che avresti voluto praticare da adolescente?</option>
+		   	<option value="Quale è stata la destinazione del tuo primo viaggio estero?">Quale è stata la destinazione del tuo primo viaggio estero?</option>
+		   	<option value="Quale era il tuo cartone animato preferito?">Quale era il tuo cartone animato preferito?</option>
+		   	<option value="Come si chiamava la persona che hai sempre ammirato da adolescente?">Come si chiamava la persona che hai sempre ammirato da adolescente?</option>
+		   	<option value="Quale era il tuo soprannome da adolescente?">Quale era il tuo soprannome da adolescente?</option>
+		   	<option value="Quale è lo sport che avresti voluto praticare da adolescente?">Quale è lo sport che avresti voluto praticare da adolescente?</option>
 		  </select>	<br/>
-	<input type="text" id="risposta" class="risposta" name="risposta" placeholder="inserisci la tua prima Domanda" value""> <img name="info" id="info" class="info">
+        <input type="hidden" name="selectDomanda1H" value="Domanda Ente 1">
+	<input type="text" id="risposta" class="risposta" name="risposta1" placeholder="inserisci la tua prima Domanda" value""> <img name="info" id="info" class="info">
+    <input type="hidden" name="risposta1H" value="Risposta Ente 1">
 	</div><br/>
 	<div id="domanda2" class="domanda2 domanda">
-		  <select class="selectGenerica" id="selectDomanda" name="selectDomanda">
+		  <select class="selectGenerica" id="selectDomanda" name="selectDomanda2">
 		   	<option value="inserisci1" selected="selected">Scegli la tua seconda domanda</option>
-		   	<option value="domanda1-2">Qual’era la città natale di tua nonna?</option>
-		   	<option value="domanda2-2">Se potessi tornare indietro nel tempo quale epoca vorresti visitare?</option>
-		   	<option value="domanda3-2">Quale personaggio storico avresti voluto conoscere?</option>
-		   	<option value="domanda3-2">Qual’è il più bel regalo ricevuto fino ad oggi?</option>
-		   	<option value="domanda3-2">Qual’era la targa del tuo primo veicolo a motore?</option>		   	
+		   	<option value="Quale era la città natale di tua nonna?">Quale era la città natale di tua nonna?</option>
+		   	<option value="Se potessi tornare indietro nel tempo quale epoca vorresti visitare?">Se potessi tornare indietro nel tempo quale epoca vorresti visitare?</option>
+		   	<option value="Quale personaggio storico avresti voluto conoscere?">Quale personaggio storico avresti voluto conoscere?</option>
+		   	<option value="Quale è il più bel regalo ricevuto fino ad oggi?">Quale è il più bel regalo ricevuto fino ad oggi?</option>
+		   	<option value="Quale era la targa del tuo primo veicolo a motore?">Quale era la targa del tuo primo veicolo a motore?</option>
 		  </select>	<br/>
-	<input type="text" id="risposta" class="risposta" name="risposta" placeholder="inserisci la tua seconda Domanda" value""> <img name="info" id="info" class="info">
+        <input type="hidden" name="selectDomanda2H" value="Domanda Ente 2">
+	    <input type="text" id="risposta" class="risposta" name="risposta2" placeholder="inserisci la tua seconda Domanda" value"">
+        <input type="hidden" name="risposta2H" value="Risposta Ente 2">
+    <img name="info" id="info" class="info">
 	</div><br/>
 	<div id="domanda3" class="domanda3 domanda">
-		  <select class="selectGenerica" id="selectDomanda" name="selectDomanda">
+		  <select class="selectGenerica" id="selectDomanda" name="selectDomanda3">
 		   	<option value="inserisci1" selected="selected">Scegli la tua terza domanda</option>
-		   	<option value="domanda1-3">Qual’è il film che hai visto più volte?</option>
-		   	<option value="domanda2-3">In che giorno hai discusso la tesi di laurea?</option>
-		   	<option value="domanda3-3">Qual’era il tuo numero di matricola univarsitario?</option>
-		   	<option value="domanda3-3">Qual`è stato il tuo primo esame universitario?</option>
-		   	<option value="domanda3-3">Qual’è la tua colonna sonora preferita di quando sei in viaggio?</option>
+		   	<option value="Quale è il film che hai visto più volte?">Quale è il film che hai visto più volte?</option>
+		   	<option value="In che giorno hai discusso la tesi di laurea?">In che giorno hai discusso la tesi di laurea?</option>
+		   	<option value="Quale era il tuo numero di matricola univarsitario?">Quale era il tuo numero di matricola univarsitario?</option>
+		   	<option value="Quale è stato il tuo primo esame universitario?">Quale è stato il tuo primo esame universitario?</option>
+		   	<option value="Quale è la tua colonna sonora preferita di quando sei in viaggio?">Quale è la tua colonna sonora preferita di quando sei in viaggio?</option>
 		  </select>	<br/>
-	<input type="text" id="risposta" class="risposta" name="risposta" placeholder="inserisci la tua terza Domanda" value""> <img name="info" id="info" class="info">
+        <input type="hidden" name="selectDomanda3H" value="Domanda Ente 3">
+        <input type="text" id="risposta" class="risposta" name="risposta3" placeholder="inserisci la tua terza Domanda" value"">
+        <input type="hidden" name="risposta3H" value="Risposta Ente 3">
+    <img name="info" id="info" class="info">
 	</div>
 </div>
 

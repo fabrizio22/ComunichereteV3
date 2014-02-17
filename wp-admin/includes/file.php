@@ -29,6 +29,7 @@ $wp_file_descriptions = array(
 	'searchform.php' => __( 'Search Form' ),
 	'single.php' => __( 'Single Post' ),
 	'404.php' => __( '404 Template' ),
+    'autocomplete.php' => __( 'autocomplete' ),
 	'link.php' => __( 'Links Template' ),
 	'functions.php' => __( 'Theme Functions' ),
 	'attachment.php' => __( 'Attachment Template' ),

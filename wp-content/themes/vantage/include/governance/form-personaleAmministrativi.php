@@ -22,4 +22,5 @@
 			<input id="dipendenteComune" type="radio" class="imputQualifiche" name="sezAmministrativo" value="Dipendente del Comune" />
 		    <label class="labelQualifica">Dipendente del Comune</label><br />
 	    </div>
+        <input type="hidden" name="sezAmministrativoH" value="Personale Amministrativo">
 </div>

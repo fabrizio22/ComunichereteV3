@@ -1,16 +1,25 @@
 <div id="dati_registrazioneIniziale" class="dati_registrazioneIniziale">
 	 <div class="div_form" id="div_form">
 		<div class="nome_cognome" id="nome_cognome">
-			<input type="text" name="nome" value="" placeholder="inserisci il tuo Nome" ><br />
-			<input type="text" name="secondoNome" value="" placeholder="inserisci il tuo Secondo Nome" ><br />
-			<input type="text" name="cognome" value=""  placeholder="inserisci il tuo Cognome"></div>
+			<input type="text" name="nome" value="" placeholder="inserisci il tuo Nome" >
+            <input type="hidden" name="nomeH" value="Nome">
+            <br />
+			<input type="text" name="secondoNome" value="" placeholder="inserisci il tuo Secondo Nome" >
+            <input type="hidden" name="secondoNomeH" value="Secondo Nome">
+            <br />
+			<input type="text" name="cognome" value=""  placeholder="inserisci il tuo Cognome">
+            <input type="hidden" name="cognomeH" value="Cognome">
+        </div>
 			<label class="titoloGruppo">Dati Ente</label><br /><hr>
 			<div class="fildRegistrazione" id="fildRegistrazione">
 	                     <input class="regione" type="radio" id="regione" name="registrazione1" value="regione"/>
+                         <input type="hidden" name="registrazione1H" value="regione">
 	                     <label class="regione">Regione</label><br />
 	                     <input class="provincia" type="radio" id="provincia" name="registrazione1" value="provincia"/>
+                         <input type="hidden" name="registrazione1H" value="provincia">
 	                     <label class="provincia">Provincia</label><br />
 	                     <input  class="comune"type="radio" id="comune" name="registrazione1" value="comune"/>
+                         <input type="hidden" name="registrazione1H" value="comune">
 	                     <label class="comune">Comune</label><br />
 		    </div>
 

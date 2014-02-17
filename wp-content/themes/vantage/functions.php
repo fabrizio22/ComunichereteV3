@@ -183,6 +183,8 @@ function vantage_register_scripts(){
 	wp_register_script( 'regGovernance' , get_template_directory_uri() . '/js/custom_regGovernance.js', array('jquery'), '1.0' );
 	wp_register_script( 'validation' , get_template_directory_uri() . '/js/jquery.validate.js', array('jquery'), '1.1' );
 	wp_register_script( 'jqueryTool' , get_template_directory_uri() . '/js/jquery.tools.min.js', array('jquery'), '1.1' );
+    wp_register_script( 'jqueryAutocomplete' , get_template_directory_uri() . '/js/jquery.autocomplete.js', array('jquery'), '1.1' );
+
 	/*
 wp_register_script( 'pwdMeter' , get_template_directory_uri() . '/js/jquery.pwdMeter.pack.js', array('jquery'), '1.1' );
 	wp_register_script( 'shCore' , get_template_directory_uri() . '/js/shCore.js', array('jquery'), '1.1' );
@@ -197,7 +199,7 @@ add_action( 'wp_enqueue_scripts', 'vantage_register_scripts' , 5);
 function vantage_scripts() {
 	wp_enqueue_style( 'vantage-style', get_stylesheet_uri(), array(), SITEORIGIN_THEME_VERSION );
 	wp_register_script( 'custom-regGovernance' , get_template_directory_uri() . '/js/custom_regGovernance.js', true );
-	wp_enqueue_script( 'vantage-main' , get_template_directory_uri() . '/js/jquery.theme-main.min.js', array('jquery', 'flexslider', 'fitvids', 'ui', 'uiCustom', 'regGovernance', 'validation', 'jqueryTool'), SITEORIGIN_THEME_VERSION );
+	wp_enqueue_script( 'vantage-main' , get_template_directory_uri() . '/js/jquery.theme-main.min.js', array('jquery', 'flexslider', 'fitvids', 'ui', 'uiCustom', 'regGovernance', 'validation', 'jqueryTool', 'jqueryAutocomplete'), SITEORIGIN_THEME_VERSION );
 	wp_enqueue_style( 'vantage-fontawesome', get_template_directory_uri().'/fontawesome/css/font-awesome.css', array(), '3.2.1' );
 	wp_enqueue_style( 'vantage-customGov', get_template_directory_uri().'/fontawesome/css/customStileGov.css', array(), '3.2.1' );
     wp_enqueue_style( 'vantage-customRicerca', get_template_directory_uri().'/fontawesome/css/customRicerca.css', array(), '3.2.1' );

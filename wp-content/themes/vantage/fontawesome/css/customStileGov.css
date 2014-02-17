@@ -67,7 +67,7 @@ margin: 218px 0 0 135px;
 	margin: 10px;
 }
 
-input[name="comune"]{
+input[name="comuneApp"]{
     border: none repeat scroll 0 0 #114465;
     font-size: 16px;
     box-shadow: 0px 0px 16px -7px rgba(17, 68, 101, 0.46);
