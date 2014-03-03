@@ -1,0 +1,89 @@
+form.rating-form {
+	margin: 0px;
+	width : auto;
+	max-width: 100%;
+	display: table;
+	margin-bottom: 15px;
+	
+	/* Custom
+	border: 3px solid #BABABA;
+	background-color: #FAFAFA;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	width: auto; */
+}
+
+form.rating-form table {
+	width: 100%;
+	text-align: left;
+}
+
+form.rating-form h4 {
+	font-weight: bold;
+}
+
+form.rating-form table td {
+	vertical-align: top;
+}
+
+form.rating-form table label {
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-weight: normal;
+	vertical-align: text-top;
+}
+
+form.rating-form table .value {
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+form.rating-form table .value select {
+	min-width: 50px;
+}
+
+form.rating-form table .action {
+	text-align: right;
+}
+
+.rating-result {
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+	text-align: left;
+}
+.rating-result-row {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: normal;
+	letter-spacing: normal;
+	text-align: left;
+}
+
+.rating-result .rating-result-row * {
+	line-height: normal !important;
+}
+
+.rating-result-summary {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.rating-result-stars {
+	padding: 0px; 
+	margin: 0px; 
+	font-size: 0px !important;
+}
+
+.top-rating-results {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.top-rating-results .rating-result {
+	display: block;
+	margin-left: 0px;
+}

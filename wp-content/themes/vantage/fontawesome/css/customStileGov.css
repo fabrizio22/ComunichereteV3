@@ -12,9 +12,10 @@
 	position: relative;
 }
 
-.containerDomandeSicurezza{
+.containerDomandeSicurezza, .containerDomandeSicurezzaPr, .containerDomandeSicurezzaRg{
 /* 	margin: 9px 20px 7px 21px; */
-	margin: 290px 23px 23px 3px;
+	/*margin: 290px 23px 23px 3px;*/
+    margin: -23px 23px 3px;
     width: 100%;
 }
 
@@ -100,7 +101,18 @@ input[name="comuneApp"]{
     width: 200px;	
 }
 
-input[name="nome"], input[name="cognome"], input[name="secondoNome"], input[name="risposta"], input[name="password"], input[name="passwordConf"], input[name="ragioneSociale"], [name="aggiungiProfessione"]{
+input[name="nome"],
+input[name="cognome"],
+input[name="secondoNome"],
+input[name="risposta1"],
+input[name="risposta2"],
+input[name="risposta3"],
+input[name="password"],
+input[name="passwordConf"],
+input[name="ragioneSociale"],
+input[name="aggiungiProfessione"],
+input[name="opzioneQualifichePr"],
+input[name="opzioneQualificheRg"]{
     border: 1px solid rgba(17, 68, 101, 0.46);
     box-shadow: 0 0 16px -7px rgba(17, 68, 101, 0.46);
     font-size: 12px;
@@ -179,7 +191,7 @@ input[name="indirizzoMail"]{
     padding: 7px 0 9px !important;
 }
 
-.organiGoverno, .personaleAmministrativo, .organiControllo, .optionComuni{
+.organiGoverno, .personaleAmministrativo, .organiControllo, .optionComuni, .polizaMunicilale{
     margin: 14px 1px 1px;
     /*margin: 3px 0 17px 8px;*/
     padding: 7px 0 9px !important;
@@ -262,21 +274,22 @@ input[name="indirizzoMail"]{
     font-size: 16px;
 }
 
-.containerOrganoControllo{
+.containerOrganoControllo, .containerOrganoControlloPr{
     margin-left: 20px;
     width: 100%;
     font-size: 16px;
-    margin-bottom: -320px;
+    /*margin-bottom: -320px;*/
 }
 
-.containerDeleghe{
+.containerDeleghe, .containerDeleghePr, .containerDelegheRg{
     margin-left: 20px;
+    margin-top: 12px;
     width: 100%;
     font-size: 16px;
-    height: 46px;
+    height: auto;
 }
 
-.containerOrganoGoverno{
+.containerOrganoGoverno, .containerOrganoGovernoProv, .containerOrganoGovernoReg{
 	margin-left: 20px;
     width: 100%;
     font-size: 16px;
@@ -297,10 +310,16 @@ input[name="indirizzoMail"]{
     height: auto;
 }
 
-.containerSettori, .settoriSecondaRigha{
+.containerSettori,{
     margin-left: 20px;
     width: 100%;
     font-size: 16px;    
+}
+
+.containerSettori,{
+    margin-left: 20px;
+    width: 100%;
+    font-size: 16px;
 }
 
 .AreaSettori{
@@ -317,7 +336,7 @@ input[name="indirizzoMail"]{
     vertical-align: bottom;
     padding: 0px 0px !important;
 }
-.dati_privacy{
+.dati_privacy, .dati_privacyPr, .dati_privacyRg{
     font-size: 16px;
     height: 20%;
     margin: 32px 23px 23px 16px;
@@ -325,7 +344,7 @@ input[name="indirizzoMail"]{
     width: 50%;
 }
 
-.comune_reg{
+.comune_reg, .provincia_reg, .regione_reg{
 	width: 100%;
     margin: 9px 20px 7px 21px;
 }
@@ -333,10 +352,10 @@ input[name="indirizzoMail"]{
 .containerUffici{
     width: 100%;
     margin-left: 20px;	
-    height: 0px;
+    /*height: 0px;*/
 }
 
-.containerPersonaleAmministrativo{
+.containerPersonaleAmministrativo, .containerPersonaleAmministrativoPr, .containerpoliziaMunicipalePr, .containerpoliziaMunicipale, .containerPersonaleAmministrativoRg{
     width: 100%;
     margin-left: 20px;
 }
@@ -442,11 +461,11 @@ input[name="indirizzoMail"]{
     width: 21%;
 }
 
-.fildRegistrazione, .fildComune{
+.fildRegistrazione, .fildComune, .fildRegione{
     /*border: 1px solid rgba(0, 18, 111, 0.26);*/
     /*border-radius: 5px;*/
     font-size: 16px;
-    /*margin-top: 16px;*/
+    margin-top: 10px;
     /*height: 66px;*/
     /*padding: 10px;*/
     width: 100%;
@@ -545,3 +564,35 @@ div#pop-up {
 .tipologiaAttivita{
 	margin-bottom: 20px;
 }
+
+.apriUfficiGov, .apriDelegheGov{
+    height: auto;
+    max-height: 106px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*background: none repeat scroll 0 0 #CCCCCC;*/
+    /*border-radius: 8px;*/
+    border: 1px solid #cccccc;
+    /*display: none;*/
+    display: block;
+    margin-top: 10px;
+    width: 265px;
+}
+
+.ufficiGov{
+    color: #000000;
+    display: block;
+    margin-left: 0;
+    margin-top: 3px;
+    text-decoration: none;
+    width: 60px;
+}
+.facet-label{
+    margin-left: 20px;
+}
+
+.titoloSottoSezione{
+    font-size: 1em;
+    margin-top: -8px;
+}
+
