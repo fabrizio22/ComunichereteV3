@@ -2,13 +2,6 @@ jQuery(document).ready(function(){
 
 	jQuery.noConflict();
 
-    ind = 0;
-    indP = 0;
-    indQ = 0;
-    indR = 0;
-    indS = 0;
-    indSet = 0;
-    indUffGov =0;
 
 /* 	var dati_registrazioneIniziale = jQuery('#dati_registrazioneIniziale'); */
 	var comune_reg = jQuery('#comune_reg');
@@ -101,7 +94,6 @@ jQuery(document).ready(function(){
 	        rules:
 	        {
 	            nome: "required",
-	            secondoNome: "required",
 	            cognome: "required",
 	            password:{
 		            required: "required",
@@ -125,7 +117,6 @@ jQuery(document).ready(function(){
 	        {
 	            nome: " Inserisci il tuo nome!",
 	            cognome: " Inserisci il tuo cognome!",
-	            secondoNome: " Scegli un nickname!",
 	            password:{
 		            required: "Inserisci la password",
 					minlength: "la lunghezza minima della password e di 6 caratteri"
@@ -230,22 +221,28 @@ jQuery(document).ready(function(){
         var orgAppartenenzaPr = jQuery('#organoAppartenenzaPr :selected').text();
         if (orgAppartenenzaPr === 'Organi di Governo') {
             containerOrganoGovernoProv.css('display','block');
+            containerOrganoControlloPr.css('display','none');
+            containerPersonaleAmministrativoPr.css('display','none');
+            containerpoliziaMunicipalePr.css('display','none');
         }else if (orgAppartenenzaPr === 'Organi di Controllo') {
+            containerOrganoGovernoProv.css('display','none');
+            containerPersonaleAmministrativoPr.css('display','none');
+            containerpoliziaMunicipalePr.css('display','none');
             containerOrganoControlloPr.css('display','block');
-            containerDomandeSicurezzaPr.css('display','block');
-            dati_privacyPr.css('display','block');
-            salva.css('display','block');
         }else if (orgAppartenenzaPr === 'Personale Amministraivo') {
+            containerOrganoGovernoProv.css('display','none');
+            containerOrganoControlloPr.css('display','none');
             containerPersonaleAmministrativoPr.css('display','block');
-            containerDomandeSicurezzaPr.css('display','block');
-            dati_privacyPr.css('display','block');
-            salva.css('display','block');
+            containerpoliziaMunicipalePr.css('display','none');
         }else if (orgAppartenenzaPr === 'Polizia Municipale') {
+            containerOrganoGovernoProv.css('display','none');
+            containerOrganoControlloPr.css('display','none');
+            containerPersonaleAmministrativoPr.css('display','none');
             containerpoliziaMunicipalePr.css('display','block');
-            containerDomandeSicurezzaPr.css('display','block');
-            dati_privacyPr.css('display','block');
-            salva.css('display','block');
         }
+        containerDomandeSicurezzaPr.css('display','block');
+        dati_privacyPr.css('display','block');
+        salva.css('display','block');
         jQuery('#comune').attr("disabled", 'true');
         jQuery('#provincia').attr("disabled", 'true');
         jQuery('#regione').attr("disabled", 'true');
@@ -257,9 +254,11 @@ jQuery(document).ready(function(){
         var organoGovernoRg = jQuery('#organoAppartenenzaRg :selected').text();
         if (organoGovernoRg === 'Organi di Governo') {
             containerOrganoGovernoReg.css('display','block');
-            containerDelegheRg.css('display','block');
+            containerPersonaleAmministrativoRg.css('display','none');
+            //containerDelegheRg.css('display','block');
         }else if (organoGovernoRg === 'Personale Amministraivo') {
             containerPersonaleAmministrativoRg.css('display','block');
+            containerOrganoGovernoReg.css('display','none');
         }
         jQuery('#comune').attr("disabled", 'true');
         jQuery('#provincia').attr("disabled", 'true');
@@ -458,6 +457,43 @@ jQuery(document).ready(function(){
 
     });
 
+    jQuery('#pubblicaAmministrazione').change(function() {
+        var valUtente = jQuery( "#pubblicaAmministrazione option:selected" ).text();
+        if(valUtente === 'Pubblica Amministrazione'){
+            jQuery('#nomeUtente').css('display','block');
+        }
+    });
+
+    jQuery("#aprisettore").click( function(){
+        if(indSet === 0){
+            jQuery("#strutturaSettoreProvincia").fadeIn("slow");
+            indSet =1;
+        }else{
+            jQuery("#strutturaSettoreProvincia").fadeOut(30);
+            indSet = 0;
+        }
+    });
+
+//    sezione per il wg ricerca
+
+    ind = 0;
+    indP = 0;
+    indQ = 0;
+    indR = 0;
+    indS = 0;
+    indSet = 0;
+    indUffGov =0;
+
+    jQuery("#ente").change(function() {
+        var valoreOrganoAppartenenza = jQuery('#organoAppartenenza :selected').text();
+        if (valoreOrganoAppartenenza === 'Organi di Governo') {
+            containerOrganoGoverno.css('display','block');
+            containerpoliziaMunicipale.css('display','none');
+            containerOrganoControllo.css('display','none');
+            containerPersonaleAmministrativo.css('display','none');
+        }
+    });
+
     jQuery('#ente').change(function() {
         var valEnte = jQuery( "#ente option:selected" ).text();
         if(valEnte === 'Ente Comune'){
@@ -491,13 +527,6 @@ jQuery(document).ready(function(){
     });
 
 
-    jQuery('#pubblicaAmministrazione').change(function() {
-        var valUtente = jQuery( "#pubblicaAmministrazione option:selected" ).text();
-        if(valUtente === 'Pubblica Amministrazione'){
-            jQuery('#nomeUtente').css('display','block');
-        }
-    });
-
 
     jQuery("#apriImg").click( function(){
         if(ind === 0){
@@ -507,7 +536,7 @@ jQuery(document).ready(function(){
             jQuery("#areaGeografica").fadeOut(30);
             ind = 0;
         }
-        });
+    });
 
     jQuery("#apriprovince").click( function(){
         if(indP === 0){
@@ -549,17 +578,6 @@ jQuery(document).ready(function(){
         }
     });
 
-    jQuery("#aprisettore").click( function(){
-        if(indSet === 0){
-            jQuery("#strutturaSettoreProvincia").fadeIn("slow");
-            indSet =1;
-        }else{
-            jQuery("#strutturaSettoreProvincia").fadeOut(30);
-            indSet = 0;
-        }
-    });
+    jQuery(".entry-header").addClass('Wrentry-title');
 
 });
-
-
-

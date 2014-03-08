@@ -11,31 +11,28 @@
  */
 //var $valorePassato = $_GET['gov'];
  
-if($_GET['educational'] === 'educational'){
-    echo ($_GET['educational']);
-}else{
-	echo("che palle ho sbagliato");
-}
+//if($_GET['educational'] === 'educational'){
+//    echo ($_GET['educational']);
+//}else{
+//	echo("che palle ho sbagliato");
+//}
 
 
 get_header(); ?>
 
-	<div id="primary" class="full-page-content-area">
-		<div id="content" class="site-content" role="main">
+    <label class="titoloSezione">Registrati</label><br /><hr/>
 
-			<?php while ( have_posts() ) : the_post(); ?>
+<form id="form_organoPolitico" class="form_organoPolitico" name="form_organoPolitico" method="post" action="<?php echo home_url( 'form-educational' ); ?>">
 
-				<?php get_template_part( 'content', 'page' ); ?>
+    <?php include('include/educational/form-registrazioneInizialeEdu.php'); ?>
+    <?php include('include/educational/form-domandeSicurezzaEdu.php'); ?>
+    <?php include('include/educational/form-Privacy-accettazioneEdu.php'); ?>
 
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template
-					if ( comments_open() || '0' != get_comments_number() )
-						comments_template();
-				?>
+    <div class="salvaButton" id="salvaButton">
+        <input id="salva" type="submit" name="Submit" value="Submit" tabindex="2" />
+    </div>
+</form>
+    </div>
 
-			<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
 
 <?php get_footer(); ?>

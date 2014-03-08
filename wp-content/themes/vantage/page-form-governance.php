@@ -208,10 +208,10 @@
     <?php include('include/governance/form-personaleAmministrativi.php'); ?>
     <?php include('include/governance/form-organoGoverno.php'); ?>
     <?php include('include/governance/form-organiControllo.php'); ?>
-    <?php include('include/governance/form-settori.php'); ?>
-    <?php include('include/governance/form-UfficioAnagrafe.php'); ?>
+<!--    --><?php //include('include/governance/form-settori.php'); ?>
+<!--    --><?php //include('include/governance/form-UfficioAnagrafe.php'); ?>
     <?php include('include/governance/poliziaMunicipale.php'); ?>
-    <?php include('include/governance/form-deleghe.php'); ?>
+<!--    --><?php //include('include/governance/form-deleghe.php'); ?>
     <?php include('include/form-domandeSicurezza.php'); ?>
     <?php include('include/form-Privacy-accettazione.php'); ?>
 <!--    provincia -->
@@ -220,13 +220,13 @@
     <?php include('include/governance/provincia/form-organiControlloPr.php'); ?>
     <?php include('include/governance/provincia/form-personaleAmministrativiPr.php'); ?>
     <?php include('include/governance/provincia/poliziaMunicipalePr.php'); ?>
-    <?php include('include/governance/provincia/form-deleghePr.php'); ?>
+<!--    --><?php //include('include/governance/provincia/form-deleghePr.php'); ?>
     <?php include('include/governance/provincia/form-domandeSicurezzaPr.php'); ?>
     <?php include('include/governance/provincia/form-Privacy-accettazionePr.php'); ?>
 <!--    regione -->
     <?php include('include/governance/regione/form-regione.php'); ?>
     <?php include('include/governance/regione/form-organoGovernoReg.php'); ?>
-    <?php include('include/governance/regione/form-delegheRg.php'); ?>
+<!--    --><?php //include('include/governance/regione/form-delegheRg.php'); ?>
     <?php include('include/governance/regione/form-personaleAmministrativiRg.php'); ?>
     <?php include('include/governance/regione/form-domandeSicurezzaRg.php'); ?>
     <?php include('include/governance/regione/form-Privacy-accettazioneRg.php'); ?>

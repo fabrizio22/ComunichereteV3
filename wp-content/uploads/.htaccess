@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "WP-Files"
+AuthUserFile /Applications/MAMP/htdocs/ComunichereteV3/wp-content/uploads/.htpasswd
+require valid-user

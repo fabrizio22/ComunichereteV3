@@ -2,7 +2,11 @@
 //echo get_template_directory_uri();
 ?>
 <div id="provincia_reg" class="provincia_reg">
-	<div class="gruppoComuneRegione">
+    <input placeholder="Insirisci la tua Provincia di Appartenenza" title="Comune di appartenenza" type="text" id="comuneApp" name="comuneApp">
+    <input type="hidden" id="provincia" name="provinciaH" value="Denominazione Ente">
+    <br />
+
+    <div class="gruppoComuneRegione">
 		<input id="mailIns" placeholder="Inserisci la tua Mail" class="mailIns" type="text"  name="mailIns">
         <input type="hidden" id="comune" name="mailInsH" value="Mail Ente">
 		<input id="mailComune" class="mailComune" type="text" name="indirizzoMail" value=""><br />

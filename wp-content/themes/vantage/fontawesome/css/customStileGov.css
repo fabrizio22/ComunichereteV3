@@ -2,7 +2,7 @@
     float: left;
     font-family: Open Sans,Helvetica Neue,sans-serif;
     height: 350px;
-    margin-bottom: -27px;
+    margin-bottom: -85px;
     margin-left: -29px;
     padding: 13px 0 0 50px;
     width: 100%;
@@ -112,6 +112,8 @@ input[name="passwordConf"],
 input[name="ragioneSociale"],
 input[name="aggiungiProfessione"],
 input[name="opzioneQualifichePr"],
+input[name="denominazioneScuola"],
+input[name="ubicazioneScuola"],
 input[name="opzioneQualificheRg"]{
     border: 1px solid rgba(17, 68, 101, 0.46);
     box-shadow: 0 0 16px -7px rgba(17, 68, 101, 0.46);
@@ -476,11 +478,11 @@ input[name="indirizzoMail"]{
 	color: #f70505;
 }
 
-fildRegistrazione, th, td{
+.fildRegistrazione, th, td{
 	text-align: right;
 }
 
-fildRegistrazione, th, td, label{
+.fildRegistrazione, th, td, label{
 	text-align: left;
 }
 
@@ -530,9 +532,25 @@ div#pop-up {
 }
 
 .selectGenerica{
-	width: 310px;
-	margin-top: 5px;
-	font-size: 12px;
+    -moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #BBBBBB;
+    border-radius: 6px;
+    display: inline-block;
+    font-family: inherit;
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: 1.2;
+    margin: 8px 0 -3px;
+    outline: medium none;
+    padding: 2px 4px 3px 1px;
+    position: relative;
+    width: 26%;
 }
 
 .selectGenericaData{

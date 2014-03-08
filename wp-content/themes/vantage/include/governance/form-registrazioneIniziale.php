@@ -4,9 +4,9 @@
 			<input type="text" name="nome" value="" placeholder="inserisci il tuo Nome" >
             <input type="hidden" name="nomeH" value="Nome">
             <br />
-			<input type="text" name="secondoNome" value="" placeholder="inserisci il tuo Secondo Nome" >
-            <input type="hidden" name="secondoNomeH" value="Secondo Nome">
-            <br />
+<!--			<input type="text" name="secondoNome" value="" placeholder="inserisci il tuo Secondo Nome" >-->
+<!--            <input type="hidden" name="secondoNomeH" value="Secondo Nome">-->
+<!--            <br />-->
 			<input type="text" name="cognome" value=""  placeholder="inserisci il tuo Cognome">
             <input type="hidden" name="cognomeH" value="Cognome">
         </div>

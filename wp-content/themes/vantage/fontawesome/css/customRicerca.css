@@ -3,14 +3,18 @@
 */
 
 .filtriRicercaUtente{
-    width: 20%;
+    width: 30%;
+    background: none repeat scroll 0 0 #D2DFDD;
     position: relative;
+    /*border: 1px solid #000000;*/
     float: left;
+    height: auto;
 }
 
 .risultatoRicercaUtente{
-    width: 80%;
+    width: 69%;
     position: relative;
+    /*border: 1px solid #000000;*/
     float: right;
 }
 
@@ -26,21 +30,23 @@
 .regioniOpt, .qualificheOpt, .areaGeografica, .strutturaOpt{
     display: none;
     margin-top: 5px;
-    height: 100%;
+    height: auto;
     background: none repeat scroll 0 0 #CCCCCC;
     border-radius: 8px;
-    width: 250px;
+    border-left: 4px;
+    width: 95%;
+    position: relative;
 }
 
-#apriImg{
-    display: block;
-    text-decoration: none;
-    color: #000000;
-    float: right;
-    margin-right: 129px;
-    margin-top: 3px;
-    width: 170px;
-}
+/*#apriImg{*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+    /*color: #000000;*/
+    /*float: right;*/
+    /*margin-right: 129px;*/
+    /*margin-top: 3px;*/
+    /*width: 170px;*/
+/*}*/
 
 .regioniOpt{
     height: auto;
@@ -79,14 +85,31 @@ li.facet-value .label-container {
 }
 
 
-#apriprovince, #apriregione, #apriqualifica, #apristruttura{
-    color: #000000;
+.apri{
+    color: #000000 !important;
     display: block;
     margin-left: 0;
-    margin-top: 3px;
     text-decoration: none;
-    width: 60px;
+    width: auto;
+    margin-left: 7px;
 }
+
+/*.apriprovince{*/
+    /*margin-top: 30px;*/
+/*}*/
+/*.apriregione{*/
+    /*margin-top: 90px;*/
+/*}*/
+/*.apriqualifica{*/
+    /*margin-top: 120px;*/
+/*}*/
+.apristruttura, .apriqualifica, .apriregione, .apriprovince{
+    margin-top: 5px;
+}
+.apriImg{
+    margin-top: 113px;
+}
+
 
 
 #chiudiprovince{
@@ -100,16 +123,16 @@ li.facet-value .label-container {
 
 .selectCerca{
     display: inline-block;
-    border: 2px solid #bbb;
-    padding: 4px 3px 3px 5px;
-    margin: 7px 0 0;
+    border: 1px solid #bbb;
+    padding: 2px 4px 3px 1px;
+    margin: 8px 4px -3px 4px;
     font: inherit;
     outline:none; /* remove focus ring from Webkit */
     line-height: 1.2;
     background: #f8f8f8;
-    width: auto;
     -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
-
+    position: relative;
+    width: 95%;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
@@ -129,7 +152,7 @@ li.facet-value .label-container {
 
 .apertureSelezioni{
     font-size: 13px;
-    color:#000000;
+    color:#000000 !important;
 }
 
 .apertureSelezioni:hover{
@@ -171,3 +194,90 @@ li.facet-value .label-container {
     content: none;
 }
 
+.inputUtente{
+    margin-left: 4px;
+    position: absolute;
+    width: 95%;
+}
+.inputEnte{
+    position: absolute;
+    margin-left: 4px;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.hrricerca{
+    margin-left: 7px;
+    margin-top: 80px;
+    position: absolute;
+    width: 95%;
+}
+
+.filtri{
+    position: static;
+    margin-top: -74px;
+}
+
+.ricercaLink{
+    background: none repeat scroll 0 0 #99CC33 !important;
+    border-radius: 13px !important;
+    font-size: 1.04em !important;
+    margin-left: 15px;
+    position: absolute;
+    padding: 5px 12px 5px 13px !important;
+}
+
+.ricercaLinkVeloce{
+    margin-top: 44px !important;
+}
+
+.ricercaLinkAffina{
+    margin-top: -17px !important;
+}
+
+.cm_settoreUfficio{
+    margin-top: 1px;
+}
+
+.labelRicerca{
+    background-color: #BCBBC0;
+    color: #FFFFFF !important;
+    height: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.labelRicercaAffina {
+    margin-top: 80px !important;
+}
+
+.labelRicercaVeloce {
+    margin-top: -36px !important;
+}
+
+.labelRicercaImg{
+    background-image: url("http://www.intelligente-mente.com/comunicherete/wp-content/themes/vantage/images/frecciagiu.png");
+    background-repeat: no-repeat;
+    margin-top: 19px !important;
+    position: absolute;
+    width: 15px;
+    height: 13px;
+}
+
+.labelRicercaImgLeftVeloce{
+    margin-left: -89px;
+}
+
+.labelRicercaImgLeftAffina{
+    margin-left: -106px;
+}
+
+.testoRicerca{
+    margin-left: 7px;
+}
+
+.Wrentry-title{
+    background-color: green !important;
+    color: #FFFFFF !important;
+    width: 183px;
+}
