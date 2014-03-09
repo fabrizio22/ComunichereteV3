@@ -138,6 +138,10 @@ li.facet-value .label-container {
     border-radius: 6px;
 }
 
+.selectCercaReg{
+    width: 26% !important;
+}
+
 .cerca{
     padding:5px !important;
     background-color: #dcdcdc !important;

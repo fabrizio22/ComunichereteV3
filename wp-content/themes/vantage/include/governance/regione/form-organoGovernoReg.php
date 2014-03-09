@@ -1,10 +1,10 @@
 <div id="containerOrganoGovernoReg" class="containerOrganoGovernoReg">
-        <select class="selectCerca" id="organoGovernoRg" name="organoGovernoRg">
+        <select class="selectCerca selectCercaReg" id="organoGovernoRg" name="organoGovernoRg">
             <option value="-" selected="selected">Seleziona una Qualifica</option>
          <optgroup label="Giunta Regionale">
-             <option value="PresidenteRg">Presidente</option>
-             <option value="Vice PresidenteRg">Vice Presidente</option>
-             <option value="AssessoreRg">Assessore</option>
+             <option value="Presidente">Presidente</option>
+             <option value="Vice Presidente">Vice Presidente</option>
+             <option value="Assessore">Assessore</option>
          </optgroup>
          <optgroup label="Consiglio Regionale">
              <option value="Presidente del Consiglio regionale">Presidente del Consiglio regionale</option>

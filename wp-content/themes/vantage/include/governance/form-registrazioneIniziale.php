@@ -12,19 +12,16 @@
         </div>
 			<label class="titoloGruppo">Dati Ente</label><br /><hr>
 			<div class="fildRegistrazione" id="fildRegistrazione">
-	                     <input class="regione" type="radio" id="regione" name="registrazione1" value="regione"/>
+	                     <input class="regione" type="radio" name="datiEnte" value="regione"/>
                          <input type="hidden" name="registrazione1H" value="regione">
 	                     <label class="regione">Regione</label><br />
-	                     <input class="provincia" type="radio" id="provincia" name="registrazione1" value="provincia"/>
+	                     <input class="provincia" type="radio" name="datiEnte" value="provincia"/>
                          <input type="hidden" name="registrazione1H" value="provincia">
 	                     <label class="provincia">Provincia</label><br />
-	                     <input  class="comune"type="radio" id="comune" name="registrazione1" value="comune"/>
+	                     <input  class="comune"type="radio" name="datiEnte" value="comune"/>
                          <input type="hidden" name="registrazione1H" value="comune">
 	                     <label class="comune">Comune</label><br />
 		    </div>
-
-<!-- 		<tr><td><label>Mail</label></td><td><input type="text" name="mail" value="f.fatelli@gmail.com"></td></tr> -->
-<!-- 		<tr><td></td><td><input id="procedi_registrazione" class="procedi_registrazione" type="submit" value="Procedi" name="procedi_registrazione"></td></tr> -->
 	  </div>
 </div>
 <!--

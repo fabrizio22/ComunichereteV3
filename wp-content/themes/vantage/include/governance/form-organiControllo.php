@@ -1,5 +1,5 @@
 <div id="containerOrganoControllo" class="containerOrganoControllo">
-    <select class="selectCerca" id="organoControllo" name="organoControllo">
+    <select class="selectCerca selectCercaReg" id="organoControllo" name="organoControllo">
         <option value="-" selected="selected">Seleziona una Qualifica</option>
         <option value="Segretario comunale">Segretario comunale</option>
         <option value="Vicesegretario comunale">Vicesegretario comunale</option>

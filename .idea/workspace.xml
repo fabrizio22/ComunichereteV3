@@ -2,31 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b371aaa7-6ee0-4965-a2f3-4b9911b2daf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-Privacy-accettazioneEdu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-domandeSicurezzaEdu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-registrazioneInizialeEdu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/form-tipologiaente.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/.htaccess" afterPath="$PROJECT_DIR$/wp-content/uploads/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ComunichereteV3.iml" afterPath="$PROJECT_DIR$/.idea/ComunichereteV3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/ente.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/ente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/form-domandeSicurezza.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/form-domandeSicurezza.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-domandeSicurezzaRg.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-domandeSicurezzaRg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-educational.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-educational.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-settori.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-settori.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/struttura.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/struttura.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/private-messages-for-wordpress/inc/send-page.php" afterPath="$PROJECT_DIR$/wp-content/plugins/private-messages-for-wordpress/inc/send-page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" />
     </list>
     <ignored path="ComunichereteV3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,53 +56,7 @@
     <favorites_list name="ComunichereteV3" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="customRicerca.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="32" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-13.703704" vertical-offset="1694" max-vertical-offset="4624">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customStileGov.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="528" column="24" selection-start="10336" selection-end="10336" vertical-scroll-proportion="-7.185185" vertical-offset="8254" max-vertical-offset="9952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_regGovernance.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="566" column="21" selection-start="23773" selection-end="23773" vertical-scroll-proportion="0.0" vertical-offset="8562" max-vertical-offset="9424">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form-comune.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="360" selection-end="831" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="528">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form-registrazioneInizialeEdu.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-registrazioneInizialeEdu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="96" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.3572268" vertical-offset="0" max-vertical-offset="864">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -110,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/provincia/pr_qualificheOragnoGov.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/regioni/contestoRegione.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/regioni/rg_qualificheOragnoGov.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/regioni/rg_qualifichePersonaleAmm.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/provincia/pr_contestoProvincia.php" />
@@ -122,45 +79,47 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/settoreUfficio.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/cm_settori.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-settori.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-UfficioAnagrafe.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-deleghe.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-deleghePr.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-Privacy-accettazionePr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-comuneRe.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-delegheRg.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-domandeSicurezzaRg.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/struttura.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/ente.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-Privacy-accettazioneEdu.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/page-form-educational.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-domandeSicurezzaEdu.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-registrazioneInizialeEdu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/private-messages-for-wordpress/inc/send-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/form-domandeSicurezza.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-settori.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-domandeSicurezzaRg.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" />
       </list>
     </option>
   </component>
@@ -183,8 +142,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
-    <option name="y" value="22" />
+    <option name="x" value="38" />
+    <option name="y" value="29" />
     <option name="width" value="1845" />
     <option name="height" value="1022" />
   </component>
@@ -236,9 +195,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="local" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,58 +289,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="languages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComunichereteV3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComunichereteV3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vantage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComunichereteV3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ComunichereteV3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vantage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -445,7 +349,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="educational" />
+              <option name="myItemId" value="governance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="regione" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="governance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provincia" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,7 +483,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemId" value="private-messages-for-wordpress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -563,7 +505,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemId" value="private-messages-for-wordpress" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -572,6 +514,9 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="local" />
       </pane>
     </panes>
   </component>
@@ -720,22 +665,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="22" width="1845" height="1022" extended-state="0" />
-    <editor active="true" />
+    <frame x="38" y="29" width="1845" height="1022" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2872928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32829046" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3281768" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32486188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24114671" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37663755" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31812724" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31712708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22210744" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21517931" sideWeight="0.50075644" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267776" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24957842" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29761243" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3009439" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -745,6 +689,7 @@
       <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7285408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32486188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -781,19 +726,34 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>154</line>
-          <option name="timeStamp" value="240" />
+          <line>231</line>
+          <option name="timeStamp" value="250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>170</line>
-          <option name="timeStamp" value="241" />
+          <line>221</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>217</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>279</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>250</line>
+          <option name="timeStamp" value="254" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="242" />
+      <option name="time" value="257" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -809,101 +769,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/regione/strutturaInpOpt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/cm_settoreUfficio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="295" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/cm_strutturaInpOpt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/provincia/settoreProvincia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/cm_ufficio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="971" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="304" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="1637" selection-end="1655" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-UfficioAnagrafe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="56" selection-start="3859" selection-end="3911" vertical-scroll-proportion="0.0" vertical-offset="912" max-vertical-offset="1088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="51" selection-start="1074" selection-end="1090" vertical-scroll-proportion="0.33952254" vertical-offset="0" max-vertical-offset="754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-settori.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="58" selection-start="751" selection-end="751" vertical-scroll-proportion="0.23342176" vertical-offset="0" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="72" selection-start="45" selection-end="72" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-Privacy-accettazionePr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="567" selection-end="642" vertical-scroll-proportion="0.16431323" vertical-offset="0" max-vertical-offset="779" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-deleghe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="63" selection-start="2135" selection-end="2135" vertical-scroll-proportion="-54.0" vertical-offset="0" max-vertical-offset="1424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-delegheRg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="78" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-21.333334" vertical-offset="656" max-vertical-offset="1424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="453" selection-end="453" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="384" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-domandeSicurezzaRg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="36" selection-start="9" selection-end="36" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-deleghePr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="10" selection-start="1406" selection-end="2079" vertical-scroll-proportion="0.81514764" vertical-offset="645" max-vertical-offset="1424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_qualificheOragnoContr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="853" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_contestoComune.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="176" />
@@ -914,66 +779,14 @@
         <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="878" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/autocomplete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="185" column="133" selection-start="6659" selection-end="6659" vertical-scroll-proportion="0.4" vertical-offset="2528" max-vertical-offset="6192" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="624" selection-end="1269" vertical-scroll-proportion="0.45128205" vertical-offset="0" max-vertical-offset="432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="620" selection-end="1264" vertical-scroll-proportion="0.7794872" vertical-offset="0" max-vertical-offset="432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="275" selection-end="275" vertical-scroll-proportion="0.09657948" vertical-offset="0" max-vertical-offset="497" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="9" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="497" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="829" selection-end="1633" vertical-scroll-proportion="0.93430656" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="282" selection-end="282" vertical-scroll-proportion="0.20725389" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="93" selection-end="333" vertical-scroll-proportion="0.15571776" vertical-offset="0" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="828" selection-end="1633" vertical-scroll-proportion="0.37823835" vertical-offset="62" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="758" selection-end="758" vertical-scroll-proportion="0.054114994" vertical-offset="32" max-vertical-offset="1424" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="192">
-          <folding />
-        </state>
+        <state line="5" column="63" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="192" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/ente.php">
@@ -983,9 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/struttura.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="192">
-          <folding />
-        </state>
+        <state line="6" column="9" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" vertical-offset="96" max-vertical-offset="192" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/cm_settori.php">
@@ -995,16 +806,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-39.504982" vertical-offset="23782" max-vertical-offset="24384">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-39.504982" vertical-offset="23782" max-vertical-offset="24384" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="3" selection-start="0" selection-end="2760" vertical-scroll-proportion="0.82733816" vertical-offset="1156" max-vertical-offset="1712">
-          <folding />
-        </state>
+        <state line="101" column="3" selection-start="0" selection-end="2760" vertical-scroll-proportion="0.82733816" vertical-offset="1156" max-vertical-offset="1712" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/style.css">
@@ -1016,97 +823,267 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="34" selection-start="6023" selection-end="6023" vertical-scroll-proportion="-12.25" vertical-offset="2170" max-vertical-offset="3936">
-          <folding>
-            <element signature="tag#div#0;tag#td#0;tag#tr#8;tag#table#0;tag#div#0;tag#form#0" expanded="false" />
-            <element signature="tag#div#0;tag#div#0;tag#td#0;tag#tr#8;tag#table#0;tag#div#0;tag#form#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#0;tag#td#0;tag#tr#8;tag#table#0;tag#div#0;tag#form#0" expanded="false" />
-            <element signature="tag#ol#0;tag#div#1;tag#div#0;tag#td#0;tag#tr#8;tag#table#0;tag#div#0;tag#form#0" expanded="false" />
-            <element signature="tag#div#0;tag#td#0;tag#tr#10;tag#table#0;tag#div#0;tag#form#0" expanded="false" />
-            <element signature="tag#div#0;tag#td#0;tag#tr#12;tag#table#0;tag#div#0;tag#form#0" expanded="false" />
-            <marker date="1394318164000" expanded="true" signature="-1:-1" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-            <marker date="1394318164000" expanded="true" signature="-1:-1" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-            <marker date="1394318164000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$wpdb-&gt;users WHERE..." />
-            <marker date="1394318164000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..wp_bp_xprofile_data..." />
-            <marker date="1394318164000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$wpdb-&gt;usermeta WHERE..." />
-            <marker date="1394318164000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$wpdb-&gt;users WHERE..." />
-          </folding>
-        </state>
+        <state line="161" column="34" selection-start="6023" selection-end="6023" vertical-scroll-proportion="-12.25" vertical-offset="2170" max-vertical-offset="3936" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/form-generico.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-Privacy-accettazioneEdu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="245" selection-end="245" vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="496">
-          <folding />
-        </state>
+        <state line="5" column="6" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0968523" vertical-offset="0" max-vertical-offset="826" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-educational.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="67" selection-start="701" selection-end="756" vertical-scroll-proportion="0.23244552" vertical-offset="0" max-vertical-offset="1040">
+        <state line="37" column="22" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.5423729" vertical-offset="0" max-vertical-offset="826" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-domandeSicurezzaEdu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="23" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.78351784" vertical-offset="243" max-vertical-offset="1104" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/js/jquery.autocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-14.598566" vertical-offset="12219" max-vertical-offset="13056" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/autocomplete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="2" selection-start="361" selection-end="361" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/private-messages-for-wordpress/inc/send-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="85" selection-start="7619" selection-end="7619" vertical-scroll-proportion="0.67430025" vertical-offset="2878" max-vertical-offset="3792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/private-messages-for-wordpress/pm4wp-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="848" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-registrazioneInizialeEdu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="100" selection-start="2749" selection-end="2765" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="413" column="66" selection-start="18696" selection-end="18696" vertical-scroll-proportion="0.0" vertical-offset="6290" max-vertical-offset="9440" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="892" selection-end="892" vertical-scroll-proportion="0.296846" vertical-offset="32" max-vertical-offset="1424">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="32" selection-start="2253" selection-end="2253" vertical-scroll-proportion="-13.703704" vertical-offset="1694" max-vertical-offset="4624">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="4" selection-start="7507" selection-end="7565" vertical-scroll-proportion="0.42066422" vertical-offset="2954" max-vertical-offset="3792">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-Privacy-accettazioneEdu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0968523" vertical-offset="0" max-vertical-offset="826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-educational.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="1116" selection-end="1116" vertical-scroll-proportion="0.5423729" vertical-offset="0" max-vertical-offset="826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-domandeSicurezzaEdu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="23" selection-start="4433" selection-end="4433" vertical-scroll-proportion="0.78351784" vertical-offset="243" max-vertical-offset="1104">
+        <state line="140" column="15" selection-start="2530" selection-end="2544" vertical-scroll-proportion="-15.481482" vertical-offset="1822" max-vertical-offset="4688">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="528" column="24" selection-start="10336" selection-end="10336" vertical-scroll-proportion="-7.185185" vertical-offset="8254" max-vertical-offset="9952">
+        <state line="149" column="45" selection-start="3446" selection-end="3446" vertical-scroll-proportion="-2.4444444" vertical-offset="2318" max-vertical-offset="9952">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="566" column="21" selection-start="23773" selection-end="23773" vertical-scroll-proportion="0.0" vertical-offset="8829" max-vertical-offset="9424">
+        <state line="271" column="19" selection-start="9248" selection-end="9248" vertical-scroll-proportion="-6.901961" vertical-offset="3840" max-vertical-offset="5232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-deleghePr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="22" selection-start="1485" selection-end="1485" vertical-scroll-proportion="-10.125" vertical-offset="861" max-vertical-offset="1424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="50" selection-start="402" selection-end="402" vertical-scroll-proportion="-0.6666667" vertical-offset="64" max-vertical-offset="1104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="45" selection-start="118" selection-end="118" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="416" selection-end="416" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="183" selection-end="183" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-Privacy-accettazionePr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="83" selection-start="637" selection-end="637" vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="41" selection-start="118" selection-end="118" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-delegheRg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="78" selection-start="1733" selection-end="1733" vertical-scroll-proportion="-12.791667" vertical-offset="861" max-vertical-offset="1424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-domandeSicurezzaRg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="74" selection-start="4227" selection-end="4227" vertical-scroll-proportion="-30.666666" vertical-offset="48" max-vertical-offset="1104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="462" selection-end="462" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="183" selection-end="183" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="6" selection-start="307" selection-end="307" vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="87" selection-start="800" selection-end="800" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="360" selection-end="831" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="528">
+        <state line="7" column="83" selection-start="576" selection-end="576" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/educational/form-registrazioneInizialeEdu.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-deleghe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="96" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.3572268" vertical-offset="0" max-vertical-offset="864">
+        <state line="81" column="63" selection-start="2135" selection-end="2135" vertical-scroll-proportion="-19.166666" vertical-offset="836" max-vertical-offset="1424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="45" selection-start="114" selection-end="114" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="49" selection-start="116" selection-end="116" vertical-scroll-proportion="0.08510638" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="53" selection-start="175" selection-end="175" vertical-scroll-proportion="0.056737587" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="67" selection-start="1457" selection-end="1472" vertical-scroll-proportion="-12.666667" vertical-offset="32" max-vertical-offset="992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-settori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="45" selection-start="85" selection-end="99" vertical-scroll-proportion="2.0" vertical-offset="80" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-UfficioAnagrafe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="56" selection-start="3859" selection-end="3911" vertical-scroll-proportion="-17.166666" vertical-offset="500" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="41" selection-start="114" selection-end="114" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/form-domandeSicurezza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="39" selection-start="738" selection-end="738" vertical-scroll-proportion="15.416667" vertical-offset="578" max-vertical-offset="1104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/form-generico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="245" selection-end="245" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/form-personaleAmministrativi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/form-Privacy-accettazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="538">
           <folding />
         </state>
       </provider>

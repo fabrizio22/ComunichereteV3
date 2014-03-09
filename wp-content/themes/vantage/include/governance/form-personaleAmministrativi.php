@@ -1,6 +1,6 @@
 <div id="containerPersonaleAmministrativo" class="containerPersonaleAmministrativo">
 		<div class="personaleSettoreArea">
-            <select class="selectCerca" id="qualificheGov" name="qualificheGov">
+            <select class="selectCerca selectCercaReg" id="qualificheGov" name="qualificheGov">
                 <option value="-" selected="selected">Seleziona una Qualifica</option>
                 <optgroup id="ko" label="">
                     <option value="Direttore Generale">Direttore Generale</option>

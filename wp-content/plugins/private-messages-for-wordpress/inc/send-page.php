@@ -146,7 +146,7 @@ function rwpm_send()
 	    <input type="hidden" name="page" value="rwpm_send" />
         <table class="form-table">
             <tr>
-                <th><?php _e( 'Recipient', 'pm4wp' ); ?></th>
+                <th><?php _e( 'Recipient', 'pm4wp' ); ?></th><br/>
                 <td>
 					<?php
 					// if message is not sent (by errors) or in case of replying, all input are saved
@@ -208,6 +208,14 @@ function rwpm_send()
             <tr>
                 <th><?php _e( 'Subject', 'pm4wp' ); ?></th>
                 <td><input type="text" name="subject" value="<?php echo $subject; ?>" class="large-text" /></td>
+            </tr>
+            <tr>
+                <th>tag</th>
+                <td><input type="text" name="tag" value="" class="large-text" /></td>
+            </tr>
+            <tr>
+                <th>gruppi</th>
+                <td><input type="text" name="gruppi" value="" class="large-text" /></td>
             </tr>
             <tr>
                 <th><?php _e( 'Content', 'pm4wp' ); ?></th>

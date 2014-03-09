@@ -1,7 +1,7 @@
 <div id="containerOrganoGoverno" class="containerOrganoGoverno">
 
 
-        <select class="selectCerca" id="organoGoverno" name="organoGoverno">
+        <select class="selectCerca selectCercaReg" id="organoGoverno" name="organoGoverno">
             <option value="-" selected="selected">Seleziona una Qualifica</option>
             <option value="Sindaco">Sindaco</option>
             <option value="Vicesindaco">Vicesindaco</option>

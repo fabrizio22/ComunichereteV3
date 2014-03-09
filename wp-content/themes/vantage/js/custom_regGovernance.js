@@ -439,6 +439,7 @@ jQuery(document).ready(function(){
 
     jQuery("#comuneApp").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
 
+    jQuery("#ubicazioneScuola").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
 
     jQuery('#mailIns').focusin(function() {
 

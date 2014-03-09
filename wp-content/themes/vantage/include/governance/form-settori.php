@@ -1,6 +1,6 @@
 <div id="containerSettori" class="containerSettori">
 
-    <select class="selectCerca" id="settori" name="settori">
+    <select class="selectCerca selectCercaReg" id="settori" name="settori">
         <optgroup label="Settore I">
             <option value="Assistenza Organi Istituzionali e Segreteria Generale">Assistenza Organi Istituzionali e Segreteria Generale</option>
             <option value="Affari Amministrativi">Affari Amministrativi</option>

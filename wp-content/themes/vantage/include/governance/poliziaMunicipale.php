@@ -1,5 +1,5 @@
 <div id="containerpoliziaMunicipale" class="containerpoliziaMunicipale">
-<select class="selectCerca" id="quaificaMunicipale" name="quaificaMunicipale">
+<select class="selectCerca selectCercaReg" id="quaificaMunicipale" name="quaificaMunicipale">
     <option selected="selected" value="1">Seleziona una Qualifica</option>
     <option value="Comandante">Comandante</option>
     <option value="Vicecomandante">Vicecomandante</option>

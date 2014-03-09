@@ -31,40 +31,91 @@
             $cognome_valoreH = $_POST['cognomeH'];
             $dati_field[++$idx] = $cognome_valoreH."-".$cognome_valore;
         }
-        $secondoNome_valore = $_POST['secondoNome'];
-        if(isset($secondoNome_valore)){
-            $secondoNome_valoreH = $_POST['secondoNomeH'];
-            $dati_field[++$idx] = $secondoNome_valoreH."-".$secondoNome_valore;
-        }
 
-        $registrazione1_valore = $_POST['registrazione1'];
+        $registrazione1_valore = $_POST['datiEnte'];
         if(isset($registrazione1_valore)){
             $registrazione1_valoreH = $_POST['registrazione1H'];
             $dati_field[++$idx] = $registrazione1_valoreH."-".$registrazione1_valore;
         }
 
-        $DenominazioneEnte = $_POST['comuneApp'];
-        if(isset($DenominazioneEnte)){
-            $comuneH = $_POST['comuneH'];
-            $dati_field[++$idx] = $comuneH."-".$DenominazioneEnte;
+        $DenominazioneEnteCm = $_POST['comuneAppName'];
+        if(isset($DenominazioneEnteCm)){
+            $comuneH = $_POST['registrazione1H'];
+            $dati_field[++$idx] = $comuneH."-".$DenominazioneEnteCm;
         }
 
-        $mail = $_POST['mailIns'];
-        if(isset($mail)){
+        $DenominazioneEntePr = $_POST['provinciaApp'];
+        if(isset($DenominazioneEntePr)){
+            $provinciaH = $_POST['registrazione1H'];
+            $dati_field[++$idx] = $provinciaH."-".$DenominazioneEntePr;
+        }
+
+        $DenominazioneEnteRg = $_POST['regioneApp'];
+        if(isset($DenominazioneEnteRg)){
+            $regioneH = $_POST['registrazione1H'];
+            $dati_field[++$idx] = $regioneH."-".$DenominazioneEnteRg;
+        }
+
+        $mailCm = $_POST['mailInsCm'];
+        if(isset($mailCm)){
             $mailH = $_POST['mailInsH'];
-            $dati_field[++$idx] = $mailH."-".$mail;
+            $dati_field[++$idx] = $mailH."-".$mailCm;
         }
 
-        $indirizzoMail = $_POST['indirizzoMail'];
+        $indirizzoMailCm = $_POST['indirizzoMailCm'];
+        if(isset($indirizzoMailCm)){
+            $mailH = "host";
+            $dati_field[++$idx] = $mailH . "-" .$indirizzoMailCm;
+        }
+
+        $mailPr = $_POST['mailInsPr'];
+        if(isset($mailPr)){
+            $mailH = $_POST['mailInsH'];
+            $dati_field[++$idx] = $mailH."-".$mailPr;
+        }
+
+        $indirizzoMailPr = $_POST['indirizzoMailPr'];
+        if(isset($indirizzoMailPr)){
+            $mailH = "host";
+            $dati_field[++$idx] = $mailH . "-" .$indirizzoMailPr;
+        }
+
+
+        $mailRg = $_POST['mailInsRg'];
+        if(isset($mailRg)){
+            $mailH = $_POST['mailInsH'];
+            $dati_field[++$idx] = $mailH."-".$mailRg;
+        }
+
+        $indirizzoMailRg = $_POST['indirizzoMailRg'];
+        if(isset($indirizzoMailRg)){
+            $mailH = "host";
+            $dati_field[++$idx] = $mailH . "-" .$indirizzoMailRg;
+        }
+
+
+
+        $sezOrgAppatenenzaRg = $_POST['organoAppartenenzaRg'];
+        if((isset($sezOrgAppatenenzaRg)) && ($sezOrgAppatenenzaRg!='-')){
+            $sezOrgAppatenenzaH = $_POST['sezAmministrativoH'];
+            $dati_field[++$idx] = $sezOrgAppatenenzaH."-".$sezOrgAppatenenzaRg;
+        }
+
+        $sezOrgAppatenenzaPr = $_POST['organoAppartenenzaPr'];
+        if((isset($sezOrgAppatenenzaPr)) && ($sezOrgAppatenenzaPr!='-')){
+            $sezOrgAppatenenzaH = $_POST['sezAmministrativoH'];
+            $dati_field[++$idx] = $sezOrgAppatenenzaH."-".$sezOrgAppatenenzaPr;
+        }
 
         $sezOrgAppatenenza = $_POST['organoAppartenenza'];
-        if(isset($sezOrgAppatenenza)){
+        if((isset($sezOrgAppatenenza)) && ($sezOrgAppatenenza!='-')){
             $sezOrgAppatenenzaH = $_POST['sezAmministrativoH'];
             $dati_field[++$idx] = $sezOrgAppatenenzaH."-".$sezOrgAppatenenza;
         }
 
+
         $sezAmministrativo = $_POST['qualificheGov'];
-        if(isset($sezAmministrativo)){
+        if((isset($sezAmministrativo)) && ($sezAmministrativo!='-')){
             $sezAmministrativoH = $_POST['sezAmministrativoH'];
             $dati_field[++$idx] = $sezAmministrativoH."-".$sezAmministrativo;
         }
@@ -77,39 +128,39 @@
         }
 
         // domande si sicurezza
-        $password = $_POST['password'];
+        $password = $_POST['password1'];
 
-        $selectDomanda1 = $_POST['selectDomanda1'];
+        $selectDomanda1 = $_POST['selectDomanda1-1'];
         if(isset($selectDomanda1)){
             $selectDomanda1H = $_POST['selectDomanda1H'];
             $dati_field[++$idx] = $selectDomanda1H."-".$selectDomanda1;
         }
 
-        $risposta1 = $_POST['risposta1'];
+        $risposta1 = $_POST['risposta1-1'];
         if(isset($risposta1)){
             $risposta1H = $_POST['risposta1H'];
             $dati_field[++$idx] = $risposta1H."-".$risposta1;
         }
 
-        $selectDomanda2 = $_POST['selectDomanda2'];
+        $selectDomanda2 = $_POST['selectDomanda1-2'];
         if(isset($selectDomanda2)){
             $selectDomanda2H = $_POST['selectDomanda2H'];
             $dati_field[++$idx] = $selectDomanda2H."-".$selectDomanda2;
         }
 
-        $risposta2 = $_POST['risposta2'];
+        $risposta2 = $_POST['risposta1-2'];
         if(isset($risposta2)){
             $risposta2H = $_POST['risposta2H'];
             $dati_field[++$idx] = $risposta2H."-".$risposta2;
          }
 
-        $selectDomanda3 = $_POST['selectDomanda3'];
+        $selectDomanda3 = $_POST['selectDomanda1-3'];
         if(isset($selectDomanda3)){
             $selectDomanda3H = $_POST['selectDomanda3H'];
             $dati_field[++$idx] = $selectDomanda3H."-".$selectDomanda3;
          }
 
-        $risposta3 = $_POST['risposta3'];
+        $risposta3 = $_POST['risposta1-3'];
         if(isset($risposta3)){
             $risposta3H = $_POST['risposta3H'];
             $dati_field[++$idx] = $risposta3H."-".$risposta3;
@@ -119,16 +170,28 @@
 
         //organo di controllo
         $sezOganoControllo = $_POST['organoControllo'];
-        if(isset($sezOganoControllo)){
+        if((isset($sezOganoControllo)) && ($sezOganoControllo!='-')){
             $sezOganoControlloH = $_POST['sezOganoControlloH'];
             $dati_field[++$idx] = $sezOganoControlloH."-".$sezOganoControllo;
          }
 
         //organo di governo
         $sezOganoGoverno = $_POST['organoGoverno'];
-        if(isset($sezOganoControllo)){
+        if((isset($sezOganoControllo)) && ($sezOganoControllo!='-')){
             $sezOganoGovernoH = $_POST['sezOganoGovernoH'];
             $dati_field[++$idx] = $sezOganoGovernoH."-".$sezOganoGoverno;
+        }
+
+        $sezOganoGovernoRg = $_POST['organoGovernoRg'];
+        if((isset($sezOganoGovernoRg)) && ($sezOganoGovernoRg!='-')){
+            $sezOganoGovernoH = $_POST['sezOganoGovernoH'];
+            $dati_field[++$idx] = $sezOganoGovernoH."-".$sezOganoGovernoRg;
+        }
+
+        $sezOganoGovernoPr = $_POST['organoGovernoPr'];
+        if((isset($sezOganoControllo)) && ($sezOganoControllo!='-')){
+            $sezOganoGovernoH = $_POST['sezOganoGovernoH'];
+            $dati_field[++$idx] = $sezOganoGovernoH."-".$sezOganoGovernoPr;
         }
 
 
@@ -175,7 +238,7 @@
                 $profile_fieldsId_Name_id = $wpdb->get_var( "SELECT id FROM {$bp_prefix}bp_xprofile_fields where name = '". $val_fild_reg[0]."'");
 
 
-                $data= array(                            'ID' => '',
+                $data= array('ID' => '',
                     'field_id' => $profile_fieldsId_Name_id,
                     'user_id' => $new_userid,
                     'value' => $val_fild_reg[1],
@@ -185,9 +248,36 @@
 
             }
 
-            //$corpoMail = "e stata eggettuata una registrazione con il seguente nome" .$nome_valore . " e cognome " . $cognome_valore ." i dati di accesso sono :" . $nome_valore . "e pass" . $password;
+            $corpoMail =   "<table>".
+            "<tr>".
+            "<td colspan='2'>La tua Registrazione è avvenuta con successo con i seguenti dati :</td>".
+            "</tr>".
+            "<tr>".
+            "<td width='8%'>user :</td>".
+            "<td width='92%'>".$nome_valore ."</td>".
+            "</tr>".
+            "<tr>".
+            "<td>mail :</td>".
+            "<td>".$mailValida."</td>".
+            "</tr>".
+            "<tr>".
+            "<td colspan='2'>&nbsp;</td>".
+            "</tr>".
+            "<tr>".
+            "<td colspan='2'>si prega il prima possibile di completare la registrazione</td>".
+            "</tr>".
+            "<tr>".
+            "<td colspan='2'>grazie di aver svelto la nostra piattaform</td>".
+            "</tr>".
+            "<tr>".
+            "<td colspan='2'>grazie di aver svelto la nostra piattaforma</td>".
+            "</tr>".
+            "<tr>".
+            "<td colspan='2'><strong><em>Comunicherete</em></strong></td>".
+            "</tr>".
+            "</table>";
 
-            //mail($mailValida, "invio mail registrazione", $corpoMail, "From: ".$mailValida);
+            mail($mailValida, "invio mail registrazione", $corpoMail, "From: ".$mailValida);
             //wp_redirect(get_bloginfo('url').'/wp-content/themes/vantage/page-registrazione.php');
 
 

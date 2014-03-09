@@ -68,7 +68,7 @@ margin: 218px 0 0 135px;
 	margin: 10px;
 }
 
-input[name="comuneApp"]{
+input[name="comuneAppName"], input[name="provinciaApp"], input[name="regioneApp"]{
     border: none repeat scroll 0 0 #114465;
     font-size: 16px;
     box-shadow: 0px 0px 16px -7px rgba(17, 68, 101, 0.46);
@@ -104,11 +104,11 @@ input[name="comuneApp"]{
 input[name="nome"],
 input[name="cognome"],
 input[name="secondoNome"],
-input[name="risposta1"],
-input[name="risposta2"],
-input[name="risposta3"],
-input[name="password"],
-input[name="passwordConf"],
+input[name="risposta1-1"],
+input[name="risposta1-2"],
+input[name="risposta1-3"],
+input[name="password1"],
+input[name="passwordConf1"],
 input[name="ragioneSociale"],
 input[name="aggiungiProfessione"],
 input[name="opzioneQualifichePr"],
@@ -147,7 +147,7 @@ input[name="entePrincipale"]{
     width: 311px;
 }
 
-input[name="confMail"], input[name="mailIns"] {
+input[name="confMail"], input[name="mailInsCm"], input[name="mailInsPr"], input[name="mailInsRg"] {
     border: 1px solid rgba(17, 68, 101, 0.46);
     box-shadow: 0 0 16px -7px rgba(17, 68, 101, 0.46);
     font-size: 12px;
@@ -157,7 +157,7 @@ input[name="confMail"], input[name="mailIns"] {
     padding: 5px;
     width: 311px;
 }
-input[name="indirizzoMail"]{
+input[name="indirizzoMailCm"], input[name="indirizzoMailPr"], input[name="indirizzoMailRg"]{
     border: none repeat scroll 0 0 #114465;
     font-size: 12px;
     height: 30px;

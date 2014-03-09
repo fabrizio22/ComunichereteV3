@@ -1,6 +1,6 @@
 <div id="containerPersonaleAmministrativoRg" class="containerPersonaleAmministrativoRg">
 		<div class="personaleSettoreAreaQual">
-            <select class="selectCerca" id="qualificheRg" name="qualificheRg">
+            <select class="selectCerca selectCercaReg" id="qualificheRg" name="qualificheRg">
                 <option value="-" selected="selected">Seleziona una Qualifica</option>
                     <option value="Direttore">Direttore</option>
                     <option value="Dirigente">Dirigente</option>
