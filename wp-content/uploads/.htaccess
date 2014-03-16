@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /ComunichereteV3/
-RewriteRule ^index\.php$ - [L]
-RewriteRule (.*) /ComunichereteV3/index.php?uamfiletype=attachment&uamgetfile=$1 [L]
-</IfModule>

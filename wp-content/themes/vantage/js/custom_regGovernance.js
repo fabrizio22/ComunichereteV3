@@ -3,6 +3,7 @@ jQuery(document).ready(function(){
 	jQuery.noConflict();
 
 
+
 /* 	var dati_registrazioneIniziale = jQuery('#dati_registrazioneIniziale'); */
 	var comune_reg = jQuery('#comune_reg');
     var regione_reg = jQuery('#regione_reg');
@@ -407,6 +408,52 @@ jQuery(document).ready(function(){
 		});
 
 
+    //qualifiche per la ricerca
+    jQuery("#cm_qualificheOrganoGov").change(function() {
+        var qualifiche = jQuery('#cm_qualificheOrganoGov :selected').text();
+        if ((qualifiche == 'Sindaco') || (qualifiche == 'Delegato del Sindaco') || (qualifiche == 'Vicesindaco') || (qualifiche == 'Assessore') || (qualifiche == 'Assessore non di origine elettiva')) {
+            jQuery('.delegheOganoGoverno').css("display", 'block');
+        }
+    });
+
+
+
+            jQuery("#cm_qualificaContestoComune").change(function() {
+        var ente = jQuery('#cm_qualificaContestoComune :selected').text();
+        if (ente == 'Organi di Governo') {
+            jQuery('.cm_qualificheComuni').css("display", 'block');
+            jQuery('.pr_qualificheProvincie').css("display", 'none');
+            jQuery('.rg_qualificheRegione').css("display", 'none');
+            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
+        } else if (ente == 'Organi di Controllo') {
+            jQuery('.cm_qualificheComuni').css("display", 'none');
+            jQuery('.pr_qualificheProvincie').css("display", 'block');
+            jQuery('.rg_qualificheRegione').css("display", 'none');
+            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
+        } else if (ente == 'Personale Amministraivo') {
+            jQuery('.cm_qualifichePerAmministrativo').css("display", 'block');
+            jQuery('.cm_qualificheComuni').css("display", 'none');
+            jQuery('.pr_qualificheProvincie').css("display", 'none');
+            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
+        } else if (ente == 'Polizia Municipale') {
+            jQuery('.cm_qualificheComuni').css("display", 'none');
+            jQuery('.pr_qualificheProvincie').css("display", 'none');
+            jQuery('.rg_qualificheRegione').css("display", 'none');
+            jQuery('.qualifichepoliziaMunicipale').css("display", 'block');
+        }
+        //containercategoriaMerceologica.css('display','block');
+    });
+
+
+    jQuery("#pubblicaAmministrazioneRicerca").change(function() {
+        var ente = jQuery('#pubblicaAmministrazioneRicerca :selected').text();
+        if (ente == 'Pubblica Amministrazione') {
+             jQuery('#enteRicerca').css("display", 'block');
+        }
+
+        containercategoriaMerceologica.css('display','block');
+    });
+
 	jQuery("#qulifiche").change(function() {
         var listaQualifica = jQuery('#qulifiche :selected').text();
 		if (listaQualifica == 'Titolare') {
@@ -436,7 +483,7 @@ jQuery(document).ready(function(){
     });
 
 
-
+    //autocomplete
     jQuery("#comuneApp").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
 
     jQuery("#ubicazioneScuola").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
@@ -474,111 +521,5 @@ jQuery(document).ready(function(){
             indSet = 0;
         }
     });
-
-//    sezione per il wg ricerca
-
-    ind = 0;
-    indP = 0;
-    indQ = 0;
-    indR = 0;
-    indS = 0;
-    indSet = 0;
-    indUffGov =0;
-
-    jQuery("#ente").change(function() {
-        var valoreOrganoAppartenenza = jQuery('#organoAppartenenza :selected').text();
-        if (valoreOrganoAppartenenza === 'Organi di Governo') {
-            containerOrganoGoverno.css('display','block');
-            containerpoliziaMunicipale.css('display','none');
-            containerOrganoControllo.css('display','none');
-            containerPersonaleAmministrativo.css('display','none');
-        }
-    });
-
-    jQuery('#ente').change(function() {
-        var valEnte = jQuery( "#ente option:selected" ).text();
-        if(valEnte === 'Ente Comune'){
-            jQuery('#nomeEnte').css('display','block');
-            jQuery('#comuneCapProvincia').css('display','block');
-            jQuery('#comuneLitoraneo').css('display','block');
-            jQuery('#comuneMontano').css('display','block');
-            jQuery('#popolazione').css('display','block');
-            jQuery('#ripartizioneGeo').css('display','block');
-            jQuery('#zonaAltimetrica').css('display','block');
-        }
-    });
-
-    jQuery('#ente').change(function() {
-        var valEnte = jQuery( "#ente option:selected" ).text();
-        if(valEnte === 'Ente Provincia'){
-            jQuery('#nomeEnte').css('display','block');
-            jQuery('#popolazione').css('display','block');
-            jQuery('#ripartizioneGeo').css('display','block');
-            jQuery('#zonaAltimetrica').css('display','block');
-        }
-    });
-
-    jQuery('#ente').change(function() {
-        var valEnte = jQuery( "#ente option:selected" ).text();
-        if(valEnte === 'Ente Regione'){
-            jQuery('#nomeEnte').css('display','block');
-            jQuery('#ripartizioneGeo').css('display','block');
-            jQuery('#popolazione').css('display','block');
-        }
-    });
-
-
-
-    jQuery("#apriImg").click( function(){
-        if(ind === 0){
-            jQuery("#areaGeografica").fadeIn("slow");
-            ind =1;
-        }else{
-            jQuery("#areaGeografica").fadeOut(30);
-            ind = 0;
-        }
-    });
-
-    jQuery("#apriprovince").click( function(){
-        if(indP === 0){
-            jQuery("#provincia").fadeIn("slow");
-            indP =1;
-        }else{
-            jQuery("#provincia").fadeOut(30);
-            indP = 0;
-        }
-    });
-
-    jQuery("#apriregione").click( function(){
-        if(indR === 0){
-            jQuery("#regioni").fadeIn("slow");
-            indR =1;
-        }else{
-            jQuery("#regioni").fadeOut(30);
-            indR = 0;
-        }
-    });
-
-    jQuery("#apriqualifica").click( function(){
-        if(indQ === 0){
-            jQuery("#qualifiche").fadeIn("slow");
-            indQ =1;
-        }else{
-            jQuery("#qualifiche").fadeOut(30);
-            indQ = 0;
-        }
-    });
-
-    jQuery("#apristruttura").click( function(){
-        if(indS === 0){
-            jQuery("#struttura").fadeIn("slow");
-            indS =1;
-        }else{
-            jQuery("#struttura").fadeOut(30);
-            indS = 0;
-        }
-    });
-
-    jQuery(".entry-header").addClass('Wrentry-title');
 
 });

@@ -1,4 +1,4 @@
-<select class="selectCerca" id="ripartizioneGeo" name="ripartizioneGeo">
+<select class="selectCerca" id="ripartizioneGeo" name="ripartizioneGeo" disabled="true">
     <option value="vuoto">Seleziona una opzione</option>
     <option value="Nord-ovest">Nord-ovest</option>
     <option value="Nord-est">Nord-est</option>

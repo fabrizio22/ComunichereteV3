@@ -1,7 +1,20 @@
-<select class="selectCerca" id="pubblicaAmministrazione" name="pubblicaAmministrazione">
-    <option value="vuoto">seleziona un Ente</option>
-    <option value="Pubblica Amministrazione">Pubblica Amministrazione</option>
-    <option value="Impresa Azienda">Impresa Azienda</option>
-    <option value="Azienda Partecipata/Controllata">Azienda Partecipata/Controllata</option>
-    <option value="Libero Professionista">Libero Professionista</option>
+<select class="selectCerca" id="pubblicaAmministrazioneRicerca" name="pubblicaAmministrazioneRicerca">
+    <option value="vuoto">Cerca in</option>
+    <option value="Tutte le voci">Tutte le voci</option>
+    <optgroup label="Pubblica Amministrazione">
+        <option value="Ente Comune">Ente Comune</option>
+        <option value="Ente Provincia">Ente Provincia</option>
+        <option value="Ente Regione">Ente Regione</option>
+    </optgroup>
+    <optgroup label="Pubblica Amministrazione">
+        <option value="Scuola di I grado">Scuola di I grado</option>
+        <option value="Scuola di II grado">Scuola di II grado</option>
+        <option value="Scuola Infanzia">Scuola Infanzia</option>
+        <option value="Scuola Primaria">Scuola Primaria</option>
+    </optgroup>
+    <optgroup label="Strutture Private">
+        <option value="Associazione/Fondazione">Associazione/Fondazione</option>
+        <option value="Impresa/Azienda">Impresa/Azienda</option>
+        <option value="Libero Professionista">Libero Professionista</option>
+    </optgroup>
 </select>

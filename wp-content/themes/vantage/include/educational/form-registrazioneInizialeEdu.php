@@ -32,7 +32,7 @@
 
          <div id="scuolaTipologia" class="scuolaTipologia">
              <select class="selectGenerica" id="tipologiaScuola" name="tipologiaScuola">
-                 <option value="inserisci1" selected="selected">Scegli la Tipologia Squola</option>
+                 <option value="inserisci1" selected="selected">Scegli la Tipologia Scuola</option>
                  <option value="Infanzia">Infanzia</option>
                  <option value="Primaria">Primaria</option>
                  <option value="I grado">I grado</option>

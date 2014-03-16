@@ -1,0 +1,197 @@
+
+.selectCerca{
+    display: inline-block;
+    border: 1px solid #99AEC3;
+    padding: 2px 4px 3px 1px;
+    margin: 6px 4px -3px;
+    font: inherit;
+    outline:none; /* remove focus ring from Webkit */
+    line-height: 1.2;
+    background: #D8E7F3;
+    -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
+    position: relative;
+    width: 95%;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 3px;
+}
+
+.selectCercaReg{
+    width: 26% !important;
+}
+
+.cerca{
+    padding:5px !important;
+    background-color: #dcdcdc !important;
+    border: 1px solid #666 !important;
+    color:#000 !important;
+    text-decoration:none !important;
+}
+
+.cerca:hover {
+    color: #248CC8 !important;
+}
+
+.apertureSelezioni{
+    font-size: 13px;
+    color:#000000 !important;
+}
+
+.apertureSelezioni:hover{
+    color: #248CC8 !important;
+}
+
+
+/* Select arrow styling */
+.selectCerca:after {
+    content: "▼";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 60%;
+    line-height: 30px;
+    padding: 0 7px;
+    background: #bbb;
+    color: white;
+    pointer-events:none;
+    -webkit-border-radius: 0 6px 6px 0;
+    -moz-border-radius: 0 6px 6px 0;
+    border-radius: 0 6px 6px 0;
+}
+
+.selectCerca:focus {
+    -webkit-box-shadow: 0 0 3px 1px #248CC8;
+    -moz-box-shadow: 0 0 3px 1px #248CC8;
+    box-shadow: 0 0 3px 1px #248CC8;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .selectCerca {
+        padding-right:30px;
+    }
+}
+
+.no-pointer-events .selectCerca:after {
+    content: none;
+}
+
+.inputUtente{
+    margin-bottom: 3px;
+    margin-left: 4px;
+    margin-top: 0;
+    position: relative;
+    width: 95%;
+}
+.inputEnte{
+    position: absolute;
+    margin-left: 4px;
+    width: 95%;
+    margin-top: 5px;
+}
+
+.hrricerca{
+    margin-left: 7px;
+    margin-top: 80px;
+    position: absolute;
+    width: 95%;
+}
+
+.filtri{
+    /*position: static;*/
+    margin-top: 0px;
+}
+
+.ricercaLink{
+    background: none repeat scroll 0 0 #99CC33 !important;
+    border-radius: 13px !important;
+    font-size: 1.04em !important;
+    margin-left: 15px;
+    position: relative;
+    padding: 5px 12px 5px 13px !important;
+}
+
+.ricercaLinkVeloce{
+    margin-top: 44px !important;
+}
+
+.ricercaLinkAffina{
+    margin-top: -17px !important;
+}
+
+.cm_settoreUfficio{
+    margin-top: 1px;
+}
+
+.labelRicerca{
+    background-color: #BCBBC0;
+    color: #FFFFFF !important;
+    height: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+.labelRicercaAffina {
+    margin-top: 80px !important;
+}
+
+.labelRicercaVeloce {
+    margin-top: -36px !important;
+}
+
+.labelRicercaImg{
+    background-image: url("http://www.intelligente-mente.com/comunicherete/wp-content/themes/vantage/images/frecciagiu.png");
+    background-repeat: no-repeat;
+    margin-top: 19px !important;
+    position: absolute;
+    width: 15px;
+    height: 13px;
+}
+
+.enteRicerca{
+    display: none;
+}
+
+.labelRicercaImgLeftVeloce{
+    margin-left: -89px;
+}
+
+.labelRicercaImgLeftAffina{
+    margin-left: -106px;
+}
+
+.testoRicerca{
+    margin-left: 7px;
+}
+
+.Wrentry-title{
+    background-color: green !important;
+    color: #FFFFFF !important;
+    width: 183px;
+}
+
+.cm_qualificheComuni,.pr_qualificheProvincie, .rg_qualificheRegione, .qualifichepoliziaMunicipale{
+    display: none;
+}
+
+.delegheOganoGoverno{
+    display: none;
+    width: 30%;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+/*.intestazione{*/
+/*margin-left: 4px;*/
+/*color: #000;*/
+/*vertical-align: sub;*/
+/*}*/
+
+/*.intestazioneDisable, .intestazioneDisableUff, .intestazioneDisableDel{*/
+/*color: #000; opacity: 0.3;*/
+/*}*/
+
+select[disabled] { background-color: #cccccc; opacity: 0.3;}
+
+/*.selectCerca:focus{ color: red; }*/

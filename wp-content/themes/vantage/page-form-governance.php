@@ -57,40 +57,46 @@
         }
 
         $mailCm = $_POST['mailInsCm'];
-        if(isset($mailCm)){
+        if(isset($mailCm) && ($mailCm!='')){
             $mailH = $_POST['mailInsH'];
             $dati_field[++$idx] = $mailH."-".$mailCm;
+            $mailIndirizzo = $mailCm;
         }
 
         $indirizzoMailCm = $_POST['indirizzoMailCm'];
-        if(isset($indirizzoMailCm)){
+        if(isset($indirizzoMailCm) && ($indirizzoMailCm!='')){
             $mailH = "host";
             $dati_field[++$idx] = $mailH . "-" .$indirizzoMailCm;
+            $mailHost = $indirizzoMailCm;
         }
 
         $mailPr = $_POST['mailInsPr'];
-        if(isset($mailPr)){
+        if(isset($mailPr) && ($mailPr!='')){
             $mailH = $_POST['mailInsH'];
             $dati_field[++$idx] = $mailH."-".$mailPr;
+            $mailIndirizzo = $mailPr;
         }
 
         $indirizzoMailPr = $_POST['indirizzoMailPr'];
-        if(isset($indirizzoMailPr)){
-            $mailH = "host";
+        if(isset($indirizzoMailPr) && ($indirizzoMailPr!='')){
+                $mailH = "host";
             $dati_field[++$idx] = $mailH . "-" .$indirizzoMailPr;
+            $mailHost = $indirizzoMailPr;
         }
 
 
         $mailRg = $_POST['mailInsRg'];
-        if(isset($mailRg)){
+        if(isset($mailRg) && ($mailRg!='')){
             $mailH = $_POST['mailInsH'];
             $dati_field[++$idx] = $mailH."-".$mailRg;
+            $mailIndirizzo = $mailRg;
         }
 
         $indirizzoMailRg = $_POST['indirizzoMailRg'];
-        if(isset($indirizzoMailRg)){
-            $mailH = "host";
+        if(isset($indirizzoMailRg) && ($indirizzoMailRg!='')){
+                $mailH = "host";
             $dati_field[++$idx] = $mailH . "-" .$indirizzoMailRg;
+            $mailHost = $indirizzoMailCm;
         }
 
 
@@ -215,7 +221,8 @@
             $dati_field[++$idx] = $delegaH."-".$value_delega;
         }
 
-        $mailValida =$mail . $indirizzoMail;
+
+        $mailValida =$mailIndirizzo . $mailHost;
 
         $dati_field;
 
@@ -277,6 +284,8 @@
             "</tr>".
             "</table>";
 
+
+
             mail($mailValida, "invio mail registrazione", $corpoMail, "From: ".$mailValida);
             //wp_redirect(get_bloginfo('url').'/wp-content/themes/vantage/page-registrazione.php');
 
@@ -302,8 +311,6 @@
 <!--    --><?php //include('include/governance/form-UfficioAnagrafe.php'); ?>
     <?php include('include/governance/poliziaMunicipale.php'); ?>
 <!--    --><?php //include('include/governance/form-deleghe.php'); ?>
-    <?php include('include/form-domandeSicurezza.php'); ?>
-    <?php include('include/form-Privacy-accettazione.php'); ?>
 <!--    provincia -->
     <?php include('include/governance/provincia/form-provincia.php'); ?>
     <?php include('include/governance/provincia/form-organoGovernoProv.php'); ?>
@@ -311,16 +318,14 @@
     <?php include('include/governance/provincia/form-personaleAmministrativiPr.php'); ?>
     <?php include('include/governance/provincia/poliziaMunicipalePr.php'); ?>
 <!--    --><?php //include('include/governance/provincia/form-deleghePr.php'); ?>
-    <?php include('include/governance/provincia/form-domandeSicurezzaPr.php'); ?>
-    <?php include('include/governance/provincia/form-Privacy-accettazionePr.php'); ?>
+
 <!--    regione -->
     <?php include('include/governance/regione/form-regione.php'); ?>
     <?php include('include/governance/regione/form-organoGovernoReg.php'); ?>
 <!--    --><?php //include('include/governance/regione/form-delegheRg.php'); ?>
+    <?php include('include/form-domandeSicurezza.php'); ?>
     <?php include('include/governance/regione/form-personaleAmministrativiRg.php'); ?>
-    <?php include('include/governance/regione/form-domandeSicurezzaRg.php'); ?>
-    <?php include('include/governance/regione/form-Privacy-accettazioneRg.php'); ?>
-
+    <?php include('include/governance/form-Privacy-accettazione.php'); ?>
     <div class="salvaButton" id="salvaButton">
         <input id="salva" type="submit" name="Submit" value="Submit" tabindex="2" />
     </div>

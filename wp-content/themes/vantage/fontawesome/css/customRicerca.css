@@ -4,7 +4,7 @@
 
 .filtriRicercaUtente{
     width: 30%;
-    background: none repeat scroll 0 0 #D2DFDD;
+    background: none repeat scroll 0 0 #f7f7f7;
     position: relative;
     /*border: 1px solid #000000;*/
     float: left;
@@ -103,7 +103,7 @@ li.facet-value .label-container {
 /*.apriqualifica{*/
     /*margin-top: 120px;*/
 /*}*/
-.apristruttura, .apriqualifica, .apriregione, .apriprovince{
+.apristruttura, .apriqualifica, .apriregione, .apriprovince, .aprideleghe{
     margin-top: 5px;
 }
 .apriImg{
@@ -117,171 +117,8 @@ li.facet-value .label-container {
     color: #000000;
 }
 
-#comuneCapProvincia, #comuneLitoraneo, #comuneMontano, #popolazione, #ripartizioneGeo, #zonaAltimetrica{
-    display: none;
-}
-
-.selectCerca{
-    display: inline-block;
-    border: 1px solid #bbb;
-    padding: 2px 4px 3px 1px;
-    margin: 8px 4px -3px 4px;
-    font: inherit;
-    outline:none; /* remove focus ring from Webkit */
-    line-height: 1.2;
-    background: #f8f8f8;
-    -webkit-appearance:none; /* remove the strong OSX influence from Webkit */
-    position: relative;
-    width: 95%;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-}
-
-.selectCercaReg{
-    width: 26% !important;
-}
-
-.cerca{
-    padding:5px !important;
-    background-color: #dcdcdc !important;
-    border: 1px solid #666 !important;
-    color:#000 !important;
-    text-decoration:none !important;
-}
-
-.cerca:hover {
-    color: #248CC8 !important;
-}
-
-.apertureSelezioni{
-    font-size: 13px;
-    color:#000000 !important;
-}
-
-.apertureSelezioni:hover{
-    color: #248CC8 !important;
+#comuneCapProvincia, #comuneLitoraneo, #comuneMontano, #popolazione, #ripartizioneGeo, #opzioniGeografiche{
+    display: block;
 }
 
 
-/* Select arrow styling */
-.selectCerca:after {
-    content: "▼";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    font-size: 60%;
-    line-height: 30px;
-    padding: 0 7px;
-    background: #bbb;
-    color: white;
-    pointer-events:none;
-    -webkit-border-radius: 0 6px 6px 0;
-    -moz-border-radius: 0 6px 6px 0;
-    border-radius: 0 6px 6px 0;
-}
-
-.selectCerca:focus {
-    -webkit-box-shadow: 0 0 3px 1px #248CC8;
-    -moz-box-shadow: 0 0 3px 1px #248CC8;
-    box-shadow: 0 0 3px 1px #248CC8;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    .selectCerca {
-        padding-right:30px;
-    }
-}
-
-.no-pointer-events .selectCerca:after {
-    content: none;
-}
-
-.inputUtente{
-    margin-left: 4px;
-    position: absolute;
-    width: 95%;
-}
-.inputEnte{
-    position: absolute;
-    margin-left: 4px;
-    width: 95%;
-    margin-top: 5px;
-}
-
-.hrricerca{
-    margin-left: 7px;
-    margin-top: 80px;
-    position: absolute;
-    width: 95%;
-}
-
-.filtri{
-    position: static;
-    margin-top: -74px;
-}
-
-.ricercaLink{
-    background: none repeat scroll 0 0 #99CC33 !important;
-    border-radius: 13px !important;
-    font-size: 1.04em !important;
-    margin-left: 15px;
-    position: absolute;
-    padding: 5px 12px 5px 13px !important;
-}
-
-.ricercaLinkVeloce{
-    margin-top: 44px !important;
-}
-
-.ricercaLinkAffina{
-    margin-top: -17px !important;
-}
-
-.cm_settoreUfficio{
-    margin-top: 1px;
-}
-
-.labelRicerca{
-    background-color: #BCBBC0;
-    color: #FFFFFF !important;
-    height: 20px;
-    position: absolute;
-    width: 100%;
-}
-
-.labelRicercaAffina {
-    margin-top: 80px !important;
-}
-
-.labelRicercaVeloce {
-    margin-top: -36px !important;
-}
-
-.labelRicercaImg{
-    background-image: url("http://www.intelligente-mente.com/comunicherete/wp-content/themes/vantage/images/frecciagiu.png");
-    background-repeat: no-repeat;
-    margin-top: 19px !important;
-    position: absolute;
-    width: 15px;
-    height: 13px;
-}
-
-.labelRicercaImgLeftVeloce{
-    margin-left: -89px;
-}
-
-.labelRicercaImgLeftAffina{
-    margin-left: -106px;
-}
-
-.testoRicerca{
-    margin-left: 7px;
-}
-
-.Wrentry-title{
-    background-color: green !important;
-    color: #FFFFFF !important;
-    width: 183px;
-}

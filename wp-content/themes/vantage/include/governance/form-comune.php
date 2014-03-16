@@ -7,7 +7,7 @@
         <input type="hidden" id="comune" name="mailInsH" value="Mail Ente">
 		<input id="mailComune" class="mailComune" type="text" name="indirizzoMailCm" value=""><br />
 		<input id="confMail" placeholder="Reinserisci la Mail" class="confMail" type="text" name="confMail">
-		<input id="mailComuneConf" class="mailComune" type="text" name="indirizzoMail1" value=""><br />
+		<input id="mailComuneConf" class="mailComune" type="text" name="indirizzoMailCm" value=""><br />
 
 
 		<div class="fildComune" id="fildComune">
@@ -16,7 +16,7 @@
                 <option value="-" selected="selected">Seleziona Organo di Appartenenza</option>
                 <option value="Organi di Governo">Organi di Governo</option>
                 <option value="Organi di Controllo">Organi di Controllo</option>
-                <option value="Personale Amministraivo">Personale Amministraivo</option>
+                <option value="Personale Amministraivo">Personale Amministrativo</option>
                 <option value="Organi di Controllo">Polizia Municipale</option>
             </select>
 		</div>

@@ -1,4 +1,4 @@
-<select class="selectCerca" id="comuneMontano" name="comuneMontano">
+<select class="selectCerca" id="comuneMontano" name="comuneMontano" disabled="true">
     <option value="vuoto">Seleziona una opzione</option>
     <option value="Non montano">Non montano</option>
     <option value="Totalmente montano">Totalmente montano</option>
