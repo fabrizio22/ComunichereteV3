@@ -2,21 +2,7 @@
 *css ricerca
 */
 
-.filtriRicercaUtente{
-    width: 30%;
-    background: none repeat scroll 0 0 #f7f7f7;
-    position: relative;
-    /*border: 1px solid #000000;*/
-    float: left;
-    height: auto;
-}
 
-.risultatoRicercaUtente{
-    width: 69%;
-    position: relative;
-    /*border: 1px solid #000000;*/
-    float: right;
-}
 
 /*.inputEnte{*/
     /*display: none;*/
@@ -66,9 +52,10 @@ ol, ul {
 }
 
 li.facet-value {
-    padding-bottom: 3px;
+    /*padding-bottom: 3px;*/
     /*width: 186px;*/
     width: auto;
+    margin-bottom: -2px;
     margin-left: 20px;
 }
 
@@ -78,6 +65,7 @@ li.facet-value .label-container {
     vertical-align: middle;
     white-space: nowrap;
     width: 169px;
+    margin-left: -14px;
 
 }
 .facet-label{
@@ -117,8 +105,6 @@ li.facet-value .label-container {
     color: #000000;
 }
 
-#comuneCapProvincia, #comuneLitoraneo, #comuneMontano, #popolazione, #ripartizioneGeo, #opzioniGeografiche{
-    display: block;
-}
+
 
 

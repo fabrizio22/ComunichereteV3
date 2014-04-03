@@ -563,7 +563,7 @@ header#masthead hgroup {
 	position: relative;
 	
 	padding-bottom: 45px;
-	padding-top: 45px;
+	padding-top: 15px;
 	zoom: 1;
 }
 
@@ -595,7 +595,7 @@ header#masthead hgroup .logo {
     /*background-image: url("http://www.comunicherete.it/demo/comunicherete/wp-content/themes/vantage/images/logo-comunicherete-piccolo.png");*/
     display: block;
     float: left;
-    height: 27px;
+    height: 10px;
     max-width: 100%;
 }
 
