@@ -29,7 +29,8 @@ if(isset($qualificaVal)){
         $nome_ente = $valore -> nome_ente;
         $titolo_qualifica_nome_ente = $tipologia_qualifica."-".$nome_ente;
         $numero_filtri = $valore -> numero_filtri;
-        echo "<option value='$titolo_qualifica_nome_ente'>$voce_qualifiche</option>";
+        //echo "<option value='$titolo_qualifica_nome_ente'>$voce_qualifiche</option>";
+        echo "<option value='$voce_qualifiche'>$voce_qualifiche</option>";
     }
 }
 ?>

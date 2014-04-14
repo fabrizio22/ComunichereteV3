@@ -7,10 +7,9 @@ $deleghe = $wpdb->get_results(
 );
 
 ?>
-<div id="contenitoreSelect" class="contenitoreSelect">
-
-    <a href="#" id="selectComplessa" class="selectComplessa"><div class="divLinkSelectEvoluta" id="divLinkSelectEvoluta" nome="divLinkSelectEvoluta">Deleghe</div>
-    <div class="contentFrecciaSelect" id="contentFrecciaSelect" nome="contentFrecciaSelect"><img src="http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" class="freccia"></div></a>
+    <a href="#" id="selectComplessaFiltro" class="selectComplessa"><div class="divLinkSelectEvoluta" id="divLinkSelectEvoluta" nome="divLinkSelectEvoluta">Deleghe</div>
+        <div class="contentFrecciaSelectFiltri" id="contentFrecciaSelectFiltri" nome="contentFrecciaSelectFiltri"><img src="http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" class="freccia"></div>
+    </a>
 
 <div class="cm_deleghe" id="cm_deleghe" name="cm_deleghe">
     <div id="cm_apriDelegheGov" class="cm_apriDelegheGov">
@@ -24,6 +23,5 @@ $deleghe = $wpdb->get_results(
             <?php endforeach; ?>
         </ol>
     </div>
-    <div class="footerCombo" id="footerCombo"><a href="#" id="avviaRicercaDiv" class="avviaRicercaDiv">Affina Ricerca </a></div>
-</div>
+    <div class="footerComboFiltro" id="footerComboFiltro"><a href="#" id="avviaRicercaDiv" class="avviaRicercaDiv">Affina Ricerca </a></div>
 </div>

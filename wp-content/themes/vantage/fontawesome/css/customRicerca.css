@@ -42,35 +42,7 @@
     width: 216px;
 }
 
-ol.facet-values {
-    clear: left;
-    margin-left: -14px;
-    padding-top: 5px;
-}
-ol, ul {
-    list-style: none outside none !important;
-}
 
-li.facet-value {
-    /*padding-bottom: 3px;*/
-    /*width: 186px;*/
-    width: auto;
-    margin-bottom: -2px;
-    margin-left: 20px;
-}
-
-li.facet-value .label-container {
-    display: inline-block;
-    /*margin-left: -18px;*/
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 169px;
-    margin-left: -14px;
-
-}
-.facet-label{
-    margin-left: 20px;
-}
 
 
 .apri{
