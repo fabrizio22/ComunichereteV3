@@ -12,194 +12,47 @@
     global $wpdb;
     $bp_prefix       = bp_core_get_table_prefix();
     $value_ufficio = null;
+    $errore = null;
+    $dati_Istat = null;
 
     $idx = 0;
     $campi_registrazione = null;
 
+
 	if (isset($_POST['Submit'])){
 
-        //echo('sono nel salva');
-
         $nome_valore = $_POST['nome'];
-        if(isset($nome_valore)){
-           $nome_valoreH = $_POST['nomeH'];
-           $dati_field[$idx] = $nome_valoreH."-".$nome_valore;
-        }
-
         $cognome_valore = $_POST['cognome'];
-        if(isset($cognome_valore)){
-            $cognome_valoreH = $_POST['cognomeH'];
-            $dati_field[++$idx] = $cognome_valoreH."-".$cognome_valore;
-        }
-
         $registrazione1_valore = $_POST['datiEnte'];
-        if(isset($registrazione1_valore)){
-            $registrazione1_valoreH = $_POST['registrazione1H'];
-            $dati_field[++$idx] = $registrazione1_valoreH."-".$registrazione1_valore;
-        }
-
         $DenominazioneEnteCm = $_POST['comuneAppName'];
-        if(isset($DenominazioneEnteCm)){
-            $comuneH = $_POST['registrazione1H'];
-            $dati_field[++$idx] = $comuneH."-".$DenominazioneEnteCm;
-        }
-
         $DenominazioneEntePr = $_POST['provinciaApp'];
-        if(isset($DenominazioneEntePr)){
-            $provinciaH = $_POST['registrazione1H'];
-            $dati_field[++$idx] = $provinciaH."-".$DenominazioneEntePr;
-        }
-
         $DenominazioneEnteRg = $_POST['regioneApp'];
-        if(isset($DenominazioneEnteRg)){
-            $regioneH = $_POST['registrazione1H'];
-            $dati_field[++$idx] = $regioneH."-".$DenominazioneEnteRg;
-        }
-
         $mailCm = $_POST['mailInsCm'];
-        if(isset($mailCm) && ($mailCm!='')){
-            $mailH = $_POST['mailInsH'];
-            $dati_field[++$idx] = $mailH."-".$mailCm;
-            $mailIndirizzo = $mailCm;
-        }
-
         $indirizzoMailCm = $_POST['indirizzoMailCm'];
-        if(isset($indirizzoMailCm) && ($indirizzoMailCm!='')){
-            $mailH = "host";
-            $dati_field[++$idx] = $mailH . "-" .$indirizzoMailCm;
-            $mailHost = $indirizzoMailCm;
-        }
-
         $mailPr = $_POST['mailInsPr'];
-        if(isset($mailPr) && ($mailPr!='')){
-            $mailH = $_POST['mailInsH'];
-            $dati_field[++$idx] = $mailH."-".$mailPr;
-            $mailIndirizzo = $mailPr;
-        }
-
         $indirizzoMailPr = $_POST['indirizzoMailPr'];
-        if(isset($indirizzoMailPr) && ($indirizzoMailPr!='')){
-                $mailH = "host";
-            $dati_field[++$idx] = $mailH . "-" .$indirizzoMailPr;
-            $mailHost = $indirizzoMailPr;
-        }
-
-
         $mailRg = $_POST['mailInsRg'];
-        if(isset($mailRg) && ($mailRg!='')){
-            $mailH = $_POST['mailInsH'];
-            $dati_field[++$idx] = $mailH."-".$mailRg;
-            $mailIndirizzo = $mailRg;
-        }
-
         $indirizzoMailRg = $_POST['indirizzoMailRg'];
-        if(isset($indirizzoMailRg) && ($indirizzoMailRg!='')){
-                $mailH = "host";
-            $dati_field[++$idx] = $mailH . "-" .$indirizzoMailRg;
-            $mailHost = $indirizzoMailCm;
-        }
-
-
-
+        $mailHost = $indirizzoMailCm;
         $sezOrgAppatenenzaRg = $_POST['organoAppartenenzaRg'];
-        if((isset($sezOrgAppatenenzaRg)) && ($sezOrgAppatenenzaRg!='-')){
-            $sezOrgAppatenenzaH = $_POST['sezAmministrativoH'];
-            $dati_field[++$idx] = $sezOrgAppatenenzaH."-".$sezOrgAppatenenzaRg;
-        }
-
         $sezOrgAppatenenzaPr = $_POST['organoAppartenenzaPr'];
-        if((isset($sezOrgAppatenenzaPr)) && ($sezOrgAppatenenzaPr!='-')){
-            $sezOrgAppatenenzaH = $_POST['sezAmministrativoH'];
-            $dati_field[++$idx] = $sezOrgAppatenenzaH."-".$sezOrgAppatenenzaPr;
-        }
-
         $sezOrgAppatenenza = $_POST['organoAppartenenza'];
-        if((isset($sezOrgAppatenenza)) && ($sezOrgAppatenenza!='-')){
-            $sezOrgAppatenenzaH = $_POST['sezAmministrativoH'];
-            $dati_field[++$idx] = $sezOrgAppatenenzaH."-".$sezOrgAppatenenza;
-        }
-
-
         $sezAmministrativo = $_POST['qualificheGov'];
-        if((isset($sezAmministrativo)) && ($sezAmministrativo!='-')){
-            $sezAmministrativoH = $_POST['sezAmministrativoH'];
-            $dati_field[++$idx] = $sezAmministrativoH."-".$sezAmministrativo;
-        }
-
-
         $sezSettori = $_POST['settori'];
-        if(isset($sezSettori)){
-            $sezSettoriH = $_POST['sezSettoriH'];
-            $dati_field[++$idx] = $sezSettoriH."-".$sezSettori;
-        }
 
         // domande si sicurezza
         $password = $_POST['password1'];
-
         $selectDomanda1 = $_POST['selectDomanda1-1'];
-        if(isset($selectDomanda1)){
-            $selectDomanda1H = $_POST['selectDomanda1H'];
-            $dati_field[++$idx] = $selectDomanda1H."-".$selectDomanda1;
-        }
-
         $risposta1 = $_POST['risposta1-1'];
-        if(isset($risposta1)){
-            $risposta1H = $_POST['risposta1H'];
-            $dati_field[++$idx] = $risposta1H."-".$risposta1;
-        }
-
         $selectDomanda2 = $_POST['selectDomanda1-2'];
-        if(isset($selectDomanda2)){
-            $selectDomanda2H = $_POST['selectDomanda2H'];
-            $dati_field[++$idx] = $selectDomanda2H."-".$selectDomanda2;
-        }
-
         $risposta2 = $_POST['risposta1-2'];
-        if(isset($risposta2)){
-            $risposta2H = $_POST['risposta2H'];
-            $dati_field[++$idx] = $risposta2H."-".$risposta2;
-         }
-
         $selectDomanda3 = $_POST['selectDomanda1-3'];
-        if(isset($selectDomanda3)){
-            $selectDomanda3H = $_POST['selectDomanda3H'];
-            $dati_field[++$idx] = $selectDomanda3H."-".$selectDomanda3;
-         }
-
         $risposta3 = $_POST['risposta1-3'];
-        if(isset($risposta3)){
-            $risposta3H = $_POST['risposta3H'];
-            $dati_field[++$idx] = $risposta3H."-".$risposta3;
-        }
-
-
-
         //organo di controllo
-        $sezOganoControllo = $_POST['organoControllo'];
-        if((isset($sezOganoControllo)) && ($sezOganoControllo!='-')){
-            $sezOganoControlloH = $_POST['sezOganoControlloH'];
-            $dati_field[++$idx] = $sezOganoControlloH."-".$sezOganoControllo;
-         }
-
-        //organo di governo
-        $sezOganoGoverno = $_POST['organoGoverno'];
-        if((isset($sezOganoControllo)) && ($sezOganoControllo!='-')){
-            $sezOganoGovernoH = $_POST['sezOganoGovernoH'];
-            $dati_field[++$idx] = $sezOganoGovernoH."-".$sezOganoGoverno;
-        }
-
-        $sezOganoGovernoRg = $_POST['organoGovernoRg'];
-        if((isset($sezOganoGovernoRg)) && ($sezOganoGovernoRg!='-')){
-            $sezOganoGovernoH = $_POST['sezOganoGovernoH'];
-            $dati_field[++$idx] = $sezOganoGovernoH."-".$sezOganoGovernoRg;
-        }
-
-        $sezOganoGovernoPr = $_POST['organoGovernoPr'];
-        if((isset($sezOganoControllo)) && ($sezOganoControllo!='-')){
-            $sezOganoGovernoH = $_POST['sezOganoGovernoH'];
-            $dati_field[++$idx] = $sezOganoGovernoH."-".$sezOganoGovernoPr;
-        }
-
+       $sezOganoControllo = $_POST['organoControllo'];
+       $sezOganoGoverno = $_POST['organoGoverno'];
+       $sezOganoGovernoRg = $_POST['organoGovernoRg'];
+       $sezOganoGovernoPr = $_POST['organoGovernoPr'];
 
         $uffici = $_POST['uffici'];
         $deleghe = $_POST['deleghe'];
@@ -221,11 +74,10 @@
             $dati_field[++$idx] = $delegaH."-".$value_delega;
         }
 
-
-        $mailValida =$mailIndirizzo . $mailHost;
-
-        $dati_field;
-
+        $mailValida =$mailCm . $mailHost;
+        /**
+         * creazione nuovo utente su SIstema
+         */
         $user_data = array(
             'ID' => '',
             'user_pass' => $password,
@@ -235,25 +87,82 @@
 
         $new_userid = wp_insert_user( $user_data );
 
+        /*fine creazione nuovo utente*/
 
-        if( isset($new_userid)  ) {
-
-            for ($i = 0; $i <= count($dati_field) ; ++$i) {
-                $val_fild_reg = explode("-", $dati_field[$i]);
-                //$nome_field = $profile_fieldsId_Name[$i][name];
-
-                $profile_fieldsId_Name_id = $wpdb->get_var( "SELECT id FROM {$bp_prefix}bp_xprofile_fields where name = '". $val_fild_reg[0]."'");
-
-
-                $data= array('ID' => '',
-                    'field_id' => $profile_fieldsId_Name_id,
-                    'user_id' => $new_userid,
-                    'value' => $val_fild_reg[1],
-                    'last_updated' => ' '
-                );
-                $wpdb->insert( 'wp_bp_xprofile_data', $data );
-
+        //controllare quale errore ricevo
+        foreach($new_userid as $chiave => $valore)
+        {
+            foreach($valore as $chiave1 => $valore1)
+            {
+                $errore = $valore1[0];
             }
+        }
+
+        if(is_numeric($new_userid)) {
+        /**
+         * controllo ente selezionato e creo di conseguenza un array con i dati istat recuperati dal nome
+         * ente selezionato
+         */
+            if(($DenominazioneEnteCm !='') ||($DenominazioneEnteCm !=null) ){
+            $dati_Istat = $wpdb->get_results($wpdb->prepare( "SELECT codice_regione, denominazione_regione, codice_provincia, denominazione_provincia, codice_comune, denominazione_italiano, codice_ista_comune_Num, indirizzo, cap, sito_web, email, altidudine_centro, popolazione_legale_2011, codice_catastale FROM wp_elenco_comuni_istat where denominazione_italiano = %s", $DenominazioneEnteCm, ARRAY_A));
+            }
+
+
+        if(($DenominazioneEntePr !='') ||($DenominazioneEntePr !=null) ){
+            $dati_Istat = $wpdb->get_var( "SELECT id FROM wp_elenco_comuni_istat where denominazione_provincia = '". $DenominazioneEntePr."'");
+        }
+
+        if(($DenominazioneEnteRg !='') ||($DenominazioneEnteRg !=null) ){
+                $dati_Istat = $wpdb->get_var( "SELECT id FROM wp_elenco_comuni_istat where denominazione_regione = '". $DenominazioneEnteRg."'");
+        }
+
+            $array_user = array(
+                'id_user' => trim($new_userid),
+                'nome_user' => trim($nome_valore),
+                'cognome_user' => trim($cognome_valore),
+                'mail_user' => trim($mailValida),
+                'codice_regione' => trim($dati_Istat[0] ->codice_regione),
+                'codice_provincia' => trim($dati_Istat[0] ->codice_provincia),
+                'codice_comune' => trim($dati_Istat[0] ->codice_comune),
+                'codice_catastale'=> trim($dati_Istat[0] ->codice_catastale),
+                'codice_totale_istat' => trim($dati_Istat[0] ->codice_totale_istat),
+                'denominazione_regione' => trim($dati_Istat[0] ->denominazione_regione),
+                'denominazione_provincia' => trim($dati_Istat[0] ->denominazione_provincia),
+                'denominazione_comune_italiano' => trim($dati_Istat[0] ->denominazione_italiano),
+                'altitudine_centro' => trim($dati_Istat[0] ->altidudine_centro),
+                'popolazione_legale_2011' => trim($dati_Istat[0] ->popolazione_legale_2011),
+                'indirizzo' => trim($dati_Istat[0] ->indirizzo),
+                'cap' => trim($dati_Istat[0] ->cap),
+                'sito_web' => trim($dati_Istat[0] ->sito_web),
+                'tipo_ente' => trim($registrazione1_valore),
+                'comune_appartenenza' => trim($dati_Istat[0] ->comune_appartenenza),
+                'mail' => trim($dati_Istat[0] ->mail),
+                'organo_appartenenza' => trim($sezOrgAppatenenza),
+                'qualifica' => trim($sezOganoGoverno),
+                'servizi_settori' => trim($dati_Istat[0] ->servizi_settori),
+                'servizi_uffici' => trim($dati_Istat[0] ->servizi_uffici),
+                'nuclei_poliziaOperativi' => trim($dati_Istat[0] ->nuclei_poliziaOperativi),
+                'deleghe' => trim($dati_Istat[0] ->deleghe),
+                'dipartimento' => trim($dati_Istat[0] ->dipartimento),
+                'direzioni' => trim($dati_Istat[0] ->direzioni),
+                'nome_ente' => trim($registrazione1_valore)
+            );
+            $wpdb->insert( 'wp_dati_user', $array_user );
+
+            /**
+             * salvataggio delle domende di sicuerezza
+             */
+            $array_user_sicurezza = array(
+                'id_user' => trim($new_userid),
+                'prima_domanda_sicurezza' => trim($selectDomanda1),
+                'prima_risposta_sicurezza' => trim($risposta1),
+                'seconda_domanda_sicurezza' => trim($selectDomanda2),
+                'seconda_risposta_sicurezza' => trim($risposta2),
+                'terza_doamda_sicurezza' => trim($selectDomanda3),
+                'terza_risposta_sicurezza' => trim($risposta3),
+            );
+            $wpdb->insert( 'wp_sicurezza_user_registrazione', $array_user_sicurezza );
+
 
             $corpoMail =   "<table>".
             "<tr>".
@@ -284,14 +193,11 @@
             "</tr>".
             "</table>";
 
-
-
             mail($mailValida, "invio mail registrazione", $corpoMail, "From: ".$mailValida);
             //wp_redirect(get_bloginfo('url').'/wp-content/themes/vantage/page-registrazione.php');
 
-
         } else {
-            $errore = 'Error on user creation';
+            //echo($risultato);
         }
 
     }

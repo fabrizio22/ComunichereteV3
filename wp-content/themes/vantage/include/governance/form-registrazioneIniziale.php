@@ -24,34 +24,32 @@
 		    </div>
 	  </div>
 </div>
-<!--
-<div class="div_passaggi"> 
-in questo contenuto verra messa la spiegazione dei vari passaggi di registrazione
 
-<div class="contenitore">
-	<?php
-		if (isset($errore)){
-	?>
-	<div id="errore_mess" style="border:1px solid #000000;">
-	<?php	
-			echo($errore);
-	?>
-	</div>
-	<?php	
-	}else{
-		if ((isset($nome_valore)) || (isset($cognome_valore)) || (isset($mail_valore))){
-	?>
-		<div id="errore_mess" style="border:1px solid #000000;">
-	<?php	
-			echo('utente inserito con successo');
-	?>
-	</div>
-	<?php
-		}		
-	}
-	?>
+<div class="div_passaggi">
 
 
+    <div class="contenitore">
+        <?php
+            if (isset($errore)){
+        ?>
+        <div id="errore_mess" style="border:1px solid #000000;">
+        <?php
+                echo($errore);
+        ?>
+        </div>
+        <?php
+        }else{
+        ?>
+            <div id="errore_mess" style="border:1px solid #000000;">
+        <?php
+                echo('utente inserito con successo');
+        ?>
+        </div>
+        <?php
+
+        }
+        ?>
+
+
+    </div>
 </div>
-</div>
--->

@@ -16,6 +16,7 @@
             indReg = 0;
             indDelFiltro = 0;
             indPr = 0;
+            indContFiltri = 0;
             indUffPM = 0;
             indSett = 0;
             indNuc = 0;
@@ -130,7 +131,7 @@
                         jQuery('#labelRicercaUff').addClass('intestazioneDisableUff');
                         jQuery('#comuneMontano').attr('disabled');
                         jQuery('#nazione').removeAttr('disabled');
-                        jQuery('#qualifiche').removeAttr('disabled');
+                        jQuery('#qulifica').removeClass('disabilitato');
                         //var elem = jQuery(this).val();
                         var elem = '1';
                         jQuery.ajax({
@@ -140,7 +141,7 @@
                             dataType: "html",
                             success: function(msg)
                             {
-                                jQuery("#qualifiche").html(msg);
+                                jQuery("#label_qualifica").html(msg);
                             },
                             error: function()
                             {
@@ -208,8 +209,8 @@
                     var $check = jQuery(this);
                     if ($check.prop('checked')) {
                         var data = jQuery('#pubblicaAmministrazioneRicerca').val();
-                        var arr = data.split(' ');
-                        jQuery('#nomeEnte').html(arr[1]).css('display','block');
+                        //var arr = data.split(' ');
+                        jQuery('#nomeEnte').html(data).css('display','block');
                         jQuery('#pubblicaAmministrazioneRicerca').val();
                         jQuery('#avviaRicerca').removeClass('disabilitato');
                         jQuery('#inputNomeEnte').css('display','block');
@@ -302,6 +303,7 @@
                             jQuery("#cm_apriProvinciaRicerca").fadeOut(30);
                             jQuery("#cm_apriComuneRicerca").fadeOut(30);
                             jQuery('#avviaRicerca').removeClass('disabilitato');
+                            jQuery('#footerCombo').css('display','none');
                             indReg = 1;
                         }else{
                             jQuery("#cm_apriRegioniRicerca").fadeOut(30);
@@ -314,6 +316,7 @@
                             jQuery("#cm_apriProvinciaRicerca").fadeIn(1);
                             jQuery("#cm_apriRegioniRicerca").fadeOut(30);
                             jQuery("#cm_apriComuneRicerca").fadeOut(30);
+                            jQuery('#footerCombo').css('display','none');
                             indPr = 1;
                         }else{
                             jQuery("#cm_apriProvinciaRicerca").fadeOut(30);
@@ -357,7 +360,8 @@
 
                 jQuery('#label_reg').click(function(){
                     jQuery('#selectComplessaProvRicerca').removeClass('disabilitato');
-                    var elem = jQuery('#regione_label').text();
+                    //var elem = jQuery('#regione_label').text();
+                    var elem = jQuery('[name="regione"]:checked').val();
                     //alert(elem);
                         jQuery.ajax({
                             url:"../wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php",
@@ -375,13 +379,13 @@
                         });
                     jQuery("#cm_apriRegioniRicerca").fadeOut(30);
                     indReg = 0;
-                    jQuery('#divLinkSelectEvolutaReg').html(jQuery('#regione_label').text());
-                    jQuery('#valoreSelectReg').val(jQuery('#regione_label').text());
+                    jQuery('#divLinkSelectEvolutaReg').html(elem);
+                    jQuery('#valoreSelectReg').val(jQuery('[name="regione"]:checked').val());
                 });
 
                 jQuery('#label_pro').click(function(){
                     jQuery('#selectComplessaComRicerca').removeClass('disabilitato');
-                    var elem =  jQuery('#provincia_labl').html();
+                    var elem = jQuery('[name="provincia"]:checked').val();
                     //alert(elem);
                     jQuery.ajax({
                         url:"../wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php",
@@ -399,7 +403,22 @@
                     });
                     jQuery('#cm_apriProvinciaRicerca').css('display','none');
                     indPr = 0;
-                    jQuery('#divLinkSelectEvolutaProv').html(jQuery('#provincia_labl').text());
-                    jQuery('#valoreSelectProv').val(jQuery('#provincia_labl').text());
+                    jQuery('#divLinkSelectEvolutaProv').html(elem);
+                    jQuery('#valoreSelectProv').val(elem);
                 });
+
+
+//                jQuery('#ricercaProfili').click(function(){
+//                    if(indContFiltri === 0){
+//                        jQuery("#contenitoreFiltri").fadeIn('slow');
+//                        jQuery("#contentRisultato").css({"width": "63.1%", "right": "5px"});
+//
+//                        indContFiltri = 1;
+//                    }else{
+//                        jQuery("#contenitoreFiltri").fadeOut(30);
+//                        jQuery("#contentRisultato").css({"width": "84", "right": "12px"});
+//                        indContFiltri = 0;
+//                    }
+//                });contenitoreFiltri
+
     });

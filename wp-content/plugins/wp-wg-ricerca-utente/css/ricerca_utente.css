@@ -95,20 +95,19 @@
 }
 
 .inputNomeEnte{
-    border: 1px solid #CCCCCC !important;
     border-radius: 4px;
     display: none;
     float: right;
-    margin: 0 13px 6px 4px;
+    margin: 0 11px 5px 0;
     position: relative;
-    width: 69%;
+    width: 63%;
 }
 
 .nomeEnte{
     display: none;
     left: 4px;
     position: absolute;
-    top: 257px;
+    top: 209px;
     width: 76px;
 }
 
@@ -253,8 +252,8 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     color: #000000 !important;
     float: left;
     /*background-image: url("http://www.intelligente-mente.com/comunicherete/wp-content/themes/vantage/images/piu.png");*/
-    background-image: url("http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/piu.png");
-    background-repeat: no-repeat;
+    /*background-image: url("http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/piu.png");*/
+    /*background-repeat: no-repeat;*/
     padding: 4px 11px;
     background-position: left center;
     width: 85%;
@@ -333,12 +332,12 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 .avviaRicerca{
     background: none repeat scroll 0 0 #008800 !important;
     height: 45px;
-    margin-left: -2px;
     padding: 5px 112px !important;
     position: relative;
     text-align: center;
-    top: 28px;
-    z-index: 99;
+    top: 0;
+    /*left: 20px;*/
+    z-index: 9;
 }
 
 .affinaRicerca{
@@ -376,13 +375,28 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border: 1px solid #CCCCCC;
     display: none;
     height: auto;
-    margin-top: -21px;
     margin-left: 1px;
+    margin-top: -15px !important;
     max-height: 225px;
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
-    width: 96%;
+    width: 93.5%;
+    z-index: 99;
+}
+
+.cm_apriQualificaRicerca{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    display: none;
+    height: auto;
+    margin-left: 1px;
+    margin-top: -11px !important;
+    max-height: 225px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    width: 93.5%;
     z-index: 99;
 }
 .cm_apriComuneRicerca{
@@ -390,7 +404,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border: 1px solid #CCCCCC;
     display: none;
     height: auto;
-    margin-top: 25px;
+    margin-top: -11px !important;
     margin-left: 1px;
     max-height: 225px;
     overflow-x: hidden;
@@ -419,13 +433,28 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border: 1px solid #CCCCCC;
     display: none;
     height: auto;
-    margin-top: 25px;
+    top: 295;
     margin-left: 1px;
     max-height: 225px;
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
-    width: 96%;
+    width: 93.5%;
+    z-index: 99;
+}
+
+.cm_apriProvinciaRicercaWrapReg{
+    margin-top: -12px;
+}
+
+.cm_apriProvinciaRicercaWrapPro{
+    margin-top: -11px;
+}
+
+.cm_apriProvinciaRicercaWrapCom{
+    margin-top: 52px;
+    width: 93.4%;
+    height: 189px;
     z-index: 99;
 }
 
@@ -436,9 +465,9 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     display: none;
     margin-bottom: 7px;
     margin-left: 1px;
-    margin-top: 261px;
+    margin-top: 189px;
     position: relative;
-    width: 99%;
+    width: 93.5%;
     z-index: 999;
 }
 
@@ -480,6 +509,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     /*box-shadow: 7px 14px 9px #CCCCCC;*/
     float: left;
     height: auto;
+    left: 6px;
     margin-top: -8px;
     padding-top: 24px;
     position: relative;
@@ -493,38 +523,39 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 }
 .areaFiltri{
     background-color: #F2F2F2;
-    height: 67px;
+    height: 60px;
     left: 13px;
     position: relative;
     top: -2px;
-    width: 87.1%;
+    width: 99.2%;
 }
 
 .linkNavigazione{
-    height: 63px;
-    left: 13px;
-    position: relative;
-    width: 87.5%;
+    height: 59px;
+    position: absolute;
+    top: -55px;
+    width: 84%;
 }
 .contenitoreRisultato{
     font-size: 1.5em;
     height: auto;
-    left: 2px;
+    left: 13px;
     position: relative;
-    width: 62%;
+    top: -5px;
+    width: 100%;
 }
 
 .contenitoreScroll{
     background: none repeat scroll 0 0 #FFFFFF;
-    /*box-shadow: 3px 12px 13px 4px #CCCCCC;*/
     display: block;
     float: left;
-    height: 572px;
-    margin-left: 10px;
+    height: 513px;
+    margin-left: 1px;
     margin-top: 3px;
     overflow-x: hidden;
     overflow-y: auto;
-    width: 85%;
+    position: relative;
+    width: 58%;
 }
 
 .areaElencoUtenti{
@@ -532,13 +563,6 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     position: relative;
     float: left;
 }
-
-.infoUtente{
-    position: relative;
-    float: right;
-    width: 40%;
-}
-
 
 .titoloSezioneRicerca{
     color: #000000;
@@ -566,18 +590,17 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background: #ffffff;
+    background: none repeat scroll 0 0 #FFFFFF;
     border-bottom: 1px solid #CCCCCC;
     border-image: none;
     border-left: 1px solid #CCCCCC;
     border-top: 1px solid #CCCCCC;
-    float: left;
+    height: 20px;
     margin-bottom: 10px;
     margin-left: 1px;
     padding: 2px;
     position: relative;
-    width: 85%;
-    height: 20px;
+    width: 87%;
 }
 
 
@@ -586,28 +609,37 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border: 1px solid #CCCCCC;
     float: right;
     height: 24px;
+    left: -12px;
     position: relative;
-    width: 24px;
     right: 7px;
+    top: -36px;
+    width: 24px;
+}
+
+.contentFrecciaSelect img{
+    box-shadow: none !important;
 }
 
 .contentFrecciaSelectFiltri{
     border: 1px solid #CCCCCC;
     float: right;
     height: 24px;
+    left: -12px;
     position: relative;
+    right: 7px;
+    top: -36px;
     width: 24px;
-    right: 6px;
-    background: #ffffff;
 }
 
 .contentFrecciaSelectCom{
     border: 1px solid #CCCCCC;
     float: right;
     height: 24px;
+    left: -12px;
     position: relative;
-    width: 24px;
     right: 7px;
+    top: -36px;
+    width: 24px;
 }
 
 .freccia{
@@ -623,9 +655,9 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 	background: none repeat scroll 0 0 #FFFFFF;
     /*box-shadow: 3px 12px 13px 4px #CCCCCC;*/
     display: block;
-    height: 717px;
-    margin-left: -20px;
-    margin-top: -53px;
+    height: 576px;
+    /*margin-left: -20px;*/
+    margin-top: 6px;
     /* max-height: 900px; */
     /*overflow-x: hidden;*/
     /*overflow-y: auto;*/
@@ -637,14 +669,15 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     background-color: #F2F2F2;
 	position: relative;
 	height: auto;
-	width: 100%
+	width: 100%;
+    margin-left: 114px;
 }
 
 .zonaGeografica_Regione{
-    margin-bottom: 47px;}
+    margin-bottom: 14px;}
 
 .zonaGeografica_Provincia{
-    margin-bottom: 56px;
+    margin-bottom: 6px;
 }
 
 .zonaGeografica_Comune{
@@ -656,12 +689,6 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     margin-right: -11px;
 }
 
-.facet-value:hover{
-    border: 1px solid #FFFFFF;
-    background: #2164A0;
-    color: #ffffff;
-    height: 20px;
-}
 
 .label-container{
     font-size: 13px !important;
@@ -672,21 +699,46 @@ ol.facet-values {
     margin-left: -14px;
     padding-top: 0px;
 }
+
+ol.facet-valuesCom {
+    clear: left;
+    margin-left: -2px;
+    padding-top: 0px;
+}
+
 ol, ul {
     list-style: none outside none !important;
 }
 
-li.facet-value .label-container {
+.label-container {
     display: inline-block;
     /*margin-left: -18px;*/
     vertical-align: middle;
     white-space: nowrap;
     width: 169px;
     margin-left: -14px;
+    height: 16px !important;
 
 }
+li.facet-value {
+    display: inline-block;
+    /*margin-left: -18px;*/
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+    margin-left: -14px;
+    height: 20px !important;
+}
+
+.facet-value:hover{
+    border: 1px solid #FFFFFF;
+    background: #2164A0;
+    color: #ffffff;
+    height: 20px;
+}
+
 .facet-label{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .comune_labl{
@@ -709,32 +761,36 @@ li.facet-value .label-container {
     text-decoration: none;
 }
 
-.ricercaProfili, .mieiContatti{
+.ricercaProfili, .mieiContatti,.richiestaCollaborazione{
     border-bottom: 1px solid #CCCCCC;
     border-right: 1px solid #000088;
     border-top: 1px solid #CCCCCC;
     border-left: 1px solid #CCCCCC;
     height: 94%;
     position: relative;
-    width: 33%;
+    width: 37%;
 }
-.richiestaCollaborazione{
-    border-bottom: 1px solid #CCCCCC;
-    border-right: 1px solid #CCCCCC;
-    border-top: 1px solid #CCCCCC;
-    height: 94%;
-    position: relative;
-    width: 32.8%;
+
+.ricercaProfiliWrapper{
+    width: 24.5% !important;
 }
+
+/*{*/
+    /*border-bottom: 1px solid #CCCCCC;*/
+    /*border-right: 1px solid #CCCCCC;*/
+    /*border-top: 1px solid #CCCCCC;*/
+    /*height: 94%;*/
+    /*position: relative;*/
+    /*width: 32.8%;*/
+/*}*/
 
 .ricercaProfiliImg, .mieiContattiImg, .richiestaCollaborazioneImg{
     border: 2px solid #1A659B;
     border-radius: 36px;
     height: 32px;
-    left: 50%;
-    margin-left: -19px;
+    left: 9%;
     position: absolute;
-    top: 9%;
+    top: 15%;
     width: 32px;
 }
 
@@ -773,7 +829,7 @@ li.facet-value .label-container {
 
 .affinaRicercaFiltro{
     float: left;
-    height: 40px;
+    height: 29px;
     margin-left: 10px;
     position: relative;
     top: 6px;
@@ -904,21 +960,168 @@ li.facet-value .label-container {
 
 .contentRisultato{
     float: left;
-    margin-top: -55px;
+    margin-top: 5px;
     position: relative;
-    width: 72%;
+    right: 5px;
+    width: 63.1%;
 }
 
 .descrizioneTNavigazione{
-    left: 84px;
     position: relative;
     text-align: center;
-    top: 39px;
+    top: 16px;
 }
 
 .descrizioneTNavigazioneColl{
-    left: 54px;
+    left: 91px;
+}
+
+.descrizioneTNavigazioneMiei{
+    left: 91px;
+}
+
+.descrizioneTNavigazioneProfil{
+    left: 68px;
+}
+
+/*sezione info*/
+.infoUtenteCont{
+    border: 1px solid #1B649A;
+    float: right;
+    height: 509px;
+    position: relative;
+    right: 6px;
+    top: 4px;
+    width: 40%;
+    z-index: 99;
+}
+
+.infoUtente{
+    position: relative;
+}
+
+.contentTasti{
+    border: 1px solid #000000;
+    height: 35px;
+    padding: 10px 0 0;
     position: relative;
     text-align: center;
-    top: 39px;
+    width: 99.5%;
+}
+.tastoOrganizzazione{
+    /*border-bottom: 6px solid #000000;*/
+    float: left;
+    height: 31px;
+    position: relative;
+    vertical-align: super;
+    width: 33%;
+}
+.tastoMansione{
+    /*border-bottom: 6px solid #000000;*/
+    float: left;
+    height: 31px;
+    position: relative;
+    vertical-align: super;
+    width: 33%;
+}
+.tastoAltro{
+    /*border-bottom: 6px solid #000000;*/
+    float: left;
+    height: 31px;
+    position: relative;
+    vertical-align: super;
+    width: 34%;
+}
+.contentInfoPreMappa{
+    position: relative;
+}
+.contentMappa{
+    position: relative;
+}
+.nomeTasto{
+    color: #000000;
+}
+.messaggio{
+    background: none repeat scroll 0 0 #32A9DC;
+    border-radius: 8px;
+    color: #FFFFFF;
+    float: left;
+    font-size: 17px;
+    height: 46px;
+    padding: 0 3px 2px 2px;
+    position: relative;
+    right: 30px;
+    text-align: center;
+}
+.collegati{
+    background: none repeat scroll 0 0 #8FBE43;
+    border-radius: 8px;
+    color: #FFFFFF;
+    float: left;
+    font-size: 17px;
+    height: 46px;
+    left: 34px;
+    padding: 0 2px 2px;
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+.tastoCollegati{
+    position: relative;
+
+}
+.tastoMessaggio{
+    position: relative;
+}
+
+.nomeUtentInfo{
+    font-size: 16px;
+    color: #1B649A;
+}
+.cognomeUtentInfo{
+    font-size: 16px;
+    color: #1B649A;
+}
+.certificatoUtentInfo{
+    font-size: 10px;
+    color: #323232;
+}
+
+.contentMansione{
+    display: none;
+}
+
+.contentAtro{
+    display: none;
+}
+
+.regioneR, .provinciaR, .comuneR {
+    margin: 3px 0 8px 11px !important;
+    padding: 7px 0 9px !important;
+}
+
+.ContentOptQualifiche{
+    position: relative;
+    width: 100%;
+}
+
+.optGroupQualifiche{
+    color: #1A659B;
+    font-size: 14px;
+    font-weight: bold;
+    left: 15px;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.voce_qualifica{
+    position: relative;
+    width: 100%;
+    left: 31px;
+}
+
+.qulificheCK{
+    position: relative;
+    right: 6px;
 }

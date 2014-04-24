@@ -25,7 +25,7 @@ if(isset($localizzazione)){
         $vowels = array("*");
         $regione = str_replace($vowels, "'", $regione_val);
 
-        echo "<li id='facet-value' class='facet-value'>";
+        echo "<li id='facet-value' class='facet-value'><input id='regione' class='regioneR' type='radio' name='regione' value='$regione' />";
         echo "<label id='regione_label' class='facet-label'>$regione</label>";
         echo "</li>";
     }
@@ -49,7 +49,7 @@ if(isset($localizzazione_prov)){
 
         $vowels = array("*");
         $provincia = str_replace($vowels, "'", $provincia_val);
-        echo "<li id='facet-value' class='facet-value'>";
+        echo "<li id='facet-value' class='facet-value'><input id='provincia' class='provinciaR' type='radio' name='provincia' value='$provincia' />";
         echo "<label id='provincia_labl' class='facet-label'>$provincia</label>";
         echo "</li>";
 

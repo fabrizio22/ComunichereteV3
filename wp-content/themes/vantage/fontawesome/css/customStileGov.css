@@ -266,8 +266,12 @@ input[name="indirizzoMailCm"], input[name="indirizzoMailPr"], input[name="indiri
 }
 
 .div_passaggi{
-	float: right;
-	width: 40%;
+    float: right;
+    left: -478px;
+    position: relative;
+    text-align: center;
+    top: -93px;
+    width: 40%;
 }
 
 .containerAreaSettori{

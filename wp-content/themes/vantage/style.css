@@ -595,12 +595,16 @@ header#masthead hgroup .logo {
     /*background-image: url("http://www.comunicherete.it/demo/comunicherete/wp-content/themes/vantage/images/logo-comunicherete-piccolo.png");*/
     display: block;
     float: left;
-    height: 10px;
+    height: 0px;
     max-width: 100%;
 }
 
 header#masthead hgroup .logo img {
-	vertical-align: bottom;
+    height: 37px;
+    margin-left: -8px;
+    vertical-align: bottom;
+    width: 138px;
+    margin-top: -4px;
 }
 
 header#masthead hgroup .support-text {
@@ -884,7 +888,8 @@ body.responsive.layout-full #page-wrapper .full-container {
 	position: relative;
 /* 	background: #114465; */
 	background: #1A659B;
-	font-size: 13px;
+	font-size: 12px;
+    height: 32px;
 	margin: 0 -35px;
 }
 
@@ -920,7 +925,7 @@ body.responsive.layout-full #page-wrapper .full-container {
 
 .main-navigation ul li {
 	position: relative;
-	height: 42px;
+	height: 32px;
 	display: block;
 	float: left;
 }
@@ -935,8 +940,8 @@ body.responsive.layout-full #page-wrapper .full-container {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 12px 15px;
-	height: 42px;
+	padding: 8px 14px;
+	height: 32px;
 }
 
 .main-navigation ul li a,
@@ -963,7 +968,7 @@ body.responsive.layout-full #page-wrapper .full-container {
 .main-navigation ul ul a {
 	width: 200px;
 	
-	padding: 15px 20px;
+	padding: 8px 20px;
 }
 
 .main-navigation ul ul li {
@@ -1112,7 +1117,7 @@ body.mobile-device .main-navigation li:hover ul {
 
 #search-icon .searchform input[name=s] {
 	width: 100%;
-	height: 42px;
+	height: 32px;
 	background: transparent;
 	border: none;
 	-webkit-border-radius: 0px;
@@ -1678,7 +1683,7 @@ article.page.post-with-thumbnail-icon .entry-main {
 
 .entry-content ul li,
 .entry-content ol li {
-	margin-left: 1.5em;
+	margin-left: 0.5em;
 }
 
 .entry-content dl dt {

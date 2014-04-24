@@ -2,232 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b371aaa7-6ee0-4965-a2f3-4b9911b2daf0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/templates/template-ricerca.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ComunichereteV3.esproj/Project.espressostorage" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ComunichereteV3.esproj/user.Master.espressostorage" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/404.sublime-project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/404.sublime-workspace" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/autocomplete.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/comments-.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/content-single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/adminbar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/assets/bar-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/assets/bar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/assets/bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/assets/bar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/messages/message-background.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/adminbar/messages/message-firstrun.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/css/metaslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/img/landscape.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/img/layouts/basic-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/img/layouts/basic-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/img/layouts/big-headline.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/img/portrait.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/js/metaslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/js/metaslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/layouts/basic-left.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/layouts/basic-right.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/layouts/big-headline.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/metaslider/metaslider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/css/front.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/css/images/handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/css/page-teaser.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/css/panels-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/inc/widgets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/js/embedded-video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/panels-lite.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/panels-lite/tpl/admin-home-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/plugin-activation/plugin-activation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/css/premium-teaser.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/css/premium.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/img/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/img/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/img/pointer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/img/pointer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/img/upgrade.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/img/video.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/js/premium-teaser-templates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/js/premium-teaser-templates.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/js/premium-teaser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/js/premium-teaser.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/js/premium.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/js/premium.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/premium.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/premium/tpl/upgrade-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/css/settings.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/css/settings.front.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/images/settings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/js/settings.front.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/js/settings.front.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/js/settings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/js/settings.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/message.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/settings/settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/extras/update/update.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/css/customRicerca.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/css/customStileGov.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/css/font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/font/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/font/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/font/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/font/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/font/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/icon-sections.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/fontawesome/icons.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/home-panels.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/ProfiloBusiness.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/ProfiloGovernance.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/carousel-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/logo-comunicherete-piccolo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/carousel-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/carousel-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/gallery-next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/gallery-prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/more-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/search-icon-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/slide-indicator-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/slide-indicator-inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/retina/to-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites-1-1-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/carousel-left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/carousel-right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/gallery-next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/gallery-prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/more-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/search-icon-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/search-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/slide-button-next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/slide-indicator-active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/slide-indicator-inactive.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/images/sprites/to-top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/extras.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/metaslider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/panels.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/widgets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/inc/woocommerce.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-Abbigliamento.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-categoriaMerceologica.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-datiBusiness.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-dimAziendaSedeLavorativa.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-liberoProfessinista.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-qualificheAltriBus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-qualificheMansioni.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-qualificheTitolareBus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/business/form-registrazioneIniziale_business.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/form-Privacy-accettazione.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/form-domandeSicurezza.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/form-generico.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/form-personaleAmministrativi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/form-tipologiaente.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-UfficioAnagrafe.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-comune.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-deleghe.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-organiControllo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-organoGoverno.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-personaleAmministrativi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-registrazioneIniziale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/form-settori.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/include/governance/poliziaMunicipale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/custom_regGovernance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery-ui-1.10.3.custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery-ui-1.10.3.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.fitvids.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.fitvids.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.flexslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.theme-main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.theme-main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.tools.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/jquery.validate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/keyboard-image-navigation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/js/selectivizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/languages/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/languages/vantage.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/less/loops.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/less/reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/less/slider.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/less/widgets.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/less/woocommerce.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/loop.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/loops/loop-blog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/loops/loop-carousel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/loops/loop-circleicon.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/loops/loop-grid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/loops/loop-slider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/mail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/no-results.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page-form-business.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page-form-citizen.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page-form-educational.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page-form-governance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page-form-registrazione.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page-registrazione.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/parts/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/parts/masthead-logo-in-menu.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/parts/masthead.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/searchform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/action.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/backgrounds/slide-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/backgrounds/slide-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/backgrounds/slide-plugins-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/backgrounds/slide-responsive-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/demo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/slider/metaslider-editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/style.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/templates/template-blog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/templates/template-full-notitle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/templates/template-full.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/attribution.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/customizer.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/mobile-nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/pb-elements.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/retina-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/share-rec.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/share.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/teasers/social-widget.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/Comunicherete/upgrade/upgrade.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_UfficiSettori.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" />
     </list>
@@ -255,10 +41,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ricerca_utente.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ricerca_utente.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="432" column="14" selection-start="8639" selection-end="8639" vertical-scroll-proportion="0.019197207" vertical-offset="6469" max-vertical-offset="13935">
+            <state line="1123" column="2" selection-start="21156" selection-end="21157" vertical-scroll-proportion="0.0" vertical-offset="16392" max-vertical-offset="16980">
               <folding />
             </state>
           </provider>
@@ -267,7 +53,7 @@
       <file leaf-file-name="ricerca_utente.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="351" column="72" selection-start="16256" selection-end="16256" vertical-scroll-proportion="0.0" vertical-offset="4735" max-vertical-offset="6150">
+            <state line="135" column="36" selection-start="5066" selection-end="5067" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="6435">
               <folding />
             </state>
           </provider>
@@ -276,41 +62,20 @@
       <file leaf-file-name="localizzazione.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="477" selection-end="538" vertical-scroll-proportion="3.125" vertical-offset="315" max-vertical-offset="1215">
+            <state line="74" column="111" selection-start="2735" selection-end="2808" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1290">
               <folding>
-                <marker date="1397212860000" expanded="true" signature="394:459" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-                <marker date="1397212860000" expanded="true" signature="473:595" placeholder="..." />
-                <marker date="1397212860000" expanded="true" signature="1239:1339" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-                <marker date="1397212860000" expanded="true" signature="2160:2261" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+                <marker date="1398331572000" expanded="true" signature="394:459" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+                <marker date="1398331572000" expanded="true" signature="1323:1423" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+                <marker date="1398331572000" expanded="true" signature="2336:2437" placeholder="select DISTI..wp_elenco_comuni_istat..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filtri_ricerca.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="filtri_ricerca.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="198" selection-end="256" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1395">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wp-wg-ricerca-utente.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="23" selection-start="10332" selection-end="10332" vertical-scroll-proportion="-2.125" vertical-offset="2499" max-vertical-offset="4155">
-              <folding>
-                <marker date="1397495599000" expanded="true" signature="1767:1824" placeholder="SELECT * FRO..wp_cm_qualifiche..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-form-governance.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="244" column="146" selection-start="8370" selection-end="8500" vertical-scroll-proportion="-0.0" vertical-offset="3660" max-vertical-offset="5115">
+            <state line="33" column="51" selection-start="2054" selection-end="2069" vertical-scroll-proportion="-0.15432099" vertical-offset="495" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -319,21 +84,59 @@
       <file leaf-file-name="query_qualifiche.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="-7.2916665" vertical-offset="65" max-vertical-offset="615">
+            <state line="40" column="88" selection-start="1457" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1035">
               <folding>
-                <marker date="1397222872000" expanded="true" signature="524:582" placeholder="select DISTI..wp_cm_qualifiche..." />
+                <marker date="1398344354000" expanded="true" signature="524:582" placeholder="select DISTI..wp_cm_qualifiche..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cm_deleghe.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php">
+      <file leaf-file-name="pubblicaAmministrazione.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="112" selection-start="410" selection-end="410" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
+            <state line="4" column="33" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-wg-ricerca-utente.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="0" selection-start="2996" selection-end="2996" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="4065">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-form-governance.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="8" selection-start="3086" selection-end="3128" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="3705">
               <folding>
-                <marker date="1397320881000" expanded="true" signature="73:110" placeholder="select descr..wp_cm_deleghe..." />
+                <marker date="1398178859000" expanded="true" signature="3606:3913" placeholder="SELECT codic..wp_elenco_comuni_istat..." />
+                <marker date="1398178859000" expanded="true" signature="8797:10554" placeholder="..." />
+                <marker date="1398178859000" expanded="true" signature="10450:10546" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form-registrazioneIniziale.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1586" selection-end="1615" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customStileGov.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="293" column="20" selection-start="6491" selection-end="6491" vertical-scroll-proportion="0.0" vertical-offset="3900" max-vertical-offset="9345">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -351,11 +154,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-Privacy-accettazioneRg.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-domandeSicurezzaPr.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" />
@@ -368,7 +169,6 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/regioni/rg_contestoRegione.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_contestoComune.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/opzioniGeografiche.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_qualificheOragnoGov.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualificaProvicia.php" />
@@ -389,19 +189,22 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_poliziaMunicipale.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dw-question-answer/assets/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/templates/template-ricerca.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
       </list>
     </option>
   </component>
@@ -424,10 +227,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="45" />
-    <option name="width" value="1248" />
-    <option name="height" value="778" />
+    <option name="y" value="22" />
+    <option name="width" value="1881" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -477,7 +279,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,16 +325,229 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="governance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="educational" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fontawesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vantage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fontawesome" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="com.jetbrains.php.gae.AppEnginePhpModulesConfigurable" />
     <property name="options.splitter.main.proportions" value="0.25195095" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -679,22 +693,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="45" width="1248" height="778" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1881" height="1058" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39242426" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39148936" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21181718" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32271764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24031007" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16240267" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39464882" sideWeight="0.49972722" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39123866" sideWeight="0.49972722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38901603" sideWeight="0.50027275" order="9" side_tool="true" content_ui="tabs" x="482" y="368" width="910" height="366" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21517931" sideWeight="0.50075644" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32664436" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490484" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2827529" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23980424" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -704,11 +717,40 @@
       <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7285408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32271764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21181718" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24031007" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16240267" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38901603" sideWeight="0.50027275" order="9" side_tool="true" content_ui="tabs" x="482" y="368" width="910" height="366" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32664436" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28713694" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7285408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3909091" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32271764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39464882" sideWeight="0.49972722" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21517931" sideWeight="0.50075644" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490484" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -739,65 +781,50 @@
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>288</line>
-          <option name="timeStamp" value="253" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>257</line>
-          <option name="timeStamp" value="254" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>224</line>
-          <option name="timeStamp" value="270" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>87</line>
-          <option name="timeStamp" value="271" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>72</line>
-          <option name="timeStamp" value="272" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>58</line>
-          <option name="timeStamp" value="273" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>94</line>
-          <option name="timeStamp" value="275" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>79</line>
-          <option name="timeStamp" value="276" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
-          <line>65</line>
-          <option name="timeStamp" value="277" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_poliziaMunicipale.php</url>
           <line>2</line>
           <option name="timeStamp" value="332" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>162</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>100</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php</url>
+          <line>105</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php</url>
-          <line>51</line>
-          <option name="timeStamp" value="348" />
+          <line>68</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php</url>
+          <line>82</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="370" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="349" />
+      <option name="time" value="371" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -813,20 +840,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="10" selection-start="1003" selection-end="1003" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="540">
-          <folding>
-            <marker date="1397222872000" expanded="true" signature="524:582" placeholder="select DISTI..wp_cm_qualifiche..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="24" selection-start="1360" selection-end="1360" vertical-scroll-proportion="0.34774438" vertical-offset="151" max-vertical-offset="1312" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/amr-shortcode-any-widget/amr-shortcode-any-widget.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="153" column="41" selection-start="5962" selection-end="5962" vertical-scroll-proportion="0.50919116" vertical-offset="2043" max-vertical-offset="4464" />
@@ -944,11 +957,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="869" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="602" column="4" selection-start="10897" selection-end="10920" vertical-scroll-proportion="0.35054022" vertical-offset="8738" max-vertical-offset="53160" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="46" selection-start="1089" selection-end="1105" vertical-scroll-proportion="0.5432243" vertical-offset="0" max-vertical-offset="856" />
@@ -964,19 +972,9 @@
         <state line="65" column="33" selection-start="1477" selection-end="1477" vertical-scroll-proportion="0.23497267" vertical-offset="760" max-vertical-offset="12210" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="606" column="1" selection-start="11930" selection-end="11930" vertical-scroll-proportion="0.74740934" vertical-offset="8513" max-vertical-offset="9285" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="-22.28" vertical-offset="103" max-vertical-offset="1320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="295" selection-end="296" vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="490" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/struttura/comuni/cm_ufficio.php">
@@ -1034,69 +1032,97 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="351" column="72" selection-start="16256" selection-end="16256" vertical-scroll-proportion="0.0" vertical-offset="4735" max-vertical-offset="6150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="146" selection-start="8370" selection-end="8500" vertical-scroll-proportion="0.0" vertical-offset="3660" max-vertical-offset="5115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="-7.2916665" vertical-offset="65" max-vertical-offset="615">
-          <folding>
-            <marker date="1397222872000" expanded="true" signature="524:582" placeholder="select DISTI..wp_cm_qualifiche..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="112" selection-start="410" selection-end="410" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
-          <folding>
-            <marker date="1397320881000" expanded="true" signature="73:110" placeholder="select descr..wp_cm_deleghe..." />
-          </folding>
-        </state>
+        <state line="10" column="112" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="495" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="477" selection-end="538" vertical-scroll-proportion="3.125" vertical-offset="315" max-vertical-offset="1215">
-          <folding>
-            <marker date="1397212860000" expanded="true" signature="394:459" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-            <marker date="1397212860000" expanded="true" signature="473:595" placeholder="..." />
-            <marker date="1397212860000" expanded="true" signature="1239:1339" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-            <marker date="1397212860000" expanded="true" signature="2160:2261" placeholder="select DISTI..wp_elenco_comuni_istat..." />
-          </folding>
-        </state>
+        <state line="1714" column="21" selection-start="31882" selection-end="31882" vertical-scroll-proportion="0.13217391" vertical-offset="25634" max-vertical-offset="53235" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="198" selection-end="256" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="1395">
+        <state line="13" column="87" selection-start="847" selection-end="847" vertical-scroll-proportion="0.33854166" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="23" selection-start="10332" selection-end="10332" vertical-scroll-proportion="-2.125" vertical-offset="2499" max-vertical-offset="4155">
+        <state line="82" column="0" selection-start="2996" selection-end="2996" vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="4065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="8" selection-start="3086" selection-end="3128" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="3705">
           <folding>
-            <marker date="1397495599000" expanded="true" signature="1767:1824" placeholder="SELECT * FRO..wp_cm_qualifiche..." />
+            <marker date="1398178859000" expanded="true" signature="3606:3913" placeholder="SELECT codic..wp_elenco_comuni_istat..." />
+            <marker date="1398178859000" expanded="true" signature="8797:10554" placeholder="..." />
+            <marker date="1398178859000" expanded="true" signature="10450:10546" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1586" selection-end="1615" vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="20" selection-start="6491" selection-end="6491" vertical-scroll-proportion="0.0" vertical-offset="3900" max-vertical-offset="9345">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="432" column="14" selection-start="8639" selection-end="8639" vertical-scroll-proportion="0.019197207" vertical-offset="6469" max-vertical-offset="13935">
+        <state line="1123" column="2" selection-start="21156" selection-end="21157" vertical-scroll-proportion="0.0" vertical-offset="16392" max-vertical-offset="16980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="36" selection-start="5066" selection-end="5067" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="6435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="111" selection-start="2735" selection-end="2808" vertical-scroll-proportion="0.0" vertical-offset="1110" max-vertical-offset="1290">
+          <folding>
+            <marker date="1398331572000" expanded="true" signature="394:459" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+            <marker date="1398331572000" expanded="true" signature="1323:1423" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+            <marker date="1398331572000" expanded="true" signature="2336:2437" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="88" selection-start="1457" selection-end="1468" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1035">
+          <folding>
+            <marker date="1398344354000" expanded="true" signature="524:582" placeholder="select DISTI..wp_cm_qualifiche..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="51" selection-start="2054" selection-end="2069" vertical-scroll-proportion="-0.15432099" vertical-offset="495" max-vertical-offset="1530">
           <folding />
         </state>
       </provider>
