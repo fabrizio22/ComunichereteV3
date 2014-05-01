@@ -2,54 +2,43 @@
 	 <div class="div_form" id="div_form">
 		<div class="nome_cognome" id="nome_cognome">
 			<input type="text" name="nome" value="" placeholder="inserisci il tuo Nome" >
-            <input type="hidden" name="nomeH" value="Nome">
             <br />
-<!--			<input type="text" name="secondoNome" value="" placeholder="inserisci il tuo Secondo Nome" >-->
-<!--            <input type="hidden" name="secondoNomeH" value="Secondo Nome">-->
-<!--            <br />-->
 			<input type="text" name="cognome" value=""  placeholder="inserisci il tuo Cognome">
-            <input type="hidden" name="cognomeH" value="Cognome">
         </div>
-			<label class="titoloGruppo">Dati Ente</label><br /><hr>
+			<label class="titoloGruppo">Ente di Appartenenza</label><br /><hr>
 			<div class="fildRegistrazione" id="fildRegistrazione">
-	                     <input class="regione" type="radio" name="datiEnte" value="regione"/>
-                         <input type="hidden" name="registrazione1H" value="regione">
+	                     <input id="regione" class="regione" type="radio" name="datiEnte" value="regione"/>
 	                     <label class="regione">Regione</label><br />
-	                     <input class="provincia" type="radio" name="datiEnte" value="provincia"/>
-                         <input type="hidden" name="registrazione1H" value="provincia">
+	                     <input id="provincia" class="provincia" type="radio" name="datiEnte" value="provincia"/>
 	                     <label class="provincia">Provincia</label><br />
-	                     <input  class="comune"type="radio" name="datiEnte" value="comune"/>
-                         <input type="hidden" name="registrazione1H" value="comune">
+	                     <input id="comune"  class="comune" type="radio" name="datiEnte" value="comune"/>
 	                     <label class="comune">Comune</label><br />
 		    </div>
-	  </div>
+	    </div>
 </div>
 
-<div class="div_passaggi">
-
-
-    <div class="contenitore">
-        <?php
-            if (isset($errore)){
-        ?>
-        <div id="errore_mess" style="border:1px solid #000000;">
-        <?php
-                echo($errore);
-        ?>
-        </div>
-        <?php
-        }else{
-        ?>
-            <div id="errore_mess" style="border:1px solid #000000;">
-        <?php
-                echo('utente inserito con successo');
-        ?>
-        </div>
-        <?php
-
-        }
-        ?>
-
-
-    </div>
-</div>
+<!--     <div class="contenitore">-->
+<!--    --><?php
+//    if (isset($errore)){
+//        ?>
+<!--        <div id="errore_mess" style="border:1px solid #000000;">-->
+<!--            --><?php
+//            echo($errore);
+//            ?>
+<!--        </div>-->
+<!--    --><?php
+//    }else{
+//        ?>
+<!--        <div id="errore_mess" style="border:1px solid #000000;">-->
+<!--            --><?php
+//            echo('utente inserito con successo');
+//            ?>
+<!--        </div>-->
+<!--    --><?php
+//
+//    }
+//    ?>
+<!---->
+<!---->
+<!--</div>-->
+<!--</div>-->

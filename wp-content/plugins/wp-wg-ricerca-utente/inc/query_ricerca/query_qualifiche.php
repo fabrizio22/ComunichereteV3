@@ -38,7 +38,7 @@ if(isset($qualificaVal)){
             echo "<div class='optGroupQualifiche'>$tipologia_qualifica</div>";
             $appo = $tipologia_qualifica;
         }
-        echo "<div id='voce_qualifica' class='voce_qualifica' ><input class='qulificheCK' type='checkbox' name='comune[]' value='$comune' />$voce_qualifiche</div>";
+        echo "<div id='voce_qualifica' class='voce_qualifica' ><input id='qulificheCK' class='qulificheCK' type='checkbox' name='qualifiche[]' value='$voce_qualifiche' />$voce_qualifiche</div>";
 
         if($tipologia_qualifica != $appo){
             echo "</div>";

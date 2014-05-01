@@ -17,7 +17,7 @@
     outline: medium none;
     padding: 2px 4px 3px 1px;
     position: relative;
-    width: 95%;
+    width: 100%;
 }
 
 .selectCercaReg{
@@ -98,7 +98,7 @@
     border-radius: 4px;
     display: none;
     float: right;
-    margin: 0 11px 5px 0;
+    margin: 0 -28px 5px 0;
     position: relative;
     width: 63%;
 }
@@ -107,7 +107,7 @@
     display: none;
     left: 4px;
     position: absolute;
-    top: 209px;
+    top: 224px;
     width: 76px;
 }
 
@@ -335,6 +335,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     padding: 5px 112px !important;
     position: relative;
     text-align: center;
+    margin-left: 9px;
     top: 0;
     /*left: 20px;*/
     z-index: 9;
@@ -381,7 +382,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
-    width: 93.5%;
+    width: 100%;
     z-index: 99;
 }
 
@@ -391,12 +392,12 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     display: none;
     height: auto;
     margin-left: 1px;
-    margin-top: -11px !important;
+    margin-top: -13px !important;
     max-height: 225px;
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
-    width: 93.5%;
+    width: 100%;
     z-index: 99;
 }
 .cm_apriComuneRicerca{
@@ -404,7 +405,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border: 1px solid #CCCCCC;
     display: none;
     height: auto;
-    margin-top: -11px !important;
+    margin-top: -13px !important;
     margin-left: 1px;
     max-height: 225px;
     overflow-x: hidden;
@@ -439,7 +440,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
-    width: 93.5%;
+    width: 100%;
     z-index: 99;
 }
 
@@ -448,12 +449,12 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 }
 
 .cm_apriProvinciaRicercaWrapPro{
-    margin-top: -11px;
+    margin-top: -13px;
 }
 
 .cm_apriProvinciaRicercaWrapCom{
     margin-top: 52px;
-    width: 93.4%;
+    width: 100%;
     height: 189px;
     z-index: 99;
 }
@@ -465,9 +466,9 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     display: none;
     margin-bottom: 7px;
     margin-left: 1px;
-    margin-top: 189px;
-    position: relative;
-    width: 93.5%;
+    margin-top: 177px;
+    position: absolute;
+    width: 100%;
     z-index: 999;
 }
 
@@ -480,6 +481,18 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     margin-top: 232px;
     position: relative;
     width: 96.4%;
+    z-index: 999;
+}
+.footerComboQual{
+    background: none repeat scroll 0 0 #EEF1F3;
+    border: 1px solid #CCCCCC;
+    display: none;
+    height: 25px;
+    left: 1px;
+    margin-bottom: 7px;
+    margin-top: 213px;
+    position: absolute;
+    width: 100%;
     z-index: 999;
 }
 
@@ -595,21 +608,22 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border-image: none;
     border-left: 1px solid #CCCCCC;
     border-top: 1px solid #CCCCCC;
-    height: 20px;
-    margin-bottom: 10px;
+    height: 19px;
+    margin-bottom: 12px;
     margin-left: 1px;
     padding: 2px;
     position: relative;
-    width: 87%;
+    width: 100%;
 }
 
 
 
 .contentFrecciaSelect{
-    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
     float: right;
     height: 24px;
-    left: -12px;
+    left: 3px;
     position: relative;
     right: 7px;
     top: -36px;
@@ -632,10 +646,11 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 }
 
 .contentFrecciaSelectCom{
-    border: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
     float: right;
     height: 24px;
-    left: -12px;
+    left: 3px;
     position: relative;
     right: 7px;
     top: -36px;
@@ -648,7 +663,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     width: 12px;
     height: 12px;
     border-style: none;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .contenitoreFiltri{
@@ -696,13 +711,20 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 
 ol.facet-values {
     clear: left;
-    margin-left: -14px;
-    padding-top: 0px;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    width: 50%;
+}
+ol.facet-valuesQual {
+    clear: left;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    width: 100%;
 }
 
 ol.facet-valuesCom {
     clear: left;
-    margin-left: -2px;
+    margin-left: 10px;
     padding-top: 0px;
 }
 
@@ -720,26 +742,29 @@ ol, ul {
     height: 16px !important;
 
 }
-li.facet-value {
+li.facet-valueR {
     display: inline-block;
     /*margin-left: -18px;*/
     vertical-align: middle;
     white-space: nowrap;
     width: 100%;
-    margin-left: -14px;
-    height: 20px !important;
+    margin-left: -3px !important;
+    /*height: 20px !important;*/
 }
 
-.facet-value:hover{
-    border: 1px solid #FFFFFF;
-    background: #2164A0;
-    color: #ffffff;
-    height: 20px;
-}
+/*.facet-value:hover{*/
+    /*border: 1px solid #FFFFFF;*/
+    /*background: #2164A0;*/
+    /*color: #ffffff;*/
+    /*height: 20px;*/
+/*}*/
 
-.facet-label{
+.facet-labelR{
     margin-left: 10px;
+    width: 50%;
 }
+
+
 
 .comune_labl{
     margin-left: 7px;
@@ -749,9 +774,9 @@ li.facet-value {
     margin-left: 13px !important;
 }
 
-.regioneR, .provinciaR, .comuneR {
-    padding: 7px 0 9px !important;
-}
+/*.regioneR, .provinciaR, .comuneR {*/
+    /*padding: 3px 0 8px 0px !important;*/
+/*}*/
 
 .confermaFiltri{
     position: relative;
@@ -1000,37 +1025,74 @@ li.facet-value {
     position: relative;
 }
 
-.contentTasti{
-    border: 1px solid #000000;
-    height: 35px;
-    padding: 10px 0 0;
-    position: relative;
-    text-align: center;
-    width: 99.5%;
+.contentinfoUtente{
+    float: right;
+    position: absolute;
+    width: 100%;
+
 }
-.tastoOrganizzazione{
-    /*border-bottom: 6px solid #000000;*/
+
+.immagineUtente{
+    border: 3px solid #1370B3;
+    border-radius: 40px;
     float: left;
-    height: 31px;
+    height: 67px;
+    margin-left: 9px;
+    position: absolute;
+    top: 8px;
+    width: 67px;
+}
+
+.contentLabelUtente{
+    float: right;
     position: relative;
+    width: 68%;
+}
+
+.contentTasti{
+    /*border-bottom: 1px solid #1370B3;*/
+    /*border-top: 1px solid #1370B3;*/
+    height: 25px;
+    padding: 10px 0 0;
+    position: absolute;
+    text-align: center;
+    top: 155px;
+    width: 100%;
+}
+
+.contentTastiCM{
+    position: relative;
+    width: 100%;
+    top: 88px;
+}
+
+.tastoOrganizzazione{
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-opacity:0.7;
+    float: left;
+    height: 35px;
+    position: relative;
+    top: -11px;
     vertical-align: super;
     width: 33%;
 }
 .tastoMansione{
-    /*border-bottom: 6px solid #000000;*/
+    border: 1px solid rgba(0, 0, 0, 0.38);
     float: left;
-    height: 31px;
+    height: 35px;
     position: relative;
+    top: -11px;
     vertical-align: super;
     width: 33%;
 }
 .tastoAltro{
-    /*border-bottom: 6px solid #000000;*/
+    border: 1px solid rgba(0, 0, 0, 0.38);
     float: left;
-    height: 31px;
+    height: 35px;
     position: relative;
+    top: -11px;
     vertical-align: super;
-    width: 34%;
+    width: 32%;
 }
 .contentInfoPreMappa{
     position: relative;
@@ -1040,51 +1102,70 @@ li.facet-value {
 }
 .nomeTasto{
     color: #000000;
+    font-size: 0.7em;
+    position: relative;
+    text-align: center;
+    top: 5px;
 }
 .messaggio{
     background: none repeat scroll 0 0 #32A9DC;
-    border-radius: 8px;
+    border-radius: 4px;
     color: #FFFFFF;
-    float: left;
-    font-size: 17px;
-    height: 46px;
-    padding: 0 3px 2px 2px;
-    position: relative;
-    right: 30px;
+    font-size: 0.6em;
+    height: 35px;
+    position: absolute;
+    right: 40px;
     text-align: center;
+    top: 11px;
+    width: 33%;
 }
 .collegati{
     background: none repeat scroll 0 0 #8FBE43;
-    border-radius: 8px;
+    border-radius: 4px;
     color: #FFFFFF;
-    float: left;
-    font-size: 17px;
-    height: 46px;
-    left: 34px;
-    padding: 0 2px 2px;
-    position: relative;
+    font-size: 0.6em;
+    height: 35px;
+    left: 40px;
+    position: absolute;
     text-align: center;
-    width: 50%;
+    top: 11px;
+    width: 33%;
 }
 .tastoCollegati{
-    position: relative;
+    left: 4px;
+    line-height: 122%;
+    position: absolute;
+    text-align: center;
+    top: 4px;
 
 }
 .tastoMessaggio{
-    position: relative;
+    left: 4px;
+    line-height: 122%;
+    position: absolute;
+    text-align: center;
+    top: 4px;
 }
 
 .nomeUtentInfo{
-    font-size: 16px;
     color: #1B649A;
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
 }
 .cognomeUtentInfo{
-    font-size: 16px;
     color: #1B649A;
+    font-size: 16px;
+    left: 1px;
+    position: relative;
+    top: 28px;
 }
 .certificatoUtentInfo{
-    font-size: 10px;
     color: #323232;
+    font-size: 10px;
+    left: -47px;
+    position: relative;
+    top: 44px;
 }
 
 .contentMansione{
@@ -1096,7 +1177,7 @@ li.facet-value {
 }
 
 .regioneR, .provinciaR, .comuneR {
-    margin: 3px 0 8px 11px !important;
+    margin: 3px 0 8px 0px !important;
     padding: 7px 0 9px !important;
 }
 
@@ -1109,7 +1190,7 @@ li.facet-value {
     color: #1A659B;
     font-size: 14px;
     font-weight: bold;
-    left: 15px;
+    left: 7px;
     position: relative;
     white-space: nowrap;
     width: 100%;
@@ -1118,7 +1199,7 @@ li.facet-value {
 .voce_qualifica{
     position: relative;
     width: 100%;
-    left: 31px;
+    left: 16px;
 }
 
 .qulificheCK{

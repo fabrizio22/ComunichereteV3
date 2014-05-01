@@ -1,15 +1,12 @@
 <div id="containerOrganoGovernoProv" class="containerOrganoGovernoProv">
         <select class="selectCerca selectCercaReg" id="organoGovernoPr" name="organoGovernoPr">
             <option value="-" selected="selected">Seleziona una Qualifica</option>
-            <option value="Presidente">Presidente</option>
-            <option value="Vice Presidente">Vice Presidente</option>
-            <option value="Assessore">Assessore</option>
-            <option value="Presidente del Consiglio">Presidente del Consiglio</option>
-            <option value="Capogruppo">Capogruppo</option>
-            <option value="Consigliere">Consigliere</option>
-            <option value="Presidente Commissione">Presidente Commissione</option>
-            <option value="Vice Presidente Commissione">Vice Presidente Commissione</option>
-            <option value="Conferenza Capigruppo">Conferenza Capigruppo</option>
+            <option value="Presidente della Provincia">Presidente della Provincia</option>
+            <option value="Vice Presidente della Provincia">Vice Presidente della Provincia</option>
+            <option value="Assessore della Provincia">Assessore della Provincia</option>
+            <option value="Presidente del Consiglio Provinciale">Presidente del Consiglio Provinciale</option>
+            <option value="Vice Presidente del Consiglio Provinciale">Vice Presidente del Consiglio Provinciale</option>
+            <option value="Capogruppo Consigliare">Capogruppo Consigliare</option>
+            <option value="Consigliere provinciale">Consigliere provinciale</option>
         </select>
-        <input type="hidden" name="sezOganoGovernoH" value="Organo di Governo">
 </div>

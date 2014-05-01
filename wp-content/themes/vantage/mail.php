@@ -5,14 +5,15 @@ require( '../../../wp-load.php' );
 $ente=$_POST['mailAccount'];
 global $wpdb;
 
-$query = $wpdb->get_var("SELECT email FROM wp_elenco_comuni_istat WHERE denominazione_italiano = '".$ente."'");
-return $query;
+$query = $wpdb->get_results("SELECT email FROM wp_elenco_comuni_istat WHERE denominazione_comune_italiano = "."'". $ente ."'", ARRAY_A);
 
-/*if(isset($query))
+if(isset($query))
 {
+
     foreach($query as &$row ){
-        return $row[email]."\n";
+        echo $row[email]."\n";
+
     }
 
-}*/
+}
 ?>

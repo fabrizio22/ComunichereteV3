@@ -1,5 +1,5 @@
 <div id="regione_reg" class="regione_reg">
-    <input placeholder="Insirisci la tua Regione di Appartenenza" title="Regione di appartenenza" type="text" id="regioneApp" name="regioneApp">
+    <input placeholder="Denominazione Regione" title="Regione di appartenenza" type="text" id="regioneApp" name="regioneApp">
     <input type="hidden" id="regione" name="regioneH" value="Denominazione Ente">
     <br />
 	<div class="gruppoComuneRegione">
@@ -14,8 +14,9 @@
             <label class="titoloSottoSezione">Organo di Appartenenza e Qualifica</label><br/>
             <select class="selectCerca selectCercaReg" id="organoAppartenenzaRg" name="organoAppartenenzaRg">
                 <option value="-" selected="selected">Seleziona Organo di Appartenenza</option>
-                <option value="Organi di Governo">Organi di Governo</option>
-                <option value="Personale Amministraivo">Personale Amministraivo</option>
+                <option value="Organi di Governo">Organi Politico-Amministrativi</option>
+                <option value="Personale Amministraivo">Organi Di Assistenza e Controllo</option>
+                <option value="Personale DirigenteAmministraivo">Personale Dirigente e Amministrativo</option>
             </select>
 		</div>
         <input type="hidden" name="sezAmministrativoH" value="Organo di Appartenenza">

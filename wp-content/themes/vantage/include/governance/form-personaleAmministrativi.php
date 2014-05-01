@@ -5,23 +5,29 @@
                 <optgroup id="ko" label="">
                     <option value="Direttore Generale">Direttore Generale</option>
                 </optgroup>
-                <optgroup id="Settori" label="Settori">
-                    <option value="Direttore Settore">Direttore Settore</option>
-                    <option value="Dirigente Settore">Dirigente Settore</option>
-                    <option value="Responsabile Settore">Responsabile Settore</option>
-                    <option value="Capo Settore">Capo Settore</option>
-                    <option value="Vicecapo Settore">Vicecapo Settore</option>
+                <optgroup id="Dipartimento" label="Dipartimento">
+                    <option value="Direttore di Dipartimento">Direttore di Dipartimento</option>
+                    <option value="Dirigente di Dipartimento">Dirigente di Dipartimento</option>
+                    <option value="Responsabile di Dipartimento">Responsabile di Dipartimento</option>
+                    <option value="Capo Dipartimento">Capo Dipartimento</option>
+                    <option value="Vicecapo Dipartimento">Vicecapo Dipartimento</option>
                 </optgroup>
-                <optgroup id="Uffici" label="Uffici">
+                <optgroup id="Area/Settore" label="Area/Settore">
+                    <option value="Direttore Area/Settore">Direttore Area/Settore</option>
+                    <option value="Dirigente Area/Settore">Dirigente Area/Settore</option>
+                    <option value="Responsabile Area/Settore">Responsabile Area/Settore</option>
+                    <option value="Capo Area/Settore">Capo Area/Settore</option>
+                    <option value="Vicecapo Area/Settore">Vicecapo Area/Settore</option>
+                </optgroup>
+                <optgroup id="Uffico" label="Uffico">
                     <option value="Direttore Ufficio">Direttore Ufficio</option>
                     <option value="Dirigente Ufficio">Dirigente Ufficio</option>
                     <option value="Responsabile Ufficio">Responsabile Ufficio</option>
                     <option value="Capo Ufficio">Capo Ufficio</option>
-                    <option value="Vicecapo Ufficio">Vicecapo Ufficio</option>
+                    <option value="Vice Capo Ufficio">Vice Capo Ufficio</option>
                     <option value="Funzionario">Funzionario</option>
                     <option value="Personale Dipendente">Personale Dipendente</option>
                 </optgroup>
             </select>
         </div>
-        <input type="hidden" name="sezAmministrativoH" value="Personale Amministrativo">
 </div>

@@ -62,6 +62,7 @@ $.Autocompleter = function(input, options) {
 		PAGEUP: 33,
 		PAGEDOWN: 34,
 		BACKSPACE: 8
+
 	};
 
 	// Create $ object for input element
@@ -410,7 +411,7 @@ $.Autocompleter.defaults = {
 	resultsClass: "ac_results",
 	loadingClass: "ac_loading",
 	minChars: 1,
-	delay: 400,
+	delay: 0,
 	matchCase: false,
 	matchSubset: true,
 	matchContains: false,

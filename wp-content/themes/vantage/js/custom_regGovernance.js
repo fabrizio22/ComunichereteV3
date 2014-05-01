@@ -16,6 +16,7 @@ jQuery(document).ready(function(){
     var containerPersonaleAmministrativo = jQuery('#containerPersonaleAmministrativo');
     var containerPersonaleAmministrativoPr = jQuery('#containerPersonaleAmministrativoPr');
     var containerPersonaleAmministrativoRg = jQuery('#containerPersonaleAmministrativoRg');
+    var containerOrganoAssistenzaControlloRg = jQuery('#containerOrganoAssistenzaControlloRg');
     var containerUffici = jQuery('#containerUffici');
     var containerSettori = jQuery('#containerSettori');
     var dati_privacy = jQuery('#dati_privacy');
@@ -43,6 +44,8 @@ jQuery(document).ready(function(){
     var containerpoliziaMunicipalePr = jQuery('.containerpoliziaMunicipalePr');
     var containerOrganoGovernoProv = jQuery('.containerOrganoGovernoProv');
     var containerOrganoGovernoReg = jQuery('.containerOrganoGovernoReg');
+    var containerPassword = jQuery('#ContainerPassword');
+    var containercapch = jQuery('#Containercapch');
 
 
 	var salva = jQuery('#salvaButton');
@@ -62,6 +65,7 @@ jQuery(document).ready(function(){
     containerPersonaleAmministrativo.css('display','none');
     containerPersonaleAmministrativoPr.css('display','none');
     containerPersonaleAmministrativoRg.css('display','none');
+    containerOrganoAssistenzaControlloRg.css('display','none');
     containerpoliziaMunicipale.css('display','none');
     containerpoliziaMunicipalePr.css('display','none');
     containerUffici.css('display','none');
@@ -89,6 +93,8 @@ jQuery(document).ready(function(){
 	containerDimensioniAziendaSedeAzienda.css('display','none');
 	entePrincipale.css('display','none');
 	containerLiberoProfessionista.css('display','none');
+    containerPassword.css('display','none');
+    containercapch.css('display','none');
 
 	jQuery("#form_organoPolitico").validate(
 	    {
@@ -147,8 +153,19 @@ jQuery(document).ready(function(){
             regione_reg.css('display','none');
             jQuery('#provincia_reg').css('display','none');
 			jQuery('#comune_reg').css('display','block');
+            containerOrganoAssistenzaControlloRg.css('display','none');
+            dati_privacy.css('display','block');
+            containerPassword.css('display','block');
+            containercapch.css('display','block');
+            salva.css('display','block');
+
+
+            jQuery('#comune').attr("disabled", 'true');
+            jQuery('#provincia').attr("disabled", 'true');
+            jQuery('#regione').attr("disabled", 'true');
         }
 	});
+
 
     jQuery('input:radio[value="provincia"]').change(function() {
         if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'provincia')) {
@@ -156,6 +173,11 @@ jQuery(document).ready(function(){
             regione_reg.css('display','none');
             jQuery('#comune_reg').css('display','none');
             jQuery('#provincia_reg').css('display','block');
+            containerOrganoAssistenzaControlloRg.css('display','none');
+            containerPassword.css('display','block');
+            containercapch.css('display','block');
+            dati_privacy.css('display','block');
+            salva.css('display','block');
         }
     });
 
@@ -165,24 +187,18 @@ jQuery(document).ready(function(){
             regione_reg.css('display','block');
             jQuery('#comune_reg').css('display','none');
             jQuery('#provincia_reg').css('display','none');
+            containerPassword.css('display','block');
+            containercapch.css('display','block');
+
+            dati_privacy.css('display','block');
+            salva.css('display','block');
         }
     });
 
-    jQuery('input:radio[value="SI"]').change(function() {
-        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'SI')) {
-			entePrincipale.css('display','block');
-        }
-    });
-
-    jQuery('input:radio[value="NO"]').change(function() {
-        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'NO')) {
-			entePrincipale.css('display','none');
-        }
-    });
 
 
     jQuery("#organoAppartenenza").change(function() {
-        var valoreOrganoAppartenenza = jQuery('#organoAppartenenza :selected').text();
+        var valoreOrganoAppartenenza = jQuery('#organoAppartenenza :selected').val();
         if (valoreOrganoAppartenenza === 'Organi di Governo') {
             containerOrganoGoverno.css('display','block');
             containerpoliziaMunicipale.css('display','none');
@@ -206,20 +222,13 @@ jQuery(document).ready(function(){
             containerUffici.css('display','none');
             containerpoliziaMunicipale.css('display','block');
         }
-        jQuery('#comune').attr("disabled", 'true');
-        jQuery('#provincia').attr("disabled", 'true');
-        jQuery('#regione').attr("disabled", 'true');
-        form_organoPolitico.css('display','block');
-        containerDomandeSicurezza.css('display','block');
-        dati_privacy.css('display','block');
-        salva.css('display','block');
     });
 
 
 
     //provincia
     jQuery("#organoAppartenenzaPr").change(function() {
-        var orgAppartenenzaPr = jQuery('#organoAppartenenzaPr :selected').text();
+        var orgAppartenenzaPr = jQuery('#organoAppartenenzaPr :selected').val();
         if (orgAppartenenzaPr === 'Organi di Governo') {
             containerOrganoGovernoProv.css('display','block');
             containerOrganoControlloPr.css('display','none');
@@ -235,38 +244,31 @@ jQuery(document).ready(function(){
             containerOrganoControlloPr.css('display','none');
             containerPersonaleAmministrativoPr.css('display','block');
             containerpoliziaMunicipalePr.css('display','none');
-        }else if (orgAppartenenzaPr === 'Polizia Municipale') {
+        }else if (orgAppartenenzaPr === 'Polizia Provinciale') {
             containerOrganoGovernoProv.css('display','none');
             containerOrganoControlloPr.css('display','none');
             containerPersonaleAmministrativoPr.css('display','none');
             containerpoliziaMunicipalePr.css('display','block');
         }
-        containerDomandeSicurezzaPr.css('display','block');
-        dati_privacyPr.css('display','block');
-        salva.css('display','block');
-        jQuery('#comune').attr("disabled", 'true');
-        jQuery('#provincia').attr("disabled", 'true');
-        jQuery('#regione').attr("disabled", 'true');
-
     });
 
     //regione
     jQuery("#organoAppartenenzaRg").change(function() {
-        var organoGovernoRg = jQuery('#organoAppartenenzaRg :selected').text();
+        var organoGovernoRg = jQuery('#organoAppartenenzaRg :selected').val();
         if (organoGovernoRg === 'Organi di Governo') {
             containerOrganoGovernoReg.css('display','block');
             containerPersonaleAmministrativoRg.css('display','none');
+            containerOrganoAssistenzaControlloRg.css('display','none');
             //containerDelegheRg.css('display','block');
         }else if (organoGovernoRg === 'Personale Amministraivo') {
             containerPersonaleAmministrativoRg.css('display','block');
+            containerOrganoAssistenzaControlloRg.css('display','none');
+            containerOrganoGovernoReg.css('display','none');
+        }else if (organoGovernoRg === 'Personale DirigenteAmministraivo') {
+            containerOrganoAssistenzaControlloRg.css('display','block');
+            containerPersonaleAmministrativoRg.css('display','none');
             containerOrganoGovernoReg.css('display','none');
         }
-        jQuery('#comune').attr("disabled", 'true');
-        jQuery('#provincia').attr("disabled", 'true');
-        jQuery('#regione').attr("disabled", 'true');
-        containerDomandeSicurezzaRg.css('display','block');
-        dati_privacyRg.css('display','block');
-        salva.css('display','block');
     });
 
 
@@ -292,234 +294,247 @@ jQuery(document).ready(function(){
 
 
     //inizio gestione uffici
-    jQuery('[value="Responsabile Ufficio"]').click(function() {
-        if (jQuery(this).is(':checked')) {
-             containerUffici.css('display','block');
-             containerDomandeSicurezza.css('display','block');
-             containerSettori.css('display','none');
-             //settoriSecondarigha.css('display','none');
-             dati_privacy.css('display','block');
-             jQuery('#organiGoverno').attr("disabled", 'true');
-             jQuery('#organiControllo').attr("disabled", 'true');
-             salva.css('display','block');
-            containerPersonaleAmministrativo.css('display','block');
-        }
-    });
+//    jQuery('[value="Responsabile Ufficio"]').click(function() {
+//        if (jQuery(this).is(':checked')) {
+//             containerUffici.css('display','block');
+//             containerDomandeSicurezza.css('display','block');
+//             containerSettori.css('display','none');
+//             //settoriSecondarigha.css('display','none');
+//             dati_privacy.css('display','block');
+//             jQuery('#organiGoverno').attr("disabled", 'true');
+//             jQuery('#organiControllo').attr("disabled", 'true');
+//             salva.css('display','block');
+//            containerPersonaleAmministrativo.css('display','block');
+//        }
+//    });
+//
+//    jQuery('[value="Capo Ufficio"]').click(function() {
+//        if (jQuery(this).is(':checked')) {
+//             containerUffici.css('display','block');
+//             containerDomandeSicurezza.css('display','block');
+//             containerSettori.css('display','none');
+//             //settoriSecondarigha.css('display','none');
+//             dati_privacy.css('display','block');
+//             salva.css('display','block');
+//             jQuery('#organiGoverno').attr("disabled", 'true');
+//             jQuery('#organiControllo').attr("disabled", 'true');
+//            containerPersonaleAmministrativo.css('display','block');
+//        }
+//    });
+//
+//    jQuery('[value="Funzionario"]').click(function() {
+//        if (jQuery(this).is(':checked')) {
+//             containerUffici.css('display','block');
+//             containerDomandeSicurezza.css('display','block');
+//             //settoriSecondarigha.css('display','none');
+//             containerSettori.css('display','none');
+//             dati_privacy.css('display','block');
+//             salva.css('display','block');
+//             jQuery('#organiGoverno').attr("disabled", 'true');
+//             jQuery('#organiControllo').attr("disabled", 'true');
+//            containerPersonaleAmministrativo.css('display','block');
+//        }
+//    });
+//
+//    jQuery('[value="Dipendente del Comune"]').click(function() {
+//        if (jQuery(this).is(':checked')) {
+//             containerUffici.css('display','block');
+//             containerDomandeSicurezza.css('display','block');
+//             containerSettori.css('display','none');
+//             //settoriSecondarigha.css('display','none');
+//             dati_privacy.css('display','block');
+//             salva.css('display','block');
+//             jQuery('#organiGoverno').attr("disabled", 'true');
+//             jQuery('#organiControllo').attr("disabled", 'true');
+//            containerPersonaleAmministrativo.css('display','block');
+//        }
+//    });
+//
+//    //settori
+//    jQuery("#containerPersonaleAmministrativo").change(function() {
+//        var settori_uffici =  jQuery('#containerPersonaleAmministrativo :selected').parent().attr('id')
+//        if (settori_uffici === 'Settori') {
+//            containerSettori.css('display','block');
+//            containerUffici.css('display','none');
+//            containerPersonaleAmministrativo.css('display','block');
+//        }else if (settori_uffici === 'Uffici'){
+//            containerSettori.css('display','block');
+//            containerUffici.css('display','block');
+//            containerPersonaleAmministrativo.css('display','block');
+//        }else{
+//            containerSettori.css('display','none');
+//            containerUffici.css('display','none');
+//        }
+//        containerpoliziaMunicipale.css('display','none');
+//        containerDomandeSicurezza.css('display','block');
+//        dati_privacy.css('display','block');
+//        salva.css('display','block');
+//        jQuery('#organiGoverno').attr("disabled", 'true');
+//        jQuery('#organiControllo').attr("disabled", 'true');
+//
+//    });
+//
+//    //deleghe
+//    jQuery("#organoGoverno").change(function() {
+//        var organiGoverno = jQuery('#organoGoverno :selected').text();
+//        if ((organiGoverno === 'Sindaco') || (organiGoverno === 'Vicesindaco') || (organiGoverno === 'Assessore') || (organiGoverno === 'Assessore non di origine elettiva') || (organiGoverno === 'Delegato del Sindaco')) {
+//            containerDeleghe.css('display','block');
+//        }else{
+//            containerDeleghe.css('display','none');
+//        }
+//        containerDomandeSicurezza.css('display','block');
+//        dati_privacy.css('display','block');
+//        salva.css('display','block');
+//        jQuery('#personaleAmministrativo').attr("disabled", 'true');
+//        jQuery('#organiControllo').attr("disabled", 'true');
+//    });
+//
+//    //dati azienda
+//        jQuery('input:radio[value="Azienda"]').change(function() {
+//	        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'Azienda')) {
+//	        	// jQuery('#dati_registrazioneIniziale').css('display','none');
+//	        	containerLiberoProfessionista.css('display','none');
+//	        	containerQuailificheMansioniBus.css('display','block');
+//	        }
+//		});
+//
+//        jQuery('input:radio[value="Libero professionista"]').change(function() {
+//	        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'Libero professionista')) {
+//	        	// jQuery('#dati_registrazioneIniziale').css('display','none');
+//	        	containerLiberoProfessionista.css('display','block');
+//	        	containerQuailificheMansioniBus.css('display','none');
+//	        	containerDomandeSicurezza.css('display','block');
+//				dati_privacy.css('display','block');
+//				salva.css('display','block');
+//	        }
+//		});
+//
+//
+//    //qualifiche per la ricerca
+//    jQuery("#cm_qualificheOrganoGov").change(function() {
+//        var qualifiche = jQuery('#cm_qualificheOrganoGov :selected').text();
+//        if ((qualifiche == 'Sindaco') || (qualifiche == 'Delegato del Sindaco') || (qualifiche == 'Vicesindaco') || (qualifiche == 'Assessore') || (qualifiche == 'Assessore non di origine elettiva')) {
+//            jQuery('.delegheOganoGoverno').css("display", 'block');
+//        }
+//    });
+//
+//
+//
+//            jQuery("#cm_qualificaContestoComune").change(function() {
+//        var ente = jQuery('#cm_qualificaContestoComune :selected').text();
+//        if (ente == 'Organi di Governo') {
+//            jQuery('.cm_qualificheComuni').css("display", 'block');
+//            jQuery('.pr_qualificheProvincie').css("display", 'none');
+//            jQuery('.rg_qualificheRegione').css("display", 'none');
+//            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
+//        } else if (ente == 'Organi di Controllo') {
+//            jQuery('.cm_qualificheComuni').css("display", 'none');
+//            jQuery('.pr_qualificheProvincie').css("display", 'block');
+//            jQuery('.rg_qualificheRegione').css("display", 'none');
+//            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
+//        } else if (ente == 'Personale Amministraivo') {
+//            jQuery('.cm_qualifichePerAmministrativo').css("display", 'block');
+//            jQuery('.cm_qualificheComuni').css("display", 'none');
+//            jQuery('.pr_qualificheProvincie').css("display", 'none');
+//            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
+//        } else if (ente == 'Polizia Municipale') {
+//            jQuery('.cm_qualificheComuni').css("display", 'none');
+//            jQuery('.pr_qualificheProvincie').css("display", 'none');
+//            jQuery('.rg_qualificheRegione').css("display", 'none');
+//            jQuery('.qualifichepoliziaMunicipale').css("display", 'block');
+//        }
+//        //containercategoriaMerceologica.css('display','block');
+//    });
+//
+//
+//    jQuery("#pubblicaAmministrazioneRicerca").change(function() {
+//        var ente = jQuery('#pubblicaAmministrazioneRicerca :selected').text();
+//        if (ente == 'Pubblica Amministrazione') {
+//             jQuery('#enteRicerca').css("display", 'block');
+//        }
+//
+//        containercategoriaMerceologica.css('display','block');
+//    });
+//
+//	jQuery("#qulifiche").change(function() {
+//        var listaQualifica = jQuery('#qulifiche :selected').text();
+//		if (listaQualifica == 'Titolare') {
+//	            containerQualificheTitolareBus.css('display','block');
+//	            containerQualificheAltriBus.css('display','none');
+//	        }else{
+//		        containerQualificheAltriBus.css('display','block');
+//		        containerQualificheTitolareBus.css('display','none');
+//
+//	        }
+//	        containercategoriaMerceologica.css('display','block');
+//    });
+//
+//	jQuery("#selectcategoriaGenerica").change(function() {
+//        var listaCategoriaGenerica = jQuery('#selectcategoriaGenerica :selected').text();
+//		if (listaCategoriaGenerica == 'ABBIGLIAMENTO') {
+//				containerDimensioniAziendaSedeAzienda.css('display','block');
+//	            containerAbbigliamentoBus.css('display','block');
+//	            containerDomandeSicurezza.css('display','block');
+//				dati_privacy.css('display','block');
+//				salva.css('display','block');
+//	        }
+//	        jQuery("#qulifiche").prop('disabled', 'disabled');
+//	        jQuery('#associazione').attr("disabled", 'true');
+//	        jQuery('#Azienda').attr("disabled", 'true');
+//	        jQuery('#liberoProfessionista').attr("disabled", 'true');
+//    });
 
-    jQuery('[value="Capo Ufficio"]').click(function() {
-        if (jQuery(this).is(':checked')) {
-             containerUffici.css('display','block');
-             containerDomandeSicurezza.css('display','block');
-             containerSettori.css('display','none');
-             //settoriSecondarigha.css('display','none');
-             dati_privacy.css('display','block');
-             salva.css('display','block');
-             jQuery('#organiGoverno').attr("disabled", 'true');
-             jQuery('#organiControllo').attr("disabled", 'true');
-            containerPersonaleAmministrativo.css('display','block');
-        }
-    });
 
-    jQuery('[value="Funzionario"]').click(function() {
-        if (jQuery(this).is(':checked')) {
-             containerUffici.css('display','block');
-             containerDomandeSicurezza.css('display','block');
-             //settoriSecondarigha.css('display','none');
-             containerSettori.css('display','none');
-             dati_privacy.css('display','block');
-             salva.css('display','block');
-             jQuery('#organiGoverno').attr("disabled", 'true');
-             jQuery('#organiControllo').attr("disabled", 'true');
-            containerPersonaleAmministrativo.css('display','block');
-        }
-    });
-
-    jQuery('[value="Dipendente del Comune"]').click(function() {
-        if (jQuery(this).is(':checked')) {
-             containerUffici.css('display','block');
-             containerDomandeSicurezza.css('display','block');
-             containerSettori.css('display','none');
-             //settoriSecondarigha.css('display','none');
-             dati_privacy.css('display','block');
-             salva.css('display','block');
-             jQuery('#organiGoverno').attr("disabled", 'true');
-             jQuery('#organiControllo').attr("disabled", 'true');
-            containerPersonaleAmministrativo.css('display','block');
-        }
-    });
-
-    //settori
-    jQuery("#containerPersonaleAmministrativo").change(function() {
-        var settori_uffici =  jQuery('#containerPersonaleAmministrativo :selected').parent().attr('id')
-        if (settori_uffici === 'Settori') {
-            containerSettori.css('display','block');
-            containerUffici.css('display','none');
-            containerPersonaleAmministrativo.css('display','block');
-        }else if (settori_uffici === 'Uffici'){
-            containerSettori.css('display','block');
-            containerUffici.css('display','block');
-            containerPersonaleAmministrativo.css('display','block');
-        }else{
-            containerSettori.css('display','none');
-            containerUffici.css('display','none');
-        }
-        containerpoliziaMunicipale.css('display','none');
-        containerDomandeSicurezza.css('display','block');
-        dati_privacy.css('display','block');
-        salva.css('display','block');
-        jQuery('#organiGoverno').attr("disabled", 'true');
-        jQuery('#organiControllo').attr("disabled", 'true');
-
-    });
-
-    //deleghe
-    jQuery("#organoGoverno").change(function() {
-        var organiGoverno = jQuery('#organoGoverno :selected').text();
-        if ((organiGoverno === 'Sindaco') || (organiGoverno === 'Vicesindaco') || (organiGoverno === 'Assessore') || (organiGoverno === 'Assessore non di origine elettiva') || (organiGoverno === 'Delegato del Sindaco')) {
-            containerDeleghe.css('display','block');
-        }else{
-            containerDeleghe.css('display','none');
-        }
-        containerDomandeSicurezza.css('display','block');
-        dati_privacy.css('display','block');
-        salva.css('display','block');
-        jQuery('#personaleAmministrativo').attr("disabled", 'true');
-        jQuery('#organiControllo').attr("disabled", 'true');
-    });
-
-    //dati azienda
-        jQuery('input:radio[value="Azienda"]').change(function() {
-	        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'Azienda')) {
-	        	// jQuery('#dati_registrazioneIniziale').css('display','none');
-	        	containerLiberoProfessionista.css('display','none');
-	        	containerQuailificheMansioniBus.css('display','block');
-	        }
-		});
-
-        jQuery('input:radio[value="Libero professionista"]').change(function() {
-	        if ((jQuery(this).is(':checked')) && (jQuery(this).val() == 'Libero professionista')) {
-	        	// jQuery('#dati_registrazioneIniziale').css('display','none');
-	        	containerLiberoProfessionista.css('display','block');
-	        	containerQuailificheMansioniBus.css('display','none');
-	        	containerDomandeSicurezza.css('display','block');
-				dati_privacy.css('display','block');
-				salva.css('display','block');
-	        }
-		});
-
-
-    //qualifiche per la ricerca
-    jQuery("#cm_qualificheOrganoGov").change(function() {
-        var qualifiche = jQuery('#cm_qualificheOrganoGov :selected').text();
-        if ((qualifiche == 'Sindaco') || (qualifiche == 'Delegato del Sindaco') || (qualifiche == 'Vicesindaco') || (qualifiche == 'Assessore') || (qualifiche == 'Assessore non di origine elettiva')) {
-            jQuery('.delegheOganoGoverno').css("display", 'block');
-        }
-    });
-
-
-
-            jQuery("#cm_qualificaContestoComune").change(function() {
-        var ente = jQuery('#cm_qualificaContestoComune :selected').text();
-        if (ente == 'Organi di Governo') {
-            jQuery('.cm_qualificheComuni').css("display", 'block');
-            jQuery('.pr_qualificheProvincie').css("display", 'none');
-            jQuery('.rg_qualificheRegione').css("display", 'none');
-            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
-        } else if (ente == 'Organi di Controllo') {
-            jQuery('.cm_qualificheComuni').css("display", 'none');
-            jQuery('.pr_qualificheProvincie').css("display", 'block');
-            jQuery('.rg_qualificheRegione').css("display", 'none');
-            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
-        } else if (ente == 'Personale Amministraivo') {
-            jQuery('.cm_qualifichePerAmministrativo').css("display", 'block');
-            jQuery('.cm_qualificheComuni').css("display", 'none');
-            jQuery('.pr_qualificheProvincie').css("display", 'none');
-            jQuery('.qualifichepoliziaMunicipale').css("display", 'none');
-        } else if (ente == 'Polizia Municipale') {
-            jQuery('.cm_qualificheComuni').css("display", 'none');
-            jQuery('.pr_qualificheProvincie').css("display", 'none');
-            jQuery('.rg_qualificheRegione').css("display", 'none');
-            jQuery('.qualifichepoliziaMunicipale').css("display", 'block');
-        }
-        //containercategoriaMerceologica.css('display','block');
-    });
-
-
-    jQuery("#pubblicaAmministrazioneRicerca").change(function() {
-        var ente = jQuery('#pubblicaAmministrazioneRicerca :selected').text();
-        if (ente == 'Pubblica Amministrazione') {
-             jQuery('#enteRicerca').css("display", 'block');
-        }
-
-        containercategoriaMerceologica.css('display','block');
-    });
-
-	jQuery("#qulifiche").change(function() {
-        var listaQualifica = jQuery('#qulifiche :selected').text();
-		if (listaQualifica == 'Titolare') {
-	            containerQualificheTitolareBus.css('display','block');
-	            containerQualificheAltriBus.css('display','none');
-	        }else{
-		        containerQualificheAltriBus.css('display','block');
-		        containerQualificheTitolareBus.css('display','none');
-
-	        }
-	        containercategoriaMerceologica.css('display','block');
-    });
-
-	jQuery("#selectcategoriaGenerica").change(function() {
-        var listaCategoriaGenerica = jQuery('#selectcategoriaGenerica :selected').text();
-		if (listaCategoriaGenerica == 'ABBIGLIAMENTO') {
-				containerDimensioniAziendaSedeAzienda.css('display','block');
-	            containerAbbigliamentoBus.css('display','block');
-	            containerDomandeSicurezza.css('display','block');
-				dati_privacy.css('display','block');
-				salva.css('display','block');
-	        }
-	        jQuery("#qulifiche").prop('disabled', 'disabled');
-	        jQuery('#associazione').attr("disabled", 'true');
-	        jQuery('#Azienda').attr("disabled", 'true');
-	        jQuery('#liberoProfessionista').attr("disabled", 'true');
-    });
-
-
-    //autocomplete
+    //autocomplete Comune
     jQuery("#comuneApp").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
+    //regione
+    jQuery("#regioneApp").autocomplete("../wp-content/themes/vantage/autocompleteReg.php", { selectFirst: true });
+    //provincia
+    jQuery("#provinciaApp").autocomplete("../wp-content/themes/vantage/autocompletePro.php", { selectFirst: true });
 
     jQuery("#ubicazioneScuola").autocomplete("../wp-content/themes/vantage/autocomplete.php", { selectFirst: true });
 
     jQuery('#mailIns').focusin(function() {
 
         //recupero variabile "discriminante"
-        var comuneApp = jQuery("#comuneApp").val();
+        var val = jQuery("#comuneApp").val();
 
-        //chiamata ajax
-        var element = jQuery.ajax({
-            type: "POST",
+        jQuery.ajax({
             url: "../wp-content/themes/vantage/mail.php",
-            data: "mailAccount=" + comuneApp
-
+            type: 'POST',
+            data: {'mailAccount':val},
+            dataType: "html",
+            success: function(msg)
+            {
+                jQuery("#mailComune").html(msg);
+                jQuery("#mailComuneConf").html(msg);
+            },
+            error: function()
+            {
+                alert("Chiamata fallita, si prega di riprovare..."); //sempre meglio impostare una callback in caso di fallimento
+            }
         });
+
         jQuery("#mailComune").attr('value','@gmail.com');//stampa i risultati dentro la seconda select
         jQuery("#mailComuneConf").attr('value','@gmail.com');//stampa i risultati dentro la seconda select
 
     });
 
-    jQuery('#pubblicaAmministrazione').change(function() {
-        var valUtente = jQuery( "#pubblicaAmministrazione option:selected" ).text();
-        if(valUtente === 'Pubblica Amministrazione'){
-            jQuery('#nomeUtente').css('display','block');
-        }
-    });
-
-    jQuery("#aprisettore").click( function(){
-        if(indSet === 0){
-            jQuery("#strutturaSettoreProvincia").fadeIn("slow");
-            indSet =1;
-        }else{
-            jQuery("#strutturaSettoreProvincia").fadeOut(30);
-            indSet = 0;
-        }
-    });
+//    jQuery('#pubblicaAmministrazione').change(function() {
+//        var valUtente = jQuery( "#pubblicaAmministrazione option:selected" ).text();
+//        if(valUtente === 'Pubblica Amministrazione'){
+//            jQuery('#nomeUtente').css('display','block');
+//        }
+//    });
+//
+//    jQuery("#aprisettore").click( function(){
+//        if(indSet === 0){
+//            jQuery("#strutturaSettoreProvincia").fadeIn("slow");
+//            indSet =1;
+//        }else{
+//            jQuery("#strutturaSettoreProvincia").fadeOut(30);
+//            indSet = 0;
+//        }
+//    });
 
 });

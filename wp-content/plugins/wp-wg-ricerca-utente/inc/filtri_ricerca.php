@@ -26,16 +26,16 @@
                         <label class="intestazione">Qualifica Professione e Carica</label>
                         <div class="qulifica disabilitato" id="qulifica" name="qulifica">
                             <div id='contenitoreSelectQulifica' class='contenitoreSelect'>
-                                <a id='selectComplessaQulifica' class='selectComplessa'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaReg'>Qualifica</div><div class='contentFrecciaSelect' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
+                                <a id='selectComplessaQulifica' class='selectComplessa'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaQual'>Qualifica</div><div class='contentFrecciaSelect' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
                             </div>
                         </div>
 
                         <div id='cm_apriQualificaRicerca' class='cm_apriQualificaRicerca cm_apriQualificaRicercaWrapReg'>
-                            <ol id='label_qualifica' class='facet-values'>
+                            <ol id='label_qualifica' class='facet-valuesQual'>
 
                             </ol>
                         </div>
-
+                        <div class="footerComboQual" id="footerComboQual"><a href="#" id="confermaFiltriQual" class="confermaFiltri">Conferma Selezione</a></div>
 
                     </div>
                     <div class="divNomeEnte" name="divNomeEnte">
@@ -57,7 +57,7 @@
                                 </div>
 
                                     <div id='cm_apriRegioniRicerca' class='cm_apriRegioniRicerca cm_apriProvinciaRicercaWrapReg'>
-                                        <ol id='label_reg' class='facet-values'>
+                                        <ol id='label_reg' class='facet-labelR'>
 
                                         </ol>
                                     </div>
@@ -72,7 +72,7 @@
 
 
                                     <div id='cm_apriProvinciaRicerca' class='cm_apriProvinciaRicerca cm_apriProvinciaRicercaWrapPro'>
-                                        <ol id="label_pro" class='facet-values'>
+                                        <ol id="label_pro" class='facet-labelR'>
 
                                         </ol>
                                     </div>
@@ -84,7 +84,7 @@
                                     </div>
                                 </div>
                                     <div id='cm_apriComuneRicerca' class='cm_apriComuneRicerca cm_apriProvinciaRicercaWrapCom'>
-                                        <ol id="label_com" class='facet-values'>
+                                        <ol id="label_com" class='facet-valuesCom'>
 
                                         </ol>
 
