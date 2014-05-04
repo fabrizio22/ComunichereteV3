@@ -325,7 +325,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 
 .contenitoreSelect{
     position: relative;
-    margin-top: 10px;
+
 
 }
 
@@ -420,12 +420,12 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     border: 1px solid #CCCCCC;
     display: none;
     height: auto;
-    margin-top: 6px;
+    margin-top: -20px;
     max-height: 225px;
     overflow-x: hidden;
     overflow-y: auto;
     position: absolute;
-    width: 96.4%;
+    width: 248px;
     z-index: 99;
 }
 
@@ -469,6 +469,18 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     margin-top: 177px;
     position: absolute;
     width: 100%;
+    z-index: 999;
+}
+
+.footerComboUffici{
+    background: none repeat scroll 0 0 #EEF1F3;
+    border: 1px solid #CCCCCC;
+    display: none;
+    height: 25px;
+    margin-bottom: 7px;
+    margin-top: 206px;
+    position: absolute;
+    width: 248px;
     z-index: 999;
 }
 
@@ -536,7 +548,7 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 }
 .areaFiltri{
     background-color: #F2F2F2;
-    height: 60px;
+    height: auto;
     left: 13px;
     position: relative;
     top: -2px;
@@ -616,46 +628,71 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
     width: 100%;
 }
 
+.contentFrecciaSelectCom{
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    float: right;
+    height: 24px;
+    left: 6px;
+    position: relative;
+    right: 7px;
+    top: -36px;
+    width: 24px;
+}
 
+.contentFrecciaSelectFiltri{
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    float: right;
+    height: 24px;
+    position: relative;
+    right: 7px;
+    top: -36px;
+    width: 24px;
+}
 
 .contentFrecciaSelect{
     border-left: 1px solid #CCCCCC;
     border-right: 1px solid #CCCCCC;
     float: right;
     height: 24px;
-    left: 3px;
+
     position: relative;
     right: 7px;
     top: -36px;
     width: 24px;
 }
+
+.contentFrecciaSelectFiltro{
+    left: 6px;
+}
+.contentFrecciaSelectUffici{
+    left: 7px;
+}
+.contentFrecciaSelectDeleghe{
+    left: 7px;
+}
+.contentFrecciaSelectSettori{
+    left: 6px;
+}
+.contentFrecciaSelectNuclei{
+    left: 3px;
+}
+.contentFrecciaSelectDipartimenti{
+    left: 3px;
+}
+.contentFrecciaSelectDirezioni{
+    left: 3px;
+}
+
 
 .contentFrecciaSelect img{
     box-shadow: none !important;
 }
 
-.contentFrecciaSelectFiltri{
-    border: 1px solid #CCCCCC;
-    float: right;
-    height: 24px;
-    left: -12px;
-    position: relative;
-    right: 7px;
-    top: -36px;
-    width: 24px;
-}
 
-.contentFrecciaSelectCom{
-    border-left: 1px solid #CCCCCC;
-    border-right: 1px solid #CCCCCC;
-    float: right;
-    height: 24px;
-    left: 3px;
-    position: relative;
-    right: 7px;
-    top: -36px;
-    width: 24px;
-}
+
+
 
 .freccia{
     margin-left: 6px;
@@ -710,6 +747,26 @@ select[disabled] { background-color: #cccccc; opacity: 0.3;}
 }
 
 ol.facet-values {
+    clear: left;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    width: 50%;
+}
+
+ol.facet-valuesUffici {
+    clear: left;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    width: 50%;
+}
+ol.facet-valuesSettori {
+    clear: left;
+    margin-left: 0px !important;
+    padding-top: 0px !important;
+    width: 50%;
+}
+
+ol.facet-valuesDeleghe {
     clear: left;
     margin-left: 0px !important;
     padding-top: 0px !important;
@@ -987,8 +1044,7 @@ li.facet-valueR {
     float: left;
     margin-top: 5px;
     position: relative;
-    right: 5px;
-    width: 63.1%;
+    width: 62.8%;
 }
 
 .descrizioneTNavigazione{
@@ -1017,7 +1073,7 @@ li.facet-valueR {
     position: relative;
     right: 6px;
     top: 4px;
-    width: 40%;
+    width: 38%;
     z-index: 99;
 }
 
@@ -1038,15 +1094,17 @@ li.facet-valueR {
     float: left;
     height: 67px;
     margin-left: 9px;
-    position: absolute;
+    margin-right: 10px;
+    position: relative;
     top: 8px;
     width: 67px;
 }
 
 .contentLabelUtente{
-    float: right;
+    float: left;
+    top: 7px;
     position: relative;
-    width: 68%;
+    width: 60%;
 }
 
 .contentTasti{
@@ -1060,21 +1118,34 @@ li.facet-valueR {
     width: 100%;
 }
 
+.affinaRicercaTab{
+    position: relative;
+    width: 100%;
+}
+
 .contentTastiCM{
     position: relative;
     width: 100%;
     top: 88px;
 }
 
+.contentContenuti{
+    height: 318px;
+    position: relative;
+    top: 190px;
+    width: 100%;
+}
+
 .tastoOrganizzazione{
-    border: 1px solid rgba(0, 0, 0, 0.38);
+    border-top: 1px solid rgba(0, 0, 0, 0.38);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
     border-opacity:0.7;
     float: left;
     height: 35px;
     position: relative;
     top: -11px;
     vertical-align: super;
-    width: 33%;
+    width: 33.5%;
 }
 .tastoMansione{
     border: 1px solid rgba(0, 0, 0, 0.38);
@@ -1086,23 +1157,25 @@ li.facet-valueR {
     width: 33%;
 }
 .tastoAltro{
-    border: 1px solid rgba(0, 0, 0, 0.38);
-    float: left;
+    border-top: 1px solid rgba(0, 0, 0, 0.38);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.38);
+    float: right;
     height: 35px;
     position: relative;
     top: -11px;
     vertical-align: super;
-    width: 32%;
+    width: 32.7%;
 }
 .contentInfoPreMappa{
     position: relative;
+    top: 20px;
 }
 .contentMappa{
     position: relative;
 }
 .nomeTasto{
     color: #000000;
-    font-size: 0.7em;
+    font-size: 0.7vw;
     position: relative;
     text-align: center;
     top: 5px;
@@ -1132,40 +1205,45 @@ li.facet-valueR {
     width: 33%;
 }
 .tastoCollegati{
-    left: 4px;
+    font-size: 0.9em;
+    left: 15px;
     line-height: 122%;
     position: absolute;
+    right: 15px;
     text-align: center;
-    top: 4px;
-
+    top: 0.5vw;
+    bottom: 0.6vw;
 }
+
 .tastoMessaggio{
-    left: 4px;
+    bottom: 0.6vw;
+    font-size: 0.9em;
+    left: 16px;
     line-height: 122%;
     position: absolute;
+    right: 16px;
     text-align: center;
-    top: 4px;
+    top: 0.5vw;
 }
 
 .nomeUtentInfo{
     color: #1B649A;
-    font-size: 16px;
+    font-size: 1vw;
     position: absolute;
     top: 8px;
 }
 .cognomeUtentInfo{
     color: #1B649A;
-    font-size: 16px;
+    font-size: 1vw;
     left: 1px;
-    position: relative;
+    position: absolute;
     top: 28px;
 }
 .certificatoUtentInfo{
     color: #323232;
-    font-size: 10px;
-    left: -47px;
-    position: relative;
-    top: 44px;
+    font-size: 0.7vw;
+    position: absolute;
+    top: 48px;
 }
 
 .contentMansione{
@@ -1184,6 +1262,10 @@ li.facet-valueR {
 .ContentOptQualifiche{
     position: relative;
     width: 100%;
+}
+
+.avatar img {
+    box-shadow: none !important;
 }
 
 .optGroupQualifiche{
@@ -1206,3 +1288,91 @@ li.facet-valueR {
     position: relative;
     right: 6px;
 }
+
+.logoEnte{
+    float: left;
+    height: 100px;
+    left: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+    width: 100px;
+}
+.descrizioneEnte{
+    float: right;
+    position: relative;
+    width: 64%;
+}
+.contentLogoDescr{
+    position: relative;
+    width: 100%;
+}
+
+.organizLabel{
+    float: left;
+    position: relative;
+    width: 100%;
+    font-size: 0.7vw;
+    font-weight: bold;
+}
+/*.sedeLav{*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*font-size: 1vw;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.viaEnte{*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*font-size: 1vw;*/
+    /*font-weight: bold;*/
+/*}*/
+/*.riferimentiEnte{*/
+    /*float: left;*/
+    /*position: relative;*/
+    /*width: 100%;*/
+    /*font-size: 1vw;*/
+    /*font-weight: bold;*/
+/*}*/
+
+.mappa{
+    height: 231px;
+    left: 8px;
+    position: absolute;
+    top: 86px;
+    width: 96%;
+}
+
+.mansione{
+    position: relative;
+    width: 100%;
+    float: right;
+    top: 20px;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.mansioneFont{
+    position: relative;
+    left: 10px;
+}
+
+.mansione1{
+     border-top: 1px solid #cccccc;
+}
+.mansione2{
+    border-top: 1px solid #cccccc;
+}
+.mansione3{
+    border-top: 1px solid #cccccc;
+}
+.mansione4{
+     border-top: 1px solid #cccccc;
+}
+.mansione5{
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+

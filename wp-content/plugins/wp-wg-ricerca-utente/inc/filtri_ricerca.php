@@ -26,7 +26,7 @@
                         <label class="intestazione">Qualifica Professione e Carica</label>
                         <div class="qulifica disabilitato" id="qulifica" name="qulifica">
                             <div id='contenitoreSelectQulifica' class='contenitoreSelect'>
-                                <a id='selectComplessaQulifica' class='selectComplessa'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaQual'>Qualifica</div><div class='contentFrecciaSelect' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
+                                <a id='selectComplessaQulifica' class='selectComplessa'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaQual'>Qualifica</div><div class='contentFrecciaSelect contentFrecciaSelectFiltro' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
                             </div>
                         </div>
 
@@ -51,7 +51,7 @@
                             <div id="divZonaGeografica" class="divZonaGeografica">
                                 <div class="zonaGeografica_Regione" id="zonaGeografica_Regione" name="zonaGeografica_Regione">
                                      <div id='contenitoreSelect' class='contenitoreSelect'>
-                                        <a id='selectComplessaRegRicerca' class='selectComplessa disabilitato'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaReg'>Regione</div><div class='contentFrecciaSelect' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
+                                        <a id='selectComplessaRegRicerca' class='selectComplessa disabilitato'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaReg'>Regione</div><div class='contentFrecciaSelect contentFrecciaSelectFiltro' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
                                      </div>
                                     <input type="hidden" id="valoreSelectReg" name="valoreSelectReg" value="">
                                 </div>
@@ -65,7 +65,7 @@
 
                                 <div class="zonaGeografica_Provincia" id="zonaGeografica_Provincia" name="zonaGeografica_Provincia">
                                     <div id='contenitoreSelect' class='contenitoreSelect'>
-                                        <a id='selectComplessaProvRicerca' class='selectComplessa disabilitato'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaProv'>Provincia</div><div class='contentFrecciaSelect' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
+                                        <a id='selectComplessaProvRicerca' class='selectComplessa disabilitato'><div class='divLinkSelectEvoluta' id='divLinkSelectEvolutaProv'>Provincia</div><div class='contentFrecciaSelect contentFrecciaSelectFiltro' id='contentFrecciaSelect' name='contentFrecciaSelect'><img src='http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png' class='freccia'></div></a>
                                     </div>
                                     <input type="hidden" id="valoreSelectProv" name="valoreSelectProv" value="">
                                 </div>

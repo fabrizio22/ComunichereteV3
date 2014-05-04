@@ -17,11 +17,11 @@ $uffici = $wpdb->get_results(
 <div id="contenitoreSelect" class="contenitoreSelect">
 
     <a href="#" id="selectComplessaUffici" class="selectComplessa"><div class="divLinkSelectEvoluta" id="divLinkSelectEvoluta" nome="divLinkSelectEvoluta">Uffici</div>
-        <div class="contentFrecciaSelect" id="contentFrecciaSelect" nome="contentFrecciaSelect"><img src="http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" class="freccia"></div></a>
+        <div class="contentFrecciaSelect contentFrecciaSelectUffici" id="contentFrecciaSelect" nome="contentFrecciaSelect"><img src="http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" class="freccia"></div></a>
 
 <div class="cm_uffici" id="cm_uffici" name="cm_uffici">
     <div id="cm_apriDelegheGov" class="cm_apriDelegheGov">
-        <ol class="facet-values">
+        <ol class="facet-valuesUffici">
             <?php foreach ( $uffici as $chiave => $valore) : ?>
                 <li class="facet-value"><input type="checkbox" name="uffici[]" value="<?php echo esc_attr( $valore -> descrizione ); ?>" />
                     <div class="label-container">
@@ -31,6 +31,6 @@ $uffici = $wpdb->get_results(
             <?php endforeach; ?>
         </ol>
     </div>
-    <div class="footerCombo" id="footerCombo"><a href="#" id="avviaRicercaDiv" class="avviaRicercaDiv">Affina Ricerca </a></div>
+    <div class="footerComboUffici" id="footerComboUff"><a href="#" id="avviaRicercaDiv" class="avviaRicercaDiv">Affina Ricerca </a></div>
 </div>
 </div>

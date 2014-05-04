@@ -134,6 +134,10 @@
                         jQuery('#comuneMontano').attr('disabled');
                         jQuery('#nazione').removeAttr('disabled');
                         jQuery('#qulifica').removeClass('disabilitato');
+                        jQuery("#zonaGeografica_Comune").css('display','block');
+                        jQuery("#zonaGeografica_Provincia").css('display','block');
+                        jQuery("#zonaGeografica_Regione").css('display','block');
+
                         //var elem = jQuery(this).val();
                         var elem = '1';
                         jQuery.ajax({
@@ -155,6 +159,9 @@
                         jQuery("#comuneMontano").prop('disabled', false);
                         jQuery("#labelRicercaUff").removeClass("intestazioneDisableUff");
                         jQuery("#labelRicercaDel").addClass("intestazioneDisableDel");
+                        jQuery("#zonaGeografica_Comune").css('display','none');
+                        jQuery("#zonaGeografica_Provincia").css('display','block');
+
                         var elem = '2';
                         jQuery.ajax({
                             url:"../wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php",
@@ -163,7 +170,7 @@
                             dataType: "html",
                             success: function(msg)
                             {
-                                jQuery("#qualifiche").html(msg);
+                                jQuery("#label_qualifica").html(msg);
                             },
                             error: function()
                             {
@@ -175,6 +182,8 @@
                         jQuery("#comuneMontano").prop('disabled', false);
                         jQuery("#labelRicercaUff").removeClass("intestazioneDisableUff");
                         jQuery("#labelRicercaDel").addClass("intestazioneDisableDel");
+                        jQuery("#zonaGeografica_Comune").css('display','none');
+                        jQuery("#zonaGeografica_Provincia").css('display','none');
                         var elem = '3';
                         jQuery.ajax({
                             url:"../wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php",
@@ -183,7 +192,7 @@
                             dataType: "html",
                             success: function(msg)
                             {
-                                jQuery("#qualifiche").html(msg);
+                                jQuery("#label_qualifica").html(msg);
                             },
                             error: function()
                             {
@@ -318,15 +327,17 @@
                         indPr = 0;
                     });
 
+                //affina ricerca per filtro Uffici
                 jQuery( "#affinaRicercaFiltro" ).click(function() {
                     if(indDelFiltro === 0){
-                        jQuery("#cm_deleghe").css('display','block');
+                        jQuery("#cm_uffici").css('display','block');
                         jQuery("#cm_apriDelegheGov").css('display','block');
-                        jQuery('#footerComboFiltro').css('display','block');
+                        jQuery('#footerComboUff').css('display','block');
                         indDelFiltro = 1;
                     }else{
                         jQuery("#cm_apriDelegheGov").fadeOut(30);
-                        jQuery('#footerComboFiltro').css('display','none');
+                        jQuery('#cm_uffici').css('display','none');
+                        jQuery('#footerComboUff').css('display','none');
                         indDelFiltro = 0;
                     }
                 });
@@ -382,6 +393,35 @@
                     indPr = 0;
                     jQuery('#divLinkSelectEvolutaProv').html(elem);
                     jQuery('#valoreSelectProv').val(elem);
+                });
+
+                jQuery('#tastoMansione').click(function(){
+                    jQuery('#contentMansione').css('display','block');
+                    jQuery('#contentAtro').css('display','none');
+                    jQuery('#contentInfoPreMappa').css('display','none');
+                    jQuery('#tastoMansione').css({'border-bottom':'4px solid #1370B3', 'height':'32px'});
+                    jQuery('#tastoOrganizzazione').css({'border-bottom':'1px solid rgba(0, 0, 0, 0.38)', 'height':'35px'});
+                    jQuery('#tastoAlrto').css({'border-bottom':'1px solid rgba(0, 0, 0, 0.38)', 'height':'35px'});
+
+                });
+
+                jQuery('#tastoAlrto').click(function(){
+                    jQuery('#contentMansione').css('display','none');
+                    jQuery('#contentAtro').css('display','block');
+                    jQuery('#contentInfoPreMappa').css('display','none');
+                    jQuery('#tastoAlrto').css({'border-bottom':'4px solid #1370B3', 'height':'32px'});
+                    jQuery('#tastoMansione').css({'border-bottom':'1px solid rgba(0, 0, 0, 0.38)', 'height':'35px'});
+                    jQuery('#tastoOrganizzazione').css({'border-bottom':'1px solid rgba(0, 0, 0, 0.38)', 'height':'35px'});
+
+                });
+
+                jQuery('#tastoOrganizzazione').click(function(){
+                    jQuery('#contentMansione').css('display','none');
+                    jQuery('#contentAtro').css('display','none');
+                    jQuery('#contentInfoPreMappa').css('display','block');
+                    jQuery('#tastoOrganizzazione').css({'border-bottom':'4px solid #1370B3', 'height':'32px'});
+                    jQuery('#tastoMansione').css({'border-bottom':'1px solid rgba(0, 0, 0, 0.38)', 'height':'35px'});
+                    jQuery('#tastoAlrto').css({'border-bottom':'1px solid rgba(0, 0, 0, 0.38)', 'height':'35px'});
                 });
 
 

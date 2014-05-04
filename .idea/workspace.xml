@@ -2,35 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b371aaa7-6ee0-4965-a2f3-4b9911b2daf0" name="Default" comment="commit 14_02_2014 ore 17_18&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/autocompletePro.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/autocompleteReg.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoAssistenzaControlloRg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/autocomplete.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/autocomplete.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customRicerca.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/debug.log" afterPath="$PROJECT_DIR$/wp-content/debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/form-Privacy-accettazione.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/form-Privacy-accettazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-comune.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organiControlloPr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-organoGovernoProv.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-organoGovernoReg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-personaleAmministrativi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-personaleAmministrativiPr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-personaleAmministrativiRg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/form-provincia.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/regione/form-regione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-registrazioneIniziale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/js/jquery.autocomplete.js" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/js/jquery.autocomplete.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/mail.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/mail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" afterPath="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/provincia/poliziaMunicipalePr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -63,7 +39,7 @@
       <file leaf-file-name="ricerca_utente.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1075" column="26" selection-start="20531" selection-end="20531" vertical-scroll-proportion="0.16842106" vertical-offset="15981" max-vertical-offset="18195">
+            <state line="472" column="1" selection-start="9406" selection-end="9406" vertical-scroll-proportion="0.4074844" vertical-offset="6884" max-vertical-offset="20760">
               <folding />
             </state>
           </provider>
@@ -72,10 +48,52 @@
       <file leaf-file-name="wp-wg-ricerca-utente.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="58" selection-start="9683" selection-end="9683" vertical-scroll-proportion="0.0" vertical-offset="3510" max-vertical-offset="4950">
+            <state line="204" column="86" selection-start="7852" selection-end="7852" vertical-scroll-proportion="-3.125" vertical-offset="2790" max-vertical-offset="5355">
               <folding>
-                <marker date="1398878549000" expanded="true" signature="1205:1237" placeholder="select * fro..wp_dati_user..." />
+                <marker date="1399218508000" expanded="true" signature="1205:1237" placeholder="select * fro..wp_dati_user..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cm_deleghe.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="38" selection-start="710" selection-end="729" vertical-scroll-proportion="-9.291667" vertical-offset="2" max-vertical-offset="495">
+              <folding>
+                <marker date="1399223121000" expanded="true" signature="73:110" placeholder="select descr..wp_cm_deleghe..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cm_Settori.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="38" selection-start="879" selection-end="879" vertical-scroll-proportion="-9.291667" vertical-offset="47" max-vertical-offset="540">
+              <folding>
+                <marker date="1399223061000" expanded="true" signature="153:204" placeholder="select descr..wp_cm_ServiziSettori_Comune..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cm_Uffici.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="6" selection-start="1543" selection-end="1543" vertical-scroll-proportion="-14.541667" vertical-offset="86" max-vertical-offset="555">
+              <folding>
+                <marker date="1399224807000" expanded="true" signature="153:203" placeholder="select descr..wp_cm_UfficiServizi_Comune..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ricerca_utente.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="339" column="47" selection-start="16248" selection-end="16248" vertical-scroll-proportion="-15.4" vertical-offset="4700" max-vertical-offset="6510">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,16 +126,11 @@
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_poliziaMunicipale.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/dw-question-answer/assets/css/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/templates/template-ricerca.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/style.css" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/pubblicaAmministrazione.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/autocomplete.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organoGoverno.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/governance/poliziaMunicipale.php" />
@@ -142,7 +155,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/fontawesome/css/customStileGov.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/include/form-Privacy-accettazione.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vantage/page-form-governance.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css" />
       </list>
     </option>
@@ -166,8 +184,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="27" />
-    <option name="y" value="26" />
+    <option name="x" value="21" />
+    <option name="y" value="29" />
     <option name="width" value="1871" />
     <option name="height" value="998" />
   </component>
@@ -289,6 +307,178 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="query_ricerca" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualifiche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualifiche" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="comuni" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ComunichereteV3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-wg-ricerca-utente" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,20 +659,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="27" y="26" width="1871" height="998" extended-state="0" />
+    <frame x="21" y="29" width="1871" height="998" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3943182" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21170212" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24031007" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16240267" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32426304" sideWeight="0.49972722" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32386363" sideWeight="0.49972722" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38901603" sideWeight="0.50027275" order="9" side_tool="true" content_ui="tabs" x="482" y="368" width="910" height="366" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21517931" sideWeight="0.50075644" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32664436" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2490484" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2552504" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25970477" sideWeight="0.4977307" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -490,7 +681,6 @@
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.7285408" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39418417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32271764" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -567,11 +757,6 @@
           <option name="timeStamp" value="363" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php</url>
-          <line>197</line>
-          <option name="timeStamp" value="382" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/wp-content/themes/vantage/autocompleteReg.php</url>
           <line>7</line>
           <option name="timeStamp" value="385" />
@@ -601,11 +786,21 @@
           <line>49</line>
           <option name="timeStamp" value="392" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php</url>
+          <line>140</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="395" />
+      <option name="time" value="398" />
     </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
@@ -646,16 +841,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="218" selection-end="218" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="223" selection-end="223" vertical-scroll-proportion="0.16206482" vertical-offset="0" max-vertical-offset="833" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/provincia/pr_qualificheOragnoContr.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
@@ -676,11 +861,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="112" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="495" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1714" column="21" selection-start="31882" selection-end="31882" vertical-scroll-proportion="0.13217391" vertical-offset="25634" max-vertical-offset="53235" />
@@ -694,21 +874,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/js/html5.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="838" selection-end="838" vertical-scroll-proportion="2.3333333" vertical-offset="386" max-vertical-offset="960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="152" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="43" selection-start="6438" selection-end="6449" vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="1605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/include/governance/form-organiControllo.php">
@@ -808,11 +973,6 @@
         <state line="4" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="19" selection-start="5268" selection-end="6010" vertical-scroll-proportion="0.0" vertical-offset="1905" max-vertical-offset="5910" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vantage/js/custom_regGovernance.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="518" column="8" selection-start="24033" selection-end="24033" vertical-scroll-proportion="2.70568" vertical-offset="6198" max-vertical-offset="8190" />
@@ -874,18 +1034,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/localizzazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="152" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.031982943" vertical-offset="675" max-vertical-offset="1215">
+          <folding>
+            <marker date="1398764528000" expanded="true" signature="-1:-1" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+            <marker date="1398764528000" expanded="true" signature="-1:-1" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+            <marker date="1398764528000" expanded="true" signature="-1:-1" placeholder="select DISTI..wp_elenco_comuni_istat..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/query_ricerca/query_qualifiche.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="618" selection-end="618" vertical-scroll-proportion="-0.4392324" vertical-offset="476" max-vertical-offset="960">
+          <folding>
+            <marker date="1398474738000" expanded="true" signature="-1:-1" placeholder="select DISTI..wp_cm_qualifiche..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/filtri_ricerca.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="5352" selection-end="5352" vertical-scroll-proportion="0.09684685" vertical-offset="1007" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Settori.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="38" selection-start="879" selection-end="879" vertical-scroll-proportion="-9.291667" vertical-offset="47" max-vertical-offset="540">
+          <folding>
+            <marker date="1399223061000" expanded="true" signature="153:204" placeholder="select descr..wp_cm_ServiziSettori_Comune..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/js/ricerca_utente.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="339" column="47" selection-start="16248" selection-end="16248" vertical-scroll-proportion="-15.4" vertical-offset="4700" max-vertical-offset="6510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/wp-wg-ricerca-utente.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="58" selection-start="9683" selection-end="9683" vertical-scroll-proportion="0.0" vertical-offset="3510" max-vertical-offset="4950">
+        <state line="204" column="86" selection-start="7852" selection-end="7852" vertical-scroll-proportion="-3.125" vertical-offset="2790" max-vertical-offset="5355">
           <folding>
-            <marker date="1398878549000" expanded="true" signature="1205:1237" placeholder="select * fro..wp_dati_user..." />
+            <marker date="1399218508000" expanded="true" signature="1205:1237" placeholder="select * fro..wp_dati_user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_deleghe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="710" selection-end="729" vertical-scroll-proportion="-9.291667" vertical-offset="2" max-vertical-offset="495">
+          <folding>
+            <marker date="1399223121000" expanded="true" signature="73:110" placeholder="select descr..wp_cm_deleghe..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/inc/qualifiche/comuni/cm_Uffici.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="6" selection-start="1543" selection-end="1543" vertical-scroll-proportion="-14.541667" vertical-offset="86" max-vertical-offset="555">
+          <folding>
+            <marker date="1399224807000" expanded="true" signature="153:203" placeholder="select descr..wp_cm_UfficiServizi_Comune..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-wg-ricerca-utente/css/ricerca_utente.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1075" column="26" selection-start="20531" selection-end="20531" vertical-scroll-proportion="0.16842106" vertical-offset="15981" max-vertical-offset="18195">
+        <state line="472" column="1" selection-start="9406" selection-end="9406" vertical-scroll-proportion="0.4074844" vertical-offset="6884" max-vertical-offset="20760">
           <folding />
         </state>
       </provider>

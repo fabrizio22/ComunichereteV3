@@ -17,11 +17,11 @@ $settori = $wpdb->get_results(
 <div id="contenitoreSelect" class="contenitoreSelect">
 
     <a href="#" id="selectComplessaSettori" class="selectComplessa"><div class="divLinkSelectEvoluta" id="divLinkSelectEvoluta" nome="divLinkSelectEvoluta">Settori</div>
-        <div class="contentFrecciaSelect" id="contentFrecciaSelect" nome="contentFrecciaSelect"><img src="http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" class="freccia"></div></a>
+        <div class="contentFrecciaSelect contentFrecciaSelectSettori" id="contentFrecciaSelect" nome="contentFrecciaSelect"><img src="http://localhost/ComunichereteV3/wp-content/plugins/wp-wg-ricerca-utente/img/freccia.png" class="freccia"></div></a>
 
 <div class="cm_settori" id="cm_settori" name="cm_settori">
     <div id="cm_apriDelegheGov" class="cm_apriDelegheGov">
-        <ol class="facet-values">
+        <ol class="facet-valuesSettori">
             <?php foreach ( $settori as $chiave => $valore) : ?>
                 <li class="facet-value"><input type="checkbox" name="deleghe[]" value="<?php echo esc_attr( $valore -> descrizione ); ?>" />
                     <div class="label-container">
